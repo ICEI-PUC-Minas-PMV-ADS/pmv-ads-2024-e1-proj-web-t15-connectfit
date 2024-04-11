@@ -72,11 +72,21 @@ Coloque  informações sobre detalhes da implementação do Scrum seguido pelo g
 
 ### Ferramentas
 
-As ferramentas empregadas no projeto são:
+### IDE:
+ - Visual Studio Code
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
+- `HTML`: É utilizado para estruturar uma página web e apresentar conteúdo na web. 
+- `CSS`: Utilizado para deixar o site visualmente mais atraente possibilitando a estilzação dos elementos inclusos na página web.
+- `JavaScript`: Utilizamos o JS juntamente com o HTML e CSS, para validação de formulários e dados, conteúdo dinâmico entre outras possibilidades, juntamente as 3 linguagens são as principais a compor a WWW (World Wide Web). 
+
+### Ferramentas de comunicação
+-`Discord`
+-`Whatsapp`
+
+### Ferramentas de Modelagem:
+- `Figma`
+- `Canva`
+- `Illustrator`
 
 O editor de código foi escolhido porque ele possui uma integração com o sistema de versão. As ferramentas de comunicação utilizadas possuem integração semelhante e por isso foram selecionadas. Por fim, para criar diagramas utilizamos essa ferramenta por melhor captar as necessidades da nossa solução.
 
