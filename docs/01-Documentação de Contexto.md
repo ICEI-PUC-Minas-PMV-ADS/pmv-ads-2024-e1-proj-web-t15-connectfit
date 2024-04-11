@@ -1,41 +1,39 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Segundo o portal de notícias G1, metade das pessoas costuma desistir de praticar exercícios em academias, clubes e quadras entre o terceiro e o quinto mês de aula. Até o sexto mês, esse número chega a 65%. Apenas 4% da população brasileira faz exercícios orientados nesses locais. Apesar disso, o número de academias cresce: em 2006, o país tinha 10 mil; hoje são mais de 25 mil.
+
+Pensando no desafio de conciliar a rotina desgastante com a prática regular de exercícios físicos, para que se torne algo benéfico à saúde e prazeroso, foi desenvolvida a aplicação ConnectFit. Com o objetivo de incentivar novos usuários a criar padrões de rotina mais saudáveis e promover a criação de uma comunidade, além de estreitar laços entre praticantes de uma mesma academia. A ConnectFit não é apenas uma ferramenta de acompanhamento de exercícios, mas sim uma comunidade diversa, onde os praticantes de atividade física podem se conectar, compartilhar experiências e se apoiar mutuamente em suas jornadas de condicionamento físico.
+
+Em síntese, a ConnectFit busca diminuir a evasão de novos praticantes e promover um ambiente mais dinâmico dentro dos ambientes voltados à prática de atividades físicas. Dessa forma, pretendemos diminuir o índice de absenteísmo dos clientes/alunos nesses locais, trazendo a esse público alvo a motivação necessária no momento adequado o auxílio e o encorajamento necessário.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+Com a agitação do dia-a-dia e a rotina desgastante do mundo atual, a prática de atividade física geralmente não é priorizada, o que acarreta no aumento do índice de evasão nos ambientes voltados para saúde e bem-estar.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+A problemática da evasão de praticantes de exercícios físicos em academias e locais similares é uma realidade enfrentada por muitas pessoas, a falta de motivação, a rotina desgastante de trabalho e a dificuldade de manter um compromisso constante com a prática de atividades físicas são alguns dos principais fatores que contribuem para a ocorrência desse cenário.
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+Diminuir o índice de absenteísmo dos clientes/alunos em ambiente voltado para atividade física, consequentemente promover a saúde e bem-estar através da criação de uma comunidade mais consciente quanto à qualidade de ter uma vida ativa. 
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+**Como objetivos específicos, podemos destacar**
+> - Aproximar a interação dos profissionais de saúde com o público alvo;
+> - Elucidar a importância da manutenção da prática de atividade física;
+> - Trazer um ambiente, motivacional, educativo que promova bem estar físico e mental.
+
+A ConnectFit não se limita a ser apenas uma ferramenta de acompanhamento de exercícios, mas sim uma plataforma que seja abrangente, com a finalidade de promover a saúde e o bem-estar através da criação de uma comunidade mais ativa e solidária. Ao enfrentar os desafios da evasão de praticantes de exercícios físicos de forma inovadora e centrada no usuário, a ConnectFit tem o potencial de fazer uma diferença significativa na promoção de estilos de vida mais ativos e saudáveis.
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+O estilo de vida sedentário pode ser prejudicial para o indivíduo e potencialmente oneroso para a sociedade, devido ao aumento das doenças cardiovasculares, doenças mentais, aumento da obesidade populacional, etc.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Segundo a pesquisa de Oliveira, p.05,2019
+> O presente estudo mostrou uma baixa prevalência de atividade física no tempo livre e elevada prevalência de tempo sedentário na população brasileira adulta. Nos Estados Unidos, estudo apontou que 40,4% da população adulta atendia às recomendações da OMS para atividade física no tempo livre, enquanto 44,6% permanecia inativa. Nesse país, medidas para enfrentamento da inatividade física e sedentarismo focaram intervenções na ação primária.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+A ConnectFit surge como uma alternativa promissora para enfrentar esse desafio. Ao invés de apenas oferecer um acompanhamento tradicional de exercícios, a mesma propõe a criação de uma comunidade online, onde os praticantes de atividades físicas podem se conectar e se apoiar mutuamente em suas jornadas de melhoramento do condicionamento físico. Dados do portal de notícias UOL revelam que treinar em grupo desperta mais motivação, além de diminuir os níveis de estresse e aumentar a sensação de bem-estar.
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+Nosso projeto tem como objetivo alcançar um amplo público-alvo composto por pessoas acima de 18 anos. Reconhecemos que esta faixa etária abrange uma variedade de perfis e interesses, e a nossa plataforma foi elaborada pensando em atender as preferências desse grupo diversificado de usuários.
 
 Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
 
