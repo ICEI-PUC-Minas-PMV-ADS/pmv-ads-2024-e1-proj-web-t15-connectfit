@@ -4,20 +4,22 @@
 
 `Desenvolvimento de aplicação web front-end`
 
-`1º semestre/2022`
+`1º semestre/2024`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O objetivo geral deste projeto é a criação de uma aplicação web que seja abrangente, com a finalidade de promover a saúde e o bem-estar através da criação de uma comunidade mais ativa e solidária.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Ana Clara Santos de Paula
+* Danielle Gomes dos Santos
+* Evellyn Quintela Carvalho
+* Jonathan Nogueira Lyra Pedrosa
+* Melyssa Semprini
+* Nasson Freitas de Paula
 
 ## Orientador
 
-* Nome completo do professor 1
+* Viviâne de Almeida Tôrres
 
 ## Instruções de utilização
 
