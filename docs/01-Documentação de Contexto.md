@@ -34,11 +34,3 @@ A ConnectFit surge como uma alternativa promissora para enfrentar esse desafio. 
 ## Público-Alvo
 
 Nosso projeto tem como objetivo alcançar um amplo público-alvo composto por pessoas acima de 18 anos. Reconhecemos que esta faixa etária abrange uma variedade de perfis e interesses, e a nossa plataforma foi elaborada pensando em atender as preferências desse grupo diversificado de usuários.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
