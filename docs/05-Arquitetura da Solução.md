@@ -3,7 +3,7 @@
 
 Neste segmento, vamos apresentar alguns detalhes técnicos relacionados à solução que foi criada por nossa equipe, atuando no que se refere aos elementos que fazem parte da solução e ao ambiente no qual ela se encontra hospedada.
 
-![Arquitetura da Solução](img/02-mob-arch.png)
+![Arquitetura da Solução](img/Corpo.jpg)
 
 ## Diagrama de Classes
 
