@@ -80,11 +80,11 @@ Coloque  informações sobre detalhes da implementação do Scrum seguido pelo g
 - `JavaScript`: Utilizamos o JS juntamente com o HTML e CSS, para validação de formulários e dados, conteúdo dinâmico entre outras possibilidades, juntamente as 3 linguagens são as principais a compor a WWW (World Wide Web). 
 
 ### Ferramentas de comunicação
--`Discord`: Utilizado para comunicação por meio de chmadas em grupo, mensagens canais para tarefas específicas e compatilhamento de tela em tempo real.
--`Whatsapp`: Utilizado para troca de mansagens e marcação de próximas reuniões entre a equipe.
+- `Discord`: Utilizado para comunicação por meio de chmadas em grupo, mensagens canais para tarefas específicas e compatilhamento de tela em tempo real.
+- `Whatsapp`: Utilizado para troca de mansagens e marcação de próximas reuniões entre a equipe.
 
 ### Ferramentas de Modelagem:
 - `Figma`= Utilizado para prototipar o projeto, fornece muitas ferramentas diversificadas.
 - `Canva`= Utilizado em gráficos da documentaçãpo de contexto e em alguns desings, foi utilizado pela facilidade de utilização.
 - `Illustrator`= Utilizado para criar nossa logo. 
--`Github`= Utilizado como meio de postagem e repositório de nosso trabalho, pela facilidade e possibilidade de armazenar em nuvem. 
+- `Github`= Utilizado como meio de postagem e repositório de nosso trabalho, pela facilidade e possibilidade de armazenar em nuvem. 
