@@ -1,10 +1,10 @@
-# CONNECT FIT
+# ConnectFit
 
-`ANÁLISE E DESENVOLVIMENTO DE SISTEMAS - PUC MINAS`
+`Análise e Desenvolvimento de Sistemas - PUC Minas`
 
 `Desenvolvimento de aplicação web front-end`
 
-`1° SEMESTRE/2024`
+`1º semestre/2024`
 
 O objetivo geral deste projeto é a criação de uma aplicação web que seja abrangente, com a finalidade de promover a saúde e o bem-estar através da criação de uma comunidade mais ativa e solidária.
 
