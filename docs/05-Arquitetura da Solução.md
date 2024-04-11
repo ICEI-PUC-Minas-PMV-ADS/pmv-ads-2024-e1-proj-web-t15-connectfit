@@ -7,7 +7,7 @@ Neste segmento, vamos apresentar alguns detalhes técnicos relacionados à solu�
 
 Observando a figura abaixo se encontram os componentes que compõe a solução.
 
-(img/Corpo.jpg)
+![Diagrama de Componentes](img/Corpo.jpg)
 
 O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
 
