@@ -17,7 +17,9 @@ A solução implementada conta com as seguintes soluções:
 
 ## Modelo ER
 
-O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.]
+O Modelo ER representa através de um diagrama como as entidades se relacionam entre si na aplicação interativa.
+
+<img src = EntidadesRelacionamentos.jpg
 
 As referências abaixo irão auxiliá-lo na geração do artefato “Modelo ER”.
 
