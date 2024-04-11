@@ -86,5 +86,5 @@ Coloque  informações sobre detalhes da implementação do Scrum seguido pelo g
 ### Ferramentas de Modelagem:
 - `Figma`= Utilizado para prototipar o projeto, fornece muitas ferramentas diversificadas.
 - `Canva`= Utilizado em gráficos da documentaçãpo de contexto e em alguns desings, foi utilizado pela facilidade de utilização.
-- `Illustrator`= Utilizado para criar nossa logo. 
+- `Illustrator`= Utilizado para criar nossa logo e alguns aspectos de desing, é bem parecido com o Photoshop por isso foi escolhido. 
 - `Github`= Utilizado como meio de postagem e repositório de nosso trabalho, pela facilidade e possibilidade de armazenar em nuvem. 
