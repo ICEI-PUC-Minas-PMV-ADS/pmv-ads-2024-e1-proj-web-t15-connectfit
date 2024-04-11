@@ -9,12 +9,11 @@ Observando a figura abaixo se encontram os componentes que compõe a solução.
 
 ![Diagrama de Componentes](img/Corpo.jpg)
 
-O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
+A solução implementada conta com as seguintes soluções:
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Classes”.
-
-> - [Diagramas de Classes - Documentação da IBM](https://www.ibm.com/docs/pt-br/rational-soft-arch/9.6.1?topic=diagrams-class)
-> - [O que é um diagrama de classe UML? | Lucidchart](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-classe-uml)
+-Navegador: É uma ferramenta que permite acessar a internet, a interface básica com o sistema (cliente).
+-Páginas Web (internet): Conjuntos de página web, compostas por HTML, CSS, JS e imagens que implementam as funcionalidades do sistema. Pode conter texto, imagens, vídeos, e outros tipos de mídia.
+-GitHub: Permite hospedar páginas web diretamente de um repositório no GitHub em uma nuvem, em arquivos de HTML, CSS e Javascript sem cobrança pela disponibilização de tais serviços, além da facilidade na disponibilização. 
 
 ## Modelo ER
 
