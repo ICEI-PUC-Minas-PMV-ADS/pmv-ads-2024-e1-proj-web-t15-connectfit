@@ -19,7 +19,7 @@ A solução implementada conta com as seguintes soluções:
 
 O Modelo ER representa através de um diagrama como as entidades se relacionam entre si na aplicação interativa.
 
-![ModeloER](img/EntidadesRelacionamentos.jpg).
+![ModeloER](img/EntidadesRelacionamentos.jpg)
 
 
 ## Esquema Relacional
