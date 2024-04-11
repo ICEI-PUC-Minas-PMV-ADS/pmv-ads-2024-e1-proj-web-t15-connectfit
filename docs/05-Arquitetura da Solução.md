@@ -3,9 +3,11 @@
 
 Neste segmento, vamos apresentar alguns detalhes técnicos relacionados à solução que foi criada por nossa equipe, atuando no que se refere aos elementos que fazem parte da solução e ao ambiente no qual ela se encontra hospedada.
 
-![Arquitetura da Solução](img/Corpo.jpg)
-
 ## Diagrama de Classes
+
+Observando a figura abaixo se encontram os componentes que compõe a solução.
+
+(img/Corpo.jpg)
 
 O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
 
