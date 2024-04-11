@@ -1,13 +1,7 @@
 # Arquitetura da Solução
 
 
-Neste segmento, vamos apresentar alguns detalhes técnicos relacionados à solução que foi criada por nossa equipe, atuando no que se refere aos elementos que fazem parte da solução e ao ambiente no qual ela se encontra hospedada. O objetivo é uma interface bonita, flúida, simples, objetiva e acessível. 
-
-Utilizamos:
-
-- `HTML`: É utilizado para estruturar uma página web e apresentar conteúdo na web. 
-- `CSS`: Utilizado para deixar o site visualmente mais atraente possibilitando a estilzação dos elementos inclusos na página web.
-- `JavaScript`: Utilizamos o JS juntamente com o HTML e CSS, para validação de formulários e dados, conteúdo dinâmico entre outras possibilidades, juntamente as 3 linguagens são as principais a compor a WWW (World Wide Web). 
+Neste segmento, vamos apresentar alguns detalhes técnicos relacionados à solução que foi criada por nossa equipe, atuando no que se refere aos elementos que fazem parte da solução e ao ambiente no qual ela se encontra hospedada. 
 
 ## Diagrama de Classes
 
@@ -44,10 +38,13 @@ Entregar um arquivo banco.sql contendo os scripts de criação das tabelas do ba
 
 ## Tecnologias Utilizadas
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
+O objetivo é uma interface bonita, flúida, simples, objetiva e acessível. 
 
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+Utilizamos:
 
+- `HTML`: É utilizado para estruturar uma página web e apresentar conteúdo na web. 
+- `CSS`: Utilizado para deixar o site visualmente mais atraente possibilitando a estilzação dos elementos inclusos na página web.
+- `JavaScript`: Utilizamos o JS juntamente com o HTML e CSS, para validação de formulários e dados, conteúdo dinâmico entre outras possibilidades, juntamente as 3 linguagens são as principais a compor a WWW (World Wide Web). 
 ## Hospedagem
 
 Explique como a hospedagem e o lançamento da plataforma foi feita.
