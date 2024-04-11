@@ -81,6 +81,7 @@ Coloque  informações sobre detalhes da implementação do Scrum seguido pelo g
 
 ### Ferramentas de comunicação
 -`Discord`
+
 -`Whatsapp`
 
 ### Ferramentas de Modelagem:
