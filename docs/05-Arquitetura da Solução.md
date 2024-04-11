@@ -51,7 +51,7 @@ Utilizamos:
 ### Ferramentas de Modelagem:
 - `Figma`
 - `Canva`
-- ``
+- `Illustrator`
 
 ## Hospedagem
 
