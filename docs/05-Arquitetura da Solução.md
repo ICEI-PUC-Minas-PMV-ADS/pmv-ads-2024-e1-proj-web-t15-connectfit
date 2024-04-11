@@ -42,9 +42,18 @@ O objetivo é uma interface bonita, flúida, simples, objetiva e acessível.
 
 Utilizamos:
 
+### IDE:
+ - Visual Studio Code
+
 - `HTML`: É utilizado para estruturar uma página web e apresentar conteúdo na web. 
 - `CSS`: Utilizado para deixar o site visualmente mais atraente possibilitando a estilzação dos elementos inclusos na página web.
 - `JavaScript`: Utilizamos o JS juntamente com o HTML e CSS, para validação de formulários e dados, conteúdo dinâmico entre outras possibilidades, juntamente as 3 linguagens são as principais a compor a WWW (World Wide Web). 
+
+### Ferramentas de Modelagem:
+- `Figma`
+- `Canva`
+- ``
+
 ## Hospedagem
 
 Explique como a hospedagem e o lançamento da plataforma foi feita.
