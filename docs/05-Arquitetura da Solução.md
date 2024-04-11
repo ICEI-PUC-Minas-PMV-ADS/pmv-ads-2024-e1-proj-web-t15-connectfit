@@ -1,7 +1,13 @@
 # Arquitetura da Solução
 
 
-Neste segmento, vamos apresentar alguns detalhes técnicos relacionados à solução que foi criada por nossa equipe, atuando no que se refere aos elementos que fazem parte da solução e ao ambiente no qual ela se encontra hospedada.
+Neste segmento, vamos apresentar alguns detalhes técnicos relacionados à solução que foi criada por nossa equipe, atuando no que se refere aos elementos que fazem parte da solução e ao ambiente no qual ela se encontra hospedada. O objetivo é uma interface bonita, flúida, simples, objetiva e acessível. 
+
+Utilizamos:
+
+- `HTML`: É utilizado para estruturar uma página web e apresentar conteúdo na web. 
+- `CSS`: Utilizado para deixar o site visualmente mais atraente possibilitando a estilzação dos elementos inclusos na página web.
+- `JavaScript`: Utilizamos o JS juntamente com o HTML e CSS, para validação de formulários e dados, conteúdo dinâmico entre outras possibilidades, juntamente as 3 linguagens são as principais a compor a WWW (World Wide Web). 
 
 ## Diagrama de Classes
 
