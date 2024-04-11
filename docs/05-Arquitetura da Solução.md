@@ -19,8 +19,7 @@ A solução implementada conta com as seguintes soluções:
 
 O Modelo ER representa através de um diagrama como as entidades se relacionam entre si na aplicação interativa.
 
-<img src = [EntidadesRelacionamentos.jpg](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-connectfit/blob/main/docs/img/EntidadesRelacionamentos.jpg)
-
+![ModeloER](img/EntidadesRelacionamentos.jpg).
 
 
 ## Esquema Relacional
