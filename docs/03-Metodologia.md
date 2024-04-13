@@ -1,9 +1,9 @@
 |
 # Metodologia
 
-~~~ LINK NÃO FUNCIONA, NECESSÁRIO ADICIONAR O LINK DO FIGMA
+<!-- LINK NÃO FUNCIONA, NECESSÁRIO ADICIONAR O LINK DO FIGMA
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span> 
-~~~
+-->
 
 ## Gerenciamento de projeto
 
@@ -73,7 +73,7 @@ A escolha de utilizar o editor de código veio por ter impacto no controle de ve
 
 Os artefatos gerados durante sprints voltadas para a criação e codificação do produto foram armazenados na pasta [codigo-fonte](/codigo-fonte/)
 
-~~~## Controle de Versão
+<!-- ## Controle de Versão
 
 Nosso controle de versão foi realizado através do Git
 
@@ -148,4 +148,4 @@ Coloque  informações sobre detalhes da implementação do Scrum seguido pelo g
 - `Canva`= Utilizado em gráficos da documentaçãpo de contexto e em alguns desings, foi utilizado pela facilidade de utilização.
 - `Illustrator`= Utilizado para criar nossa logo e alguns aspectos de desing, é bem parecido com o Photoshop por isso foi escolhido. 
 - `Github`= Utilizado como meio de postagem e repositório de nosso trabalho, pela facilidade e possibilidade de armazenar em nuvem. 
-~~~
+-->
