@@ -1,24 +1,83 @@
 |
 # Metodologia
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
+~~~ LINK NÃO FUNCIONA, NECESSÁRIO ADICIONAR O LINK DO FIGMA
+<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span> 
+~~~
+
+## Gerenciamento de projeto
 
 A metodologia ágil usada neste projeto foi o SCRUM, pois o mesmo adota uma abordagem empírica e se concentra em aumentar a habilidade em responder de forma ágil aos desafios emergentes. Segundo Sutherland, o Scrum:
 
 “Cria um alicerce para o aprendizado, permitindo que as equipes avaliem o que já criaram, o que é igualmente importante. A estrutura do Scrum procura aproveitar a maneira como as equipes de fato trabalham, fornecendo ferramentas para se auto-organizarem e otimizarem, em pouco tempo, a rapidez e a qualidade do trabalho”.
 
+### Divisão de Papéis
+
+Nossa divisão de papéis foi organizada da seguinte forma:
+
+- Scrum Master: Ana Clara Santos de Paula;
+- Product Owner: Danielle Gomes dos Santos;
+- Equipe de Desenvolvimento e de Design: Ana Clara Santos de Paula, Danielle Gomes dos Santos, Evellyn Quintela Carvalho, Jonathan Nogueira Lyra Pedrosa, Melyssa Semprini e Nasson Freitas de Paula.
+
+
+### Processo
+
+A fim de obter um processo mais organizado, optamos por utilizar o Github para atribuir tarefas aos membros do grupo, cada uma delas setorizadas em uma das colunas abaixo:
+
+- Backlog do produto: Representa todas as tarefas que precisam ser realizadas ao decorrer do projeto.
+- Pendente: Tarefas que foram filtradas do backlog do produto e iram ser desenvolvidas ao decorrer da sprint.
+- Em desenvolvimento: Tarefas da coluna "pendente" que já foram iniciadas.
+- Teste:  Tarefas finalizadas, mas que ainda não foram revisadas.
+- Pronto: Tarefas que já foram finalizadas e revisadas.
+
+O quadro Kanban desenvolvido pelo grupo pode ser acessado clicando [aqui](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1016/views/2). Abaixo, é possível ver uma representação dele.
+
+![Imagem-quadro-kanbam](/docs/img/backlog%20do%20produto.png)
+Figura 1 - Quadro Kanbam gerenciado pelo grupo.
+
+## Labels
+
+Cada tarefa possui uma categoria, podendo ser filtrada por meio de labels (etiquetas) personalizadas. Sendo assim, cada tarefa pode ser categorizada em:
+
+- Bug (Erros encontrados na operação);
+- Documentation (Criação e melhoria da documentação);
+- Enhancement (Nova feature a ser desenvolvida para o projeto);
+- Design (Criação de um modelo preliminar antes do desenvolvimento);
+- Help wanted (Sinalização de um problema que exige maior atenção por parte dos membros do grupo.)
+- Question (Requisição de mais informações para que a tarefa possa ser concluida);
+- Wontfix (Problema cuja solução não será desenvolvida naquele momento).
+
+![Etiquetas](/docs/img/labels.png)
+FIgura 2 - Labels adotadas para o projeto.
+
 ## Relação de Ambientes de Trabalho
 
-| Plataforma | Descrição | Link de acesso |
-|------------|---------------|----------------|
-|Figma | Utilizado para criação das interfaces | www.example.com |
-|Github | Utilizado para controle de versão e gerenciamento do backlog do produto | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-connectfit |
-|Discord | Utilizado para realizar reuniões e dailys. | https://discord.gg/ma3Hgf8N |
-|Google docs | Utilizado para edição da documentação de forma compartilhada | |
-|Google Drive | Utilizado para possibilitar o acesso remoto aos documentos para todos do grupo | |
+As ferramentas utilizadas ao longo do projeto são:
+
+- Editor de código;
+- Ferramentas de comunicação;
+- Ferramentas de design;
+- Ferramentas de diagramação.
+
+A escolha de utilizar o editor de código veio por ter impacto no controle de versionamento do projeto. O uso de ferramentas de comunicação, que engloba tanto a ferramenta utilizada para troca de mensagens instantâneas quanto a escolhida para reuniões diárias, se tornou essencial ao projeto para a integração de todos os membros do grupo. As ferramentas de design foram utilizadas para a prototipação inicial da nossa solução, possibilitando que um ou mais membros editassem simultaneamente. Por fim, escolhemos uma ferramenta de diagramação para mapear as necessidades do produto que está sendo desenvolvido
+
+| AMBIENTE | PLATAFORMA | LINK DE ACESSO |
+|------------|---------------| ----------- |
+|Projeto de interface e wireframes| Figma | |
+|Repositório do código-fonte | Github | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-connectfit |
+|Gerenciamento do projeto| Github | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1016 |
+| Projeto de diagramação | Lucid App | https://lucid.app/lucidchart/09dc4036-c925-4ea2-b25e-73084ed48426/edit?viewport_loc=-1951%2C-1226%2C4928%2C2348%2C0_0&invitationId=inv_510b8fea-bfdb-47b1-80ad-7cfe48f03f9f|
 
 
-## Controle de Versão
+### Codificação e organização
+
+Os artefatos gerados durante sprints voltadas para a criação e codificação do produto foram armazenados na pasta [codigo-fonte](/codigo-fonte/)
+
+~~~## Controle de Versão
+
+Nosso controle de versão foi realizado através do Git
+
+--
 
 A ferramenta de controle de versão adotada no projeto foi o
 [Git](https://git-scm.com/), sendo que o [Github](https://github.com)
@@ -53,13 +112,6 @@ G
 
 ## Gerenciamento de Projeto
 
-### Divisão de Papéis
-
-Nossa divisão de papéis foi organizada da seguinte forma:
-
-- Scrum Master: Ana Clara Santos de Paula;
-- Product Owner: Danielle Gomes dos Santos;
-- Equipe de Desenvolvimento e de Design: Ana Clara Santos de Paula, Danielle Gomes dos Santos, Evellyn Quintela Carvalho, Jonathan Nogueira Lyra Pedrosa, Melyssa Semprini e Nasson Freitas de Paula.
 
 > **Links Úteis**:
 > - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
@@ -89,10 +141,11 @@ Coloque  informações sobre detalhes da implementação do Scrum seguido pelo g
 
 ### Ferramentas de comunicação
 - `Discord`: Utilizado para comunicação por meio de chmadas em grupo, mensagens canais para tarefas específicas e compatilhamento de tela em tempo real.
-- `Whatsapp`: Utilizado para troca de mansagens e marcação de próximas reuniões entre a equipe.
+- `Whatsapp`: Utilizado para troca de mensagens e  agendamento de reuniões entre a equipe.
 
 ### Ferramentas de Modelagem:
 - `Figma`= Utilizado para prototipar o projeto, fornece muitas ferramentas diversificadas.
 - `Canva`= Utilizado em gráficos da documentaçãpo de contexto e em alguns desings, foi utilizado pela facilidade de utilização.
 - `Illustrator`= Utilizado para criar nossa logo e alguns aspectos de desing, é bem parecido com o Photoshop por isso foi escolhido. 
 - `Github`= Utilizado como meio de postagem e repositório de nosso trabalho, pela facilidade e possibilidade de armazenar em nuvem. 
+~~~
