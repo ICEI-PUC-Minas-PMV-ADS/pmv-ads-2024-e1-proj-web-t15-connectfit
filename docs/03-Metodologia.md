@@ -1,4 +1,3 @@
-|
 # Metodologia
 
 <!-- LINK NÃO FUNCIONA, NECESSÁRIO ADICIONAR O LINK DO FIGMA
@@ -65,8 +64,7 @@ A escolha de utilizar o editor de código veio por ter impacto no controle de ve
 
 | AMBIENTE | PLATAFORMA | LINK DE ACESSO |
 |------------|---------------| ----------- |
-|Projeto de interface e wireframes| Figma | https://www.figma.com/file/g0zt6v2Uj9INeIchTBmcfH/HOME-CONNECTFIT?type=design&node-id=0%3A1&mode=design&t=gpdW13rJavzSZ2xv-1
- |
+|Projeto de interface e wireframes| Figma | https://www.figma.com/file/g0zt6v2Uj9INeIchTBmcfH/HOME-CONNECTFIT?type=design&node-id=0%3A1&mode=design&t=gpdW13rJavzSZ2xv-1|
 |Repositório do código-fonte | Github | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-connectfit |
 |Gerenciamento do projeto| Github | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1016 |
 | Projeto de diagramação | Miro | https://miro.com/app/board/uXjVKVJZmr4=/?share_link_id=351164626953|
