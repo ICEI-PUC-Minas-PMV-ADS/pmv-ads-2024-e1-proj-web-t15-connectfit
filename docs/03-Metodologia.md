@@ -61,12 +61,15 @@ As ferramentas utilizadas ao longo do projeto são:
 
 A escolha de utilizar o editor de código veio por ter impacto no controle de versionamento do projeto. O uso de ferramentas de comunicação, que engloba tanto a ferramenta utilizada para troca de mensagens instantâneas quanto a escolhida para reuniões diárias, se tornou essencial ao projeto para a integração de todos os membros do grupo. As ferramentas de design foram utilizadas para a prototipação inicial da nossa solução, possibilitando que um ou mais membros editassem simultaneamente. Por fim, escolhemos uma ferramenta de diagramação para mapear as necessidades do produto que está sendo desenvolvido
 
+<!-- Adicionar o link do figma aqui -->
+
 | AMBIENTE | PLATAFORMA | LINK DE ACESSO |
 |------------|---------------| ----------- |
-|Projeto de interface e wireframes| Figma | |
+|Projeto de interface e wireframes| Figma | https://www.figma.com/file/g0zt6v2Uj9INeIchTBmcfH/HOME-CONNECTFIT?type=design&node-id=0%3A1&mode=design&t=gpdW13rJavzSZ2xv-1
+ |
 |Repositório do código-fonte | Github | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-connectfit |
 |Gerenciamento do projeto| Github | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1016 |
-| Projeto de diagramação | Lucid App | https://lucid.app/lucidchart/09dc4036-c925-4ea2-b25e-73084ed48426/edit?viewport_loc=-1951%2C-1226%2C4928%2C2348%2C0_0&invitationId=inv_510b8fea-bfdb-47b1-80ad-7cfe48f03f9f|
+| Projeto de diagramação | Miro | https://miro.com/app/board/uXjVKVJZmr4=/?share_link_id=351164626953|
 
 
 ### Codificação e organização
