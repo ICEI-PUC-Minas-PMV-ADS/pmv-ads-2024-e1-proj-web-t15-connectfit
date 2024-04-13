@@ -42,7 +42,7 @@ Cada tarefa possui uma categoria, podendo ser filtrada por meio de labels (etiqu
 - Documentation (Criação e melhoria da documentação);
 - Enhancement (Nova feature a ser desenvolvida para o projeto);
 - Design (Criação de um modelo preliminar antes do desenvolvimento);
-- Help wanted (Sinalização de um problema que exige maior atenção por parte dos membros do grupo.)
+- Help wanted (Sinalização de um problema que exige maior atenção por parte dos membros do grupo.);
 - Question (Requisição de mais informações para que a tarefa possa ser concluida);
 - Wontfix (Problema cuja solução não será desenvolvida naquele momento).
 
