@@ -1,14 +1,22 @@
-
+|
 # Metodologia
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+A metodologia ágil usada neste projeto foi o SCRUM, pois o mesmo adota uma abordagem empírica e se concentra em aumentar a habilidade em responder de forma ágil aos desafios emergentes. Segundo Sutherland, o Scrum:
+
+“Cria um alicerce para o aprendizado, permitindo que as equipes avaliem o que já criaram, o que é igualmente importante. A estrutura do Scrum procura aproveitar a maneira como as equipes de fato trabalham, fornecendo ferramentas para se auto-organizarem e otimizarem, em pouco tempo, a rapidez e a qualidade do trabalho”.
 
 ## Relação de Ambientes de Trabalho
 
-Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito deverá ser apresentada em uma tabela que especifica que detalha Ambiente, Plataforma e Link de Acesso. 
-Nota: Vide documento modelo do estudo de caso "Portal de Notícias" e defina também os ambientes e frameworks que serão utilizados no desenvolvimento de aplicações móveis.
+| Plataforma | Descrição | Link de acesso |
+|------------|---------------|----------------|
+|Figma | Utilizado para criação das interfaces | www.example.com |
+|Github | Utilizado para controle de versão e gerenciamento do backlog do produto | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-connectfit |
+|Discord | Utilizado para realizar reuniões e dailys. | https://discord.gg/ma3Hgf8N |
+|Google docs | Utilizado para edição da documentação de forma compartilhada | |
+|Google Drive | Utilizado para possibilitar o acesso remoto aos documentos para todos do grupo | |
+
 
 ## Controle de Versão
 
@@ -33,6 +41,8 @@ etiquetas:
 
 Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
 
+G
+
 > **Links Úteis**:
 > - [Microfundamento: Gerência de Configuração](https://pucminas.instructure.com/courses/87878/)
 > - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
@@ -45,13 +55,11 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
+Nossa divisão de papéis foi organizada da seguinte forma:
 
-Exemplificação: A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento. A equipe está organizada da seguinte maneira:
-- Scrum Master: Felipe Domingos;
-- Product Owner: Rommel Carneiro;
-- Equipe de Desenvolvimento: Pedro Penna, Pedro Ivo, Rodrigo Richard;
-- Equipe de Design: Simone Nogueira.
+- Scrum Master: Ana Clara Santos de Paula;
+- Product Owner: Danielle Gomes dos Santos;
+- Equipe de Desenvolvimento e de Design: Ana Clara Santos de Paula, Danielle Gomes dos Santos, Evellyn Quintela Carvalho, Jonathan Nogueira Lyra Pedrosa, Melyssa Semprini e Nasson Freitas de Paula.
 
 > **Links Úteis**:
 > - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
