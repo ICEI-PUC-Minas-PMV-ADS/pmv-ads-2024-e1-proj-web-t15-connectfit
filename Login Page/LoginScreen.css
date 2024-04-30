@@ -1,0 +1,170 @@
+body {
+    background-image: url(/img/background.jpeg);
+    background-repeat:initial;
+    background-size: cover;
+    background-position: unset;
+}
+
+.boxLogin .content {
+    margin: 50px;
+    padding: 15px;
+    transform: translateY(88%);
+}
+
+.login {
+    width: 100%;
+    overflow:visible;
+    margin: auto;
+    display:grid;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.833);
+    opacity: 0,6;
+    border-radius: 55px;
+    box-shadow: 1px 0px 3px 0px rgba(42, 41, 41, 0);
+}
+
+.login h1 {
+    text-align: center;
+    font-family: 'Work Sans';
+    font-weight: bold;
+    font-size: 24px;
+    padding: 40px 2px 10px 2px;
+    background-color: rgba(42, 41, 41, 0);
+    color: #ffffff;
+    margin: -15px;
+}
+
+.login h4 {
+    text-align: center;
+    font-family: 'Work Sans';
+    font-weight: bold;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+
+.login h2 {
+    color: #f9f9f9;
+    font-size: 14px;
+    font-family: "Merriweather Sans";
+    font-weight: bold;
+}
+
+.login h3 {
+    color: #fff;
+    font-size: 14px;
+    font-family: "Merriweather Sans";
+    font-weight: bold;
+    text-align: left;
+    transform: translateY(25%);
+}
+
+.login .padding {
+    padding: 25px;
+    justify-content: center;
+    }
+
+.login label {
+    justify-content: center;
+    display:grid;
+}
+
+.login .campos {
+    text-align:left;
+    background-color: rgb(42, 41, 41);
+    font-family: 'Merriweather Sans';
+    outline: 2px rgb(227, 88, 35) solid;
+    padding: 2px 40px 2px 40px;
+    border-radius: 80px;
+    transform: translateY(-10%);
+    transition: 0.4s;
+}
+
+.login .btn {  
+    justify-content: center;
+    transform: translateY(-100%);
+    padding: 2px 125px 2px 125px;
+    font-family: "Merriweather Sans";
+    font-weight: bold;
+    font-size: 1em;
+    background-color: rgb(255, 209, 209);
+    color: rgb(255, 97, 0);
+    border-radius: 4px;
+    transition: 0.4s;
+}
+
+.login .btn:hover {
+    background-color: #4c4c4c;
+}
+
+.login .linksForm {
+    width: -25%;
+    justify-content: center;
+    border-top: 30px rgb(220, 15, 15);
+    padding: 10px;
+    display: block;
+    transition: 0.4s;
+}
+
+/*Responsivo*/
+/*480PX BREAKPOINT*/
+@media (min-width:15em) {
+    .login {
+        width: 90%;
+        transform: translateY(-65%);
+}
+}
+/*768PX BREAKPOINT*/
+@media (min-width:65em) {
+    .login {
+        width: 30%;
+        transform: translateY(-10%);
+    }
+
+    .login .linksForm a {
+        font-size: 0.9em;
+    }
+}
+
+.btn-primary {
+    background-color:rgb(69, 69,69) ;
+    padding: 8px 18px 8px 18px;
+    border-radius: 20px;
+    width: auto;
+    transform: translateY(-274%) translateX(55%);
+    
+}
+
+.login .fade_4S {
+    color: rgb(71, 159, 255);
+    font-weight: bolder;
+    transform: translateY(200%) translateX(62%);
+    padding: 1px 1px 1px 1px;
+    font-size: 11px;
+    font-family: "Merriweather Sans";
+}
+
+.login h5 {
+    color: #f9f9f9;
+    transform: translateY(-46%) translateX(-40%);
+    font-weight: bold;
+    font-family: "Merriweather Sans";
+    font-size: 11px;
+    padding: 7px 1px 1px 1px;
+}
+
+
+
+.col-form-label {
+    color: red;
+}
+
+.modal-body {
+    background-color: rgb(250, 210, 210);
+}
+
+.box {
+    color: red;
+    background-color: black;
+}
+
