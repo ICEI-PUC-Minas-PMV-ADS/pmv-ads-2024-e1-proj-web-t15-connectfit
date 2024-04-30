@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    text-decoration:none;
+}
+
+body {
+    background-color: rgb(255, 230, 201);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #2c231c;
+    justify-content: space-between;
+    padding: 12px 32px;
+    gap: 40px;
+}
+
+#logo {
+    font-size: 24px;
+    color: white;
+}
+
+#logo .fit {
+    color: #ce7952;
+}
+
+.foto-container {
+    display: flex;
+    gap: 16px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icone-cabecalho {
+    width: 24px;
+    height: 24px;
+    fill: #ffffff;
+    stroke: #ffffff;
+}
+
+.foto {
+    width: 64px;
+}
+
+.conteudo {
+    display: flex;
+    gap: 48px;
+    padding: 16px 24px;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.titulo-post {
+    color: #95523f;
+    padding: 4px 12px;
+    margin: 0 auto 8px;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: #2c231c;
+}
+
+.barra-lateral {
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 72px;
+    min-width: 320px;
+    background-color: #ffba81;
+}
+
+.titulo-barra-lateral {
+    color: #95523f;
+    padding: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    background-color: #2c231c;
+}
+
+.formulario-post {
+    width: 100%;
+    top: -72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.formulario-post textarea {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    border: 2px solid #95523f;
+    border-radius: 7px;
+}
+
+.icone-barra-lateral {
+    width: 72px;
+}
+
+.profissoes {
+    display: grid;
+    gap: 24px;
+    padding: 16px 24px;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.seguindo {
+    display: flex;
+    padding: 16px 24px;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.botao-profissao {
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffedd0;
+}
+
+.botao-profissao .icone-barra-lateral {
+    padding: 8px;
+}
+
+.botao-profissao .texto {
+    width: 100%;
+    padding: 6px;
+    color: #6b2800;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 0 0 5px 5px;
+    background-color: #ffa662;
+}
+
+.icone-perfil {
+    color: #6b2800;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+.icone-perfil img {
+    display: block;
+}
+
+.posts {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.post {
+    display: grid;
+    padding: 16px;
+    justify-items: start;
+    column-gap: 16px;
+    grid-template-areas:
+            "perfil foto"
+            "texto foto";
+    border-radius: 9px;
+    background-color: #ffa662;
+    border: 2px solid #95523f;
+}
+
+.post .icone-perfil {
+    grid-area: perfil;
+}
+
+.texto-post {
+    grid-area: texto;
+}
+
+.post img {
+    max-height: 256px;
+    border-radius: 7px;
+    grid-area: foto;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    color: white;
+    background-color: #2c231c;
+    padding: 16px;
+}
+
+.logo-rodape {
+    display: block;
+    margin-bottom: 8px;
+}
+
+#seta {
+    width: 48px;
+    position: fixed;
+}
