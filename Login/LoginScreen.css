@@ -1,6 +1,6 @@
 body {
     background-image: url(/Login/img/background.jpeg);
-    background-repeat:initial;
+    background-repeat: initial;
     background-size: cover;
     background-position: unset;
 }
@@ -13,12 +13,12 @@ body {
 
 .login {
     width: 100%;
-    overflow:visible;
+    overflow: visible;
     margin: auto;
-    display:grid;
+    display: grid;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.833);
-    opacity: 0,6;
+    opacity: 0, 6;
     border-radius: 55px;
     box-shadow: 1px 0px 3px 0px rgba(42, 41, 41, 0);
 }
@@ -62,15 +62,15 @@ body {
 .login .padding {
     padding: 25px;
     justify-content: center;
-    }
+}
 
 .login label {
     justify-content: center;
-    display:grid;
+    display: grid;
 }
 
 .login .campos {
-    text-align:left;
+    text-align: left;
     background-color: rgb(42, 41, 41);
     font-family: 'Merriweather Sans';
     outline: 2px rgb(227, 88, 35) solid;
@@ -80,7 +80,7 @@ body {
     transition: 0.4s;
 }
 
-.login .btn {  
+.login .btn {
     justify-content: center;
     transform: translateY(-100%);
     padding: 2px 125px 2px 125px;
@@ -112,8 +112,9 @@ body {
     .login {
         width: 90%;
         transform: translateY(-65%);
+    }
 }
-}
+
 /*768PX BREAKPOINT*/
 @media (min-width:65em) {
     .login {
@@ -126,13 +127,14 @@ body {
     }
 }
 
+
 .btn-primary {
-    background-color:rgb(69, 69,69) ;
+    background-color: rgb(69, 69, 69);
     padding: 8px 18px 8px 18px;
     border-radius: 20px;
     width: auto;
-    transform: translateY(-274%) translateX(55%);
-    
+    transform: translateY(-276%) translateX(50%);
+
 }
 
 .login .fade_4S {
@@ -168,3 +170,14 @@ body {
     background-color: black;
 }
 
+.btn-primary:active,
+.btn-primary:focus {
+  background-color: rgb(53, 198, 88); /* Altere para a cor desejada quando clicado */
+}
+
+.btn-primary:not(:active):not(:focus) {
+  background-color: rgb(69, 69, 69); /* ou a cor inicial do seu botão */
+}
+
+
+  
