@@ -1,5 +1,5 @@
 body {
-    background-image: url(/Login/img/background.jpeg);
+    background-image: url(/Cadastro/img/background.jpeg);
     background-repeat: initial;
     background-size: cover;
     background-position: unset;
@@ -137,14 +137,6 @@ body {
 
 }
 
-.login .fade_4S {
-    color: rgb(71, 159, 255);
-    font-weight: bolder;
-    transform: translateY(205%) translateX(62%);
-    padding: 1px 1px 1px 1px;
-    font-size: 11px;
-    font-family: "Merriweather Sans";
-}
 
 .login h5 {
     color: #f9f9f9;
@@ -153,85 +145,4 @@ body {
     font-family: "Merriweather Sans";
     font-size: 11px;
     padding: 7px 1px 1px 1px;
-}
-
-/*Modal*/
-
-.modal-title fs-5 {
-    background-color: rgb(69, 69, 69);
-    box-shadow: rgb(69, 69, 69);
-}
-
-.modal-header {
-    background: rgb(255, 209, 209);
-    font-family: 'Work Sans';
-    font-weight: bold;
-    color: rgb(0, 0, 0);
-    outline: auto rgb(69, 69, 69);
-    ;
-    box-shadow: black;
-}
-
-.mb-3 .form-control {
-    background-color: rgb(235, 198, 198);
-    outline: 2px rgb(69, 69, 69);
-    solid;
-    box-shadow: black;
-}
-
-.modal-dialog {
-    background-color: rgb(69, 69, 69);
-    outline: auto rgb(69, 69, 69);
-    box-shadow: black;
-}
-
-.modal-body {
-    background-color: rgb(69, 69, 69);
-    box-shadow: black;
-}
-
-.col-form-label {
-    color: rgb(255, 255, 255);
-    box-shadow: black;
-    background-color: rgb(69, 69, 69);
-    font-family: "Merriweather Sans";
-}
-
-.modal-fade {
-    outline: auto rgb(69, 69, 69);
-    box-shadow: black;
-    background-color: rgb(69, 69, 69);
-}
-
-.modal-content {
-    outline: auto rgb(69, 69, 69);
-    box-shadow: black;
-    background-color: rgb(69, 69, 69);
-}
-
-.modal-content .modal-footer {
-    background-color: rgb(69, 69, 69);
-    outline: auto rgb(69, 69, 69);
-}
-
-.btn btn-secondary {
-    background-color: white;
-    color: red;
-}
-
-.box {
-
-    color: red;
-    background-color: black;
-}
-
-.btn-primary:active,
-.btn-primary:focus {
-    background-color: rgb(53, 198, 88);
-    /* Altere para a cor desejada quando clicado */
-}
-
-.btn-primary:not(:active):not(:focus) {
-    background-color: rgb(69, 69, 69);
-    /* ou a cor inicial do seu botão */
 }
