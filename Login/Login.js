@@ -40,7 +40,7 @@ exampleModal.addEventListener('show.bs.modal', event => {
 const btnPrimary = document.querySelector('.btn-primary');
 
 // Adiciona um ouvinte de evento para o clique no botão
-btnPrimary.addEventListener('click', function() {
+btnPrimary.addEventListener('click', function () {
   // Verifica se o botão tem a classe 'active'
   if (this.classList.contains('active')) {
     // Remove a classe 'active' para restaurar a cor inicial

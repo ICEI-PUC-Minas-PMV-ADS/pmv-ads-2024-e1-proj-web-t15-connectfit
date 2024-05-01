@@ -156,57 +156,63 @@ body {
 }
 
 .modal-title fs-5 {
-    background-color: black;
-    box-shadow: black;
+    background-color: rgb(69, 69, 69);
+    box-shadow: rgb(69, 69, 69);
 }
 
 .modal-header {
-    background: rgb(0, 0, 0);
+    background: rgb(255, 209, 209);
     font-family: 'Work Sans';
     font-weight: bold;
-    color: rgb(255, 255, 255);
-    outline: auto black;
+    color: rgb(0, 0, 0);
+    outline: auto rgb(69, 69, 69);;
     box-shadow: black;
 }
 
 .mb-3 .form-control {
     background-color: rgb(235, 198, 198);
-    outline: 2px rgb(0, 0, 0) solid;
+    outline: 2px rgb(69, 69, 69); solid;
     box-shadow: black;
 }
 
 .modal-dialog {
-    background-color: black;
-    outline: auto black;
+    background-color: rgb(69, 69, 69);
+    outline: auto rgb(69, 69, 69);
     box-shadow: black;
 }
 
 .modal-body {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(69, 69, 69);
     box-shadow: black;
 }
 
 .col-form-label {
     color: rgb(255, 255, 255);
     box-shadow: black;
-    background-color: black;
+    background-color: rgb(69, 69, 69);
+    font-family: "Merriweather Sans";
 }
 
 .modal-fade {
-    outline: auto black;
+    outline: auto rgb(69, 69, 69);
     box-shadow: black;
-    background-color: black;
+    background-color: rgb(69, 69, 69);
 }
 
 .modal-content {
-    outline: auto black;
+    outline: auto rgb(69, 69, 69);
     box-shadow: black;
-    background-color: black;
+    background-color: rgb(69, 69, 69);
 }
 
 .modal-content .modal-footer {
-    background-color: black;
-    outline: auto black;
+    background-color: rgb(69, 69, 69);
+    outline: auto rgb(69, 69, 69);
+}
+
+.btn btn-secondary {
+    background-color: white;
+    color: red;
 }
 
 .box {
