@@ -1,3 +1,9 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+
 body {
     background-image: url(/Login/img/background.jpeg);
     background-repeat: initial;
@@ -175,7 +181,6 @@ body {
 .mb-3 .form-control {
     background-color: rgb(235, 198, 198);
     outline: 2px rgb(69, 69, 69);
-    solid;
     box-shadow: black;
 }
 
