@@ -1,8 +1,8 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    }
+}
 
 body {
     background-image: url(/Cadastro/img/background.jpeg);
@@ -138,6 +138,13 @@ body {
     width: auto;
     transform: translateY(-435%) translateX(-350%);
 
+}
+
+.linksForm a {
+    font-size: medium;
+    font-family: "Merriweather Sans";
+    color: pink;
+    text-align: initial;
 }
 
 /*Responsivo*/
