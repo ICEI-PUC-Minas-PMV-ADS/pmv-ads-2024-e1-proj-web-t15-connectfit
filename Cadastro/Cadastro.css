@@ -112,6 +112,34 @@ body {
     transition: 0.4s;
 }
 
+.btn-primary {
+    background-color: rgb(255, 255, 255);
+    padding: 8px;
+    border-radius: 20px;
+    width: auto;
+    transform: translateY(-290%) translateX(-320%);
+
+}
+
+
+.login h5 {
+    color: #f9f9f9;
+    transform: translateY(-46%) translateX(-40%);
+    font-weight: bold;
+    font-family: "Merriweather Sans";
+    font-size: 11px;
+    padding: 7px 1px 1px 1px;
+}
+
+.btn-secondary {
+    background-color: rgb(255, 255, 255);
+    padding: 8px;
+    border-radius: 20px;
+    width: auto;
+    transform: translateY(-435%) translateX(-350%);
+
+}
+
 /*Responsivo*/
 /*480PX BREAKPOINT*/
 @media (min-width:15em) {
@@ -131,24 +159,4 @@ body {
     .login .linksForm a {
         font-size: 0.9em;
     }
-}
-
-
-.btn-primary {
-    background-color: rgb(69, 69, 69);
-    padding: 8px 18px 8px 18px;
-    border-radius: 20px;
-    width: auto;
-    transform: translateY(-276%) translateX(-300%);
-
-}
-
-
-.login h5 {
-    color: #f9f9f9;
-    transform: translateY(-46%) translateX(-40%);
-    font-weight: bold;
-    font-family: "Merriweather Sans";
-    font-size: 11px;
-    padding: 7px 1px 1px 1px;
 }
