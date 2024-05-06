@@ -12,53 +12,53 @@ body {
 }
 
 .boxLogin .content {
-    margin: 50px;
+    margin: 10vh;
     padding: 15px;
-    transform: translateY(88%);
+    transform: translateY(110%) translateX(1%);
 }
 
 .login {
     width: 100%;
     overflow: visible;
     margin: auto;
-    display: grid;
+    display: block;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.833);
     opacity: 0, 6;
-    border-radius: 55px;
-    box-shadow: 1px 0px 3px 0px rgba(42, 41, 41, 0);
+    border-radius: 10vh;
+    box-shadow: 1vh 0vh 3vh 0vh rgba(42, 41, 41, 0);
 }
 
 .login h1 {
     text-align: center;
     font-family: 'Work Sans';
     font-weight: bold;
-    font-size: 24px;
-    padding: 40px 2px 10px 2px;
+    font-size: 3vh;
+    padding: 5vh 2vh 5vh 2vh;
     background-color: rgba(42, 41, 41, 0);
     color: #ffffff;
-    margin: -15px;
+    margin: -4vh;
 }
 
 .login h4 {
     text-align: center;
     font-family: 'Work Sans';
     font-weight: bold;
-    font-size: 24px;
+    font-size: 3vh;
     color: #ffffff;
 }
 
 
 .login h2 {
     color: #f9f9f9;
-    font-size: 14px;
+    font-size: 2vh;
     font-family: "Merriweather Sans";
     font-weight: bold;
 }
 
 .login h3 {
     color: #fff;
-    font-size: 14px;
+    font-size: 14vh;
     font-family: "Merriweather Sans";
     font-weight: bold;
     text-align: left;
@@ -66,7 +66,7 @@ body {
 }
 
 .login .padding {
-    padding: 25px;
+    padding: 3vh;
     justify-content: center;
 }
 
@@ -81,7 +81,7 @@ body {
     font-family: 'Merriweather Sans';
     outline: 2px rgb(227, 88, 35) solid;
     padding: 2px 40px 2px 40px;
-    border-radius: 80px;
+    border-radius: 80vh;
     transform: translateY(-10%);
     transition: 0.4s;
 }
@@ -124,7 +124,7 @@ body {
 
 .login h5 {
     color: #f9f9f9;
-    transform: translateY(-46%) translateX(-40%);
+    transform: translateY(-46%) translateX(-30%);
     font-weight: bold;
     font-family: "Merriweather Sans";
     font-size: 11px;
@@ -161,16 +161,16 @@ body {
 /*480PX BREAKPOINT*/
 @media (min-width:15em) {
     .login {
-        width: 90%;
-        transform: translateY(-65%);
+        width: 110%;
+        transform: translateY(-85%) translateX(24%);
     }
 }
 
 /*768PX BREAKPOINT*/
 @media (min-width:65em) {
     .login {
-        width: 30%;
-        transform: translateY(-10%);
+        width: 35%;
+        transform: translateY(-60%);
     }
 
     .login .linksForm a {
