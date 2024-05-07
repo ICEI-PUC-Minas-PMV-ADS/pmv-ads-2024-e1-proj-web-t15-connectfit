@@ -39,6 +39,6 @@ Figura 2 - Tela do Perfil
 
 Para a criação do logotipo do site foi utilizada as cores amarela, pois esta cor remete a aspectos......
 
-?
+<img src=https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-connectfit/blob/23f498ab3a183354009144b7fc507229157271db/docs/img/Logo.png>
 
 Figura 3 - Logotipo do site
