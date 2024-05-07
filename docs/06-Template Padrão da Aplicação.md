@@ -21,7 +21,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-connectfi
 
 Tela de visualização do Login
 
-Exibe informações necessárias para realizar o login
+Exibe informações necessárias para realizar o login.
 <img src=https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-connectfit/blob/136fce90f8a308bde811d0d1bbc1fad9be4e9e36/docs/img/Tela%20Login.png>
 
 Figura 1 - Tela de Login
