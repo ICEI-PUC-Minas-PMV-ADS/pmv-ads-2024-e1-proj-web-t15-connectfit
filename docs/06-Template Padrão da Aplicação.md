@@ -10,6 +10,8 @@ Font-size: 15px e 28px.
 
 <h3><b>Palheta de cores utilizada</b></h3>
 
+<img src=https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-connectfit/blob/73141cb42c8f94b40e4a4324e4abf04e0af36d67/docs/img/Palheta.jpg>
+
 As imagens e ícones utilizados no projeto estão disponíveis aqui.
 
 
