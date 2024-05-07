@@ -8,9 +8,10 @@ Cores: RGB (255, 231, 200), RGB (255, 166, 89), RGB (255, 96, 0), RGB (67, 67, 6
 Font-family: Work Sans e Merriweather Sans. 
 Font-size: 15px e 28px.
 
-<h3><b>Palheta de cores utilizada</b></h3>
-
+<h3><b>Paleta de cores utilizada</b></h3>
+<p Essa paleta de cores foi escolhida para </p>
 <img src=https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-connectfit/blob/73141cb42c8f94b40e4a4324e4abf04e0af36d67/docs/img/Palheta.jpg>
+
 
 As imagens e ícones utilizados no projeto estão disponíveis aqui.
 
