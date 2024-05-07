@@ -9,7 +9,7 @@ Font-family: Work Sans e Merriweather Sans.
 Font-size: 15px e 28px.
 
 <h3><b>Paleta de cores utilizada</b></h3>
-<p Essa paleta de cores foi escolhida para </p>
+Essa paleta de cores foi escolhida com cores forte e vibrantes para representar o esporte pois remete a energia e cores mais escuras para neutralizar um pouco, ornar melhor e cansar menos as vistas dos usuários. 
 <img src=https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-connectfit/blob/73141cb42c8f94b40e4a4324e4abf04e0af36d67/docs/img/Palheta.jpg>
 
 
