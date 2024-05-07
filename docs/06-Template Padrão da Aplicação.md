@@ -8,6 +8,8 @@ Cores: RGB (255, 231, 200), RGB (255, 166, 89), RGB (255, 96, 0), RGB (67, 67, 6
 Font-family: Work Sans e Merriweather Sans. 
 Font-size: 15px e 28px.
 
+<h3><b>Palheta de cores utilizada</b></h3>
+
 As imagens e ícones utilizados no projeto estão disponíveis aqui.
 
 
