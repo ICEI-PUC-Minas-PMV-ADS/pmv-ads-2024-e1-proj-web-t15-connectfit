@@ -145,7 +145,6 @@ body {
     font-family: "Merriweather Sans";
     color: rgb(71, 159, 255);
     text-align: initial;
-    transform: translateY(-435%) translateX(-350%);
 }
 
 .linksForm h1 {
@@ -153,9 +152,6 @@ body {
     text-align: center;
 }
 
-.linksForm input {
-    color: pink;
-}
 
 /*Responsivo*/
 /*480PX BREAKPOINT*/
