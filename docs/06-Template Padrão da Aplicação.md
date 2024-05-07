@@ -37,7 +37,7 @@ Figura 2 - Tela do Perfil
 ?
 
 
-Para a criação do logotipo do site foi utilizada as cores amarela, pois esta cor remete a aspectos......
+Para a criação do logotipo do site foi utilizada pesos de academia e simbolos que remetem a conexão que são os objetivos da nossa página, além de ser branca para combinar e aparecer no background do site que é um tom de cinza escuro. 
 
 <img src=https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-connectfit/blob/23f498ab3a183354009144b7fc507229157271db/docs/img/Logo.png>
 
