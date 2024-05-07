@@ -4,9 +4,11 @@ O layout padrão do site foi construído com as linguagens de marcação HTML e 
 
 As páginas terão como elementos padrões o menu de navegação, o header e o footer, além dos elementos de identidade visual citados abaixo:
 
-Cores: RGB (255, 231, 200), RGB (255, 166, 89), RGB (255, 96, 0), RGB (67, 67, 67).
-Font-family: Work Sans e Merriweather Sans. 
-Font-size: 15px e 28px.
+<ul> 
+<li>Cores: RGB (255, 231, 200), RGB (255, 166, 89), RGB (255, 96, 0), RGB (67, 67, 67).</li>
+<li>Font-family: Work Sans e Merriweather Sans.</li> 
+<li>Font-size: 15px e 28px.</li>
+</ul>
 
 <h3><b>Paleta de cores utilizada</b></h3>
 Essa paleta de cores foi escolhida com cores forte e vibrantes para representar o esporte pois remete a energia e cores mais escuras para neutralizar um pouco, ornar melhor e cansar menos as vistas dos usuários. 
