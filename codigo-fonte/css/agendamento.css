@@ -1,0 +1,299 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "merriweathersansBold";
+    src: url(/codigo-fonte/fonte/merriweatherSans/MerriweatherSans-Bold.ttf);
+}
+@font-face {
+    font-family: "worksansExtrabold";
+    src: url(/fonte/workSans/WorkSans-ExtraBold.ttf);
+}
+:root {
+    --orange: #FFA559;
+    --beige: #FBECD9;
+    --black: #2B241C;
+    --grey: #454545;
+    --title: "worksansExtrabold"
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+background-color: var(--beige);
+}
+
+/*  HEADER */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0   0 1rem 1rem;
+    box-shadow: 0 5rem var(--orange);
+    background-color: var(--black);
+    padding: 2rem 2rem;
+    z-index: 1;
+}
+
+nav h1 {
+    color: var(--orange);
+    font-family: var(--title);
+    font-size: 2rem;
+    transform: translateX(-9rem);
+}
+
+nav span {
+    color: var(--beige);
+}
+
+#addVideo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#circleAddVideo {
+    background-color: var(--orange);
+    -webkit-appearance: none;
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 5rem;
+    position: relative;
+
+}
+
+#circleAddVideo:hover {
+    cursor: pointer;
+}
+
+.stroke {
+    background-color: var(--black);
+    border-radius: 2rem;
+    height: 0.2rem;
+    width: 2.4rem;
+    position: absolute;
+    top: 3.9rem ;
+    left: 2.5rem;
+    transition: ease-in-out 0.3s;
+    z-index: 1;
+}
+
+.up{
+    transform: rotate(90deg);
+}
+
+#menuButton {
+    visibility: hidden;
+    background-color: var(--orange);
+    padding: .8rem;
+    margin-left: -.7rem;
+    border-radius: 0 3rem 0 0;
+}
+
+#menuIcon:hover {
+    cursor: pointer;
+}
+
+#menuIcon {
+    height: .5rem;
+    width: 4rem;
+    border-radius: 2rem;
+    position: relative;
+    display: block;
+    background-color: var(--beige);
+    transform: translate(-2rem, 1rem);
+}
+
+#menuIcon::before,
+#menuIcon::after {
+    content: '';
+    display: block;
+    border-radius: 2rem;
+    height: .5rem;
+    width: 4rem;
+    background-color: var(--beige);
+    position: absolute;
+    left: 0;
+}
+
+#menuIcon::before {
+    top: -1rem;
+
+}
+
+#menuIcon::after {
+    bottom: -1rem;
+}
+
+/* SEARCHBOX*/
+
+#searchbarContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--orange);
+    width: 100vw;
+    height: 5rem;
+}
+
+#searchbar {
+    background-color: var(--orange);
+    width: 35rem;
+    height: 3rem;
+    border-radius: 2rem;
+    border: 2px solid var(--beige);
+    font-size: 1.4rem;
+    color: var(--beige);
+    padding: 1rem;
+}
+
+#searchbar:focus {
+    border: none;
+}
+
+#searchbarButton {
+    background-color: var(--orange);
+    border: none;
+    transform: translateX(-2.1rem);
+}
+
+#searchbarButton:focus {
+    border: none;
+}
+
+#searchbarButton i{
+    color: var(--beige);
+    background-color: var(--orange);
+    border: none;
+}
+
+/* MAIN */
+
+main {
+    background-color: var(--beige);
+}
+
+/* CONTAINER  VIDEO*/
+
+.foryou {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: red;
+    color: #FBECD9;
+    padding: 1rem;
+}
+
+.videoFY a {
+    text-decoration: none;
+    color: var(--beige);
+}
+
+.videoFY {
+    width: 25vw;
+    height: 40vh;
+    background-color: blue;
+}
+
+.videoFYBanner {
+    background: yellowgreen;
+    width: 100%;
+    height: 70%;
+}
+
+.infoFY {
+    display: flex;
+}
+
+.infoFY h3 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 1.2rem;
+}
+
+.roundFY {
+    background-color: purple;
+    border-radius: 100%;
+    width: 3rem;
+    height: 3rem;
+    margin: 0.6rem;
+    
+}
+
+/* BANNER LARANJINHA */
+
+.orangeBanner {
+  background-color: var(--orange);
+}  
+
+.orangeBanner p {
+    font-size: 1.2rem;
+}
+
+.orangeBanner p:first-child {
+    font-size: 1.6rem;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* CONTAINER VIDEOS AGENDADOS */
+
+.agendados {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: red;
+    color: #FBECD9;
+    padding: 1rem;
+}
+
+.videoAgendado a {
+    text-decoration: none;
+    color: var(--beige);
+}
+
+.videoAgendado {
+    width: 25vw;
+    height: 40vh;
+    background-color: blue;
+}
+
+.videoAgendadoBanner {
+    background: yellowgreen;
+    width: 100%;
+    height: 70%;
+}
+
+.infoAgendado {
+    display: flex;
+}
+
+.infoAgendado h3 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 1.2rem;
+}
+
+.roundAgendado {
+    background-color: purple;
+    border-radius: 100%;
+    width: 3rem;
+    height: 3rem;
+    margin: 0.6rem;
+}
+
+.bellAgendado {
+
+}
+
+/* FOOTER */
+
+footer {
+    background-color: var(--black);
+    width: 100vw;
+    height: 25vh;
+}
