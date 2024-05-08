@@ -1,0 +1,175 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/Cadastro/img/background.jpeg);
+    background-repeat: initial;
+    background-size: cover;
+    background-position: unset;
+}
+
+.boxLogin .content {
+    margin: 10vh;
+    padding: 15px;
+    transform: translateY(110%) translateX(1%);
+}
+
+.login {
+    width: 100%;
+    overflow: visible;
+    margin: auto;
+    display: block;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.833);
+    opacity: 0, 6;
+    border-radius: 10vh;
+    box-shadow: 1vh 0vh 3vh 0vh rgba(42, 41, 41, 0);
+}
+
+.login h1 {
+    text-align: center;
+    font-family: 'Work Sans';
+    font-weight: bold;
+    font-size: 3vh;
+    padding: 5vh 2vh 5vh 2vh;
+    background-color: rgba(42, 41, 41, 0);
+    color: #ffffff;
+    margin: -4vh;
+}
+
+.login h4 {
+    text-align: center;
+    font-family: 'Work Sans';
+    font-weight: bold;
+    font-size: 3vh;
+    color: #ffffff;
+}
+
+
+.login h2 {
+    color: #f9f9f9;
+    font-size: 2vh;
+    font-family: "Merriweather Sans";
+    font-weight: bold;
+}
+
+.login h3 {
+    color: #fff;
+    font-size: 14vh;
+    font-family: "Merriweather Sans";
+    font-weight: bold;
+    text-align: left;
+    transform: translateY(25%);
+}
+
+.login .padding {
+    padding: 3vh;
+    justify-content: center;
+}
+
+.login label {
+    justify-content: center;
+    display: grid;
+}
+
+.login .campos {
+    text-align: left;
+    background-color: rgb(42, 41, 41);
+    font-family: 'Merriweather Sans';
+    outline: 2px rgb(227, 88, 35) solid;
+    padding: 2px 40px 2px 40px;
+    border-radius: 80vh;
+    transform: translateY(-10%);
+    transition: 0.4s;
+}
+
+.login .btn {
+    justify-content: center;
+    transform: translateY(-100%);
+    padding: 2px 125px 2px 125px;
+    font-family: "Merriweather Sans";
+    font-weight: bold;
+    font-size: 1em;
+    background-color: rgb(255, 209, 209);
+    color: rgb(255, 97, 0);
+    border-radius: 4px;
+    transition: 0.4s;
+}
+
+.login .btn:hover {
+    background-color: #4c4c4c;
+}
+
+.login .linksForm {
+    width: -25%;
+    justify-content: center;
+    border-top: 30px rgb(220, 15, 15);
+    padding: 10px;
+    display: block;
+    transition: 0.4s;
+}
+
+.btn-primary {
+    background-color: rgb(255, 255, 255);
+    padding: 8px;
+    border-radius: 20px;
+    width: auto;
+    transform: translateY(-290%) translateX(-80%);
+
+}
+
+
+.login h5 {
+    color: #f9f9f9;
+    transform: translateY(-46%) translateX(-30%);
+    font-weight: bold;
+    font-family: "Merriweather Sans";
+    font-size: 11px;
+    padding: 7px 1px 1px 1px;
+}
+
+.btn-secondary {
+    background-color: rgb(255, 255, 255);
+    padding: 8px;
+    border-radius: 20px;
+    width: auto;
+    transform: translateY(-435%) translateX(-100%);
+
+}
+
+.linksForm a {
+    font-size: medium;
+    font-family: "Merriweather Sans";
+    color: rgb(71, 159, 255);
+    text-align: initial;
+}
+
+.linksForm h1 {
+    font-size: medium;
+    text-align: center;
+}
+
+
+/*Responsivo*/
+/*480PX BREAKPOINT*/
+@media (min-width:15em) {
+    .login {
+        width: 110%;
+        transform: translateY(-85%) translateX(24%);
+    }
+}
+
+/*768PX BREAKPOINT*/
+@media (min-width:65em) {
+    .login {
+        width: 35%;
+        transform: translateY(-60%);
+    }
+
+    .login .linksForm a {
+        font-size: 0.9em;
+    }
+}
