@@ -27,17 +27,22 @@ Exibe informações necessárias para realizar o login.
 Figura 1 - Tela de Login
 
 Tela de visualização dos Profissionais
+
 Exibe informações sobre os profissionais e contato para agendamento de aulas e consultas.
+<img src= >
 
+Figura 2- Tela dos Profissionais
 
+Tela de vizualização do Perfil
+Exibe as informações sobre o perfil do usuário bem como suas aulas agendadas. 
 
-Figura 2 - Tela do Perfil
+<img src=https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-connectfit/blob/53b1c73bf9f0d61c383a4541fbe1b8f2dab5b835/docs/img/MeuPerfil.png>
+Figura 3 - Tela do Perfil
 
-?
-
+Nosso logotipo
 
 Para a criação do logotipo do site foi utilizada pesos de academia e simbolos que remetem a conexão que são os objetivos da nossa página, além de ser branca para combinar e aparecer no background do site que é um tom de cinza escuro. 
 
 <img src=https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-connectfit/blob/23f498ab3a183354009144b7fc507229157271db/docs/img/Logo.png>
 
-Figura 3 - Logotipo do site
+Figura 4 - Logotipo do site
