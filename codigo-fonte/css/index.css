@@ -1,31 +1,26 @@
-*Mudança para toda a página*/
+/*Mudança para toda a página*/
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     }
 
-
 /*Layout de todo conteúdo do body*/
 body
 {
     color:white;
-    font-family:'Merriweather Sans';
+    font-family:'Merriweather Sans', Arial, Helvetica;
     overflow-x:hidden;
-
 }
-
-
 
 /*Layout do texto que está no cabeçalho*/
 .cabecalho
 {
     color:rgb(255, 253, 253);
-    font-family:sans-serif;
+    font-family:'Merriweather Sans', Arial, Helvetica;
     display:flex;
     justify-content:space-between;
-    /*align-items: center;*/
-    padding: 16px;
+    padding: 1.5%;
     list-style-type:none;
 }
 
@@ -46,7 +41,7 @@ body
     height: 6vh;
     justify-content: center; /* Centraliza horizontalmente */
     align-items: center;
-    border-radius: 10px;  
+    border-radius: 15%;  
 }
 
 .divlog
@@ -58,7 +53,6 @@ body
     align-items: center;
     border-radius:10px;
     justify-content:center;
-
 }
 
 .divobj
@@ -67,14 +61,16 @@ body
     font-size: 3.5vh;
     font-weight:bold;
 }
+
 .spaceL
 {
-    margin-right: 7px;
+    margin-right:2%;
 }
+
 .spaceC
 {
     color:rgba(248, 134, 34, 0.875);
-    margin-left: 7px;
+    margin-left:2%;
     font-weight: bold;
 }
 
@@ -82,45 +78,42 @@ body
 {
     border: 0.2vh solid white; /* Adicione uma borda à esquerda */
     margin:  0.5vh; /* Adicione margem para dar espaço entre os elementos */
-  
 }
-
 
 li, a 
 {
-    color:white;
-    
+    color:white;  
 }
 
 /*A main serve para definir o conteúdo principal da página*/
 main 
 {
     display:flex;
-    justify-content:right;
-    
+    justify-content:right;   
 }
 
 /*Caixa de texto de "bem vindo..." da interface*/
 .divobjetivo
 {
-    
     background-color: rgba(0, 0, 0, 0.793);
     font-family: 'Merriweather Sans';/*fonte utilizada*/
     text-align: justify;/*texto justificado*/
     align-items: center;/*controlar o alinhamento vertical*/
-    margin-top: 50px;/*controlar o espaço ao redor de um elemento */
-    padding: 20px;/*o espaço entre o conteúdo do elemento e suas bordas*/
-    border-radius: 20px;/*borda arredondada*/
-    width: 43vh; /* Largura desejada */
-    height: 55vh; 
-    line-height:22px;/*controla a altura da linha de texto dentro de um elemento*/
+    margin-top: 9%;/*controlar o espaço ao redor de um elemento */
+    padding: 1%;/*o espaço entre o conteúdo do elemento e suas bordas*/
+    border-radius: 5%;/*borda arredondada*/
+    width: 20%; /* Largura desejada */
+    height: 55%; 
+    line-height:133%;/*controla a altura da linha de texto dentro de um elemento*/
     position:absolute;
-    margin-right: 150px;
+    margin-right: 10%;
     justify-content:center;
+    padding-top: 2.5%;
 }
 
-.banner{
-    background:  url("imgs/pg_fundo.jpeg") no-repeat ;
+.banner
+{
+    background:url("../img/pg_fundo.jpeg") no-repeat ;
     background-size:cover ;
     background-position: unset;
     width: 100vw;
@@ -130,3 +123,57 @@ main
     box-sizing: border-box;
     position:relative;
 }
+
+/*layout para telas de smartphones*/
+@media only screen and (min-width:400px) and (max-width:600px)
+{
+    .divretangulo
+    {
+        width:100%;
+        padding:1%;
+    }
+
+    .divobj
+    {
+        font-size:75%;
+        margin-left:10%;
+    }
+
+    .divlog
+    {
+        width:26.3%;
+        height:10%;
+        font-size:70%;
+        padding:2%;
+    }
+
+    .divmenu
+    {
+        width:1.6em;
+        height: 1.5em;
+        padding:1%;
+        padding-right:1.8%;
+    }
+
+    .divobjetivo
+    {
+        font-size:56%;
+        width:40%;
+        height:33%;
+        padding-top:2%;
+        font-family: 'Merriweather Sans', Arial, Helvetica;
+    }
+
+    .banner
+    {
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+/*Layout para telas de desktops*/
+@media only screen and (max-width:1400px)
+{
+    
+
+} 
