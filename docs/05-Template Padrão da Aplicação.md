@@ -19,27 +19,29 @@ As imagens e ícones utilizados no projeto estão disponíveis neste link:
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-connectfit/tree/6cfa0f3c02d0653f934d5ed03a351005accce04e/src/img
 
-Tela de visualização do Login
+<h3><b>Tela de visualização do Login</b></h3>
 
 Exibe informações necessárias para realizar o login.
 <img src=https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-connectfit/blob/136fce90f8a308bde811d0d1bbc1fad9be4e9e36/docs/img/Tela%20Login.png>
 
 Figura 1 - Tela de Login
 
-Tela de visualização dos Profissionais
+<h3><b>Tela de visualização dos Profissionais</b></h3>
 
 Exibe informações sobre os profissionais e contato para agendamento de aulas e consultas.
+
 <img src= >
 
 Figura 2- Tela dos Profissionais
 
-Tela de vizualização do Perfil
+<h3><b>Tela de vizualização do Perfil</b></h3>
+
 Exibe as informações sobre o perfil do usuário bem como suas aulas agendadas. 
 
 <img src=https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-connectfit/blob/53b1c73bf9f0d61c383a4541fbe1b8f2dab5b835/docs/img/MeuPerfil.png>
 Figura 3 - Tela do Perfil
 
-Nosso logotipo
+<h3><b>Nosso logotipo</b></h3>
 
 Para a criação do logotipo do site foi utilizada pesos de academia e simbolos que remetem a conexão que são os objetivos da nossa página, além de ser branca para combinar e aparecer no background do site que é um tom de cinza escuro. 
 
