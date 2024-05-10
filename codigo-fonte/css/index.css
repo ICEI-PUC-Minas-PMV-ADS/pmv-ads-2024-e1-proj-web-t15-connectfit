@@ -3,12 +3,17 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    }
+}
+
+html {
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
 
 /*Layout de todo conteúdo do body*/
 body
 {
-    color:white;
     font-family:'Merriweather Sans', Arial, Helvetica;
     overflow-x:hidden;
 }
@@ -86,10 +91,14 @@ li, a
 }
 
 /*A main serve para definir o conteúdo principal da página*/
-main 
+/* main 
 {
+       
+} */
+
+.sectionBanner{
     display:flex;
-    justify-content:right;   
+    justify-content:right;
 }
 
 /*Caixa de texto de "bem vindo..." da interface*/
@@ -109,6 +118,7 @@ main
     margin-right: 10%;
     justify-content:center;
     padding-top: 2.5%;
+    color:white;
 }
 
 .banner
@@ -177,3 +187,330 @@ main
     
 
 } 
+
+
+/* O código abaixo foi feito por Jonathan, ainda ajustando para integrar certinho*/
+.container{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+@media only screen and (min-width:768px){
+    .container{
+        max-width: 750px;
+    }
+}
+@media only screen and (min-width:992px){
+    .container{
+        max-width: 950px;
+    }
+}
+@media only screen and (min-width:1200px){
+    .container{
+        max-width: 1050px;
+    }
+}
+@media only screen and (min-width:1600px){
+    .container{
+        max-width: 1340px;
+    }
+}
+
+
+/* Secao de Apresentacao do projeto, logo abaixo do banner */
+.sectionPresentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px auto;
+}
+
+.boxImage img{
+    max-width: 100%;
+    display: block;
+    height: auto;
+    width: 200px;
+}
+
+.boxText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px 0;
+}
+
+.boxText h3{
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.boxText p{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+@media only screen and (min-width:700px){
+    .sectionPresentation {
+        flex-direction: row;
+    }
+    .boxImage{
+        width: 60%;
+    }
+    .boxImage img{
+        width: 300px;
+    }
+    
+    .boxText{
+        width: 40%;
+    }
+}
+
+/*Secao de apresentacao dos tipos de usuarios*/
+
+.sectionUserType{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+    background-image: url('../img/connectfit-background-user.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sectionUserType h3{
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.listUser{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px 20px;
+}
+
+.listUser .boxUser{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 40px 20px;
+    border-radius: 25px;
+}
+
+.boxUser.practitioner{
+    background-color: #FF6000;
+    margin-bottom: 20px;
+}
+
+.boxUser.pro{
+    background-color: #FFA559;
+}
+
+@media only screen and (min-width:520px){
+    .sectionUserType{
+        background-size: contain;
+    }
+    .listUser{
+        flex-direction: row;
+    }
+    .listUser .boxUser{
+        width: calc(100% / 2 - 25px);
+    }
+    .boxUser.practitioner{
+        margin-bottom: 0;
+    }
+}
+
+.boxUser h4{
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.boxUser span{
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.boxUser p{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.buttonArea{
+    margin: 20px;
+}
+
+.buttonArea a{
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    padding: 15px 35px;
+    color: #fff;
+    background-color: #06A0BC;
+    border-radius: 50px;
+}
+
+/*Secao de demonstracao de atividades de usuarios*/
+
+.sectionActivities{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px 0;
+}
+
+.sectionActivities .activity{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.titleActivity{
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.listActivities{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px 20px;
+}
+
+.itemActivity{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 40px 20px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+}
+
+.itemActivity:last-child{
+    margin-bottom: 0;
+}
+
+.itemActivity h4{
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.itemActivity p{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.itemActivity .userId{
+    
+}
+
+.itemActivity .userId img{
+
+}
+
+.itemActivity .userId span{
+
+}
+
+.activity.practitioner{
+
+}
+
+.itemActivity.practitioner{
+    background-color: #FF6000;
+}
+
+.activity.pro{
+
+}
+
+.itemActivity.pro{
+    background-color: #FFA559;
+}
+
+.sectionActivities .buttonArea{
+    
+}
+
+@media only screen and (min-width:768px){
+    .listActivities{
+        flex-direction: row;
+    }
+    .listActivities .itemActivity{
+        width: calc(100% / 3 - 15px);
+        margin-bottom: 0;
+    }
+}
+
+.sectionBannerFooter{
+    
+}
+
+.sectionBannerFooter picture{
+}
+.sectionBannerFooter picture source{
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+.sectionBannerFooter picture img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/*Rodape do site*/
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px 0 20px;
+    background-color: #2B241C;
+}
+
+.logoFooter img{
+    max-width: 100%;
+    display: block;
+    height: auto;
+    width: 150px;
+}
+
+.bottomFooter{
+    padding-top: 20px;
+}
+
+.bottomFooter p{
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+}

@@ -2,12 +2,13 @@
 
 @font-face {
     font-family: "merriweathersansBold";
-    src: url(/codigo-fonte/fonte/merriweatherSans/MerriweatherSans-Bold.ttf);
+    src: url(/fonte/merriweatherSans/MerriweatherSans-Bold.ttf);
 }
 @font-face {
     font-family: "worksansExtrabold";
     src: url(/fonte/workSans/WorkSans-ExtraBold.ttf);
 }
+
 :root {
     --orange: #FFA559;
     --beige: #FBECD9;
@@ -49,11 +50,12 @@ nav span {
     color: var(--beige);
 }
 
+/* ADICIONAR VIDEO */
+
 #addVideo {
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 #circleAddVideo {
@@ -89,8 +91,8 @@ nav span {
 #menuButton {
     visibility: hidden;
     background-color: var(--orange);
-    padding: .8rem;
-    margin-left: -.7rem;
+    padding: 0 1rem;
+    margin-left: -.4rem;
     border-radius: 0 3rem 0 0;
 }
 
@@ -128,6 +130,69 @@ nav span {
 #menuIcon::after {
     bottom: -1rem;
 }
+
+/* CARREGAR VIDEO */
+
+.newVideo {
+    display: flex;
+    flex-direction:  column;
+    position: fixed;
+    background-color: darkmagenta;
+    width: 30vw;
+    height: 60vh;
+    transform: translate(30vw, 20vh);
+    box-shadow: darkorchid 2rem 2rem,
+    pink -2rem -2rem;
+}
+
+.newVideo {
+
+}
+
+/* SIDEBAR */
+
+#abrir, #fechar {
+    color: white;
+    font-size: 2rem;
+}
+
+#fechar:hover, #abrir:hover {
+    cursor: pointer;
+}
+
+#side_items {
+    position: fixed;
+    background-color: var(--grey);
+    height: 100vh;
+    width: 20vw;
+    top: 0;
+    padding: 2rem;
+    right: -100%;
+    z-index: 1;
+    list-style-type: none;
+    transition: .5s ease-in-out;
+}
+
+.side-item {
+    padding: 2rem;
+    
+}
+
+.side-item i {
+    color: var(--beige);
+}
+
+.side-item:hover {
+    background-color: var(--orange);
+    color: var(--black);
+}
+
+.side-item a {
+    text-decoration: none;
+
+}
+
+
 
 /* SEARCHBOX*/
 
@@ -286,9 +351,6 @@ main {
     margin: 0.6rem;
 }
 
-.bellAgendado {
-
-}
 
 /* FOOTER */
 

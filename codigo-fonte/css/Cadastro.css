@@ -84,6 +84,7 @@ body {
     border-radius: 80vh;
     transform: translateY(-10%);
     transition: 0.4s;
+    color: #f9f9f9;
 }
 
 .login .btn {
@@ -117,14 +118,15 @@ body {
     padding: 8px;
     border-radius: 20px;
     width: auto;
-    transform: translateY(-290%) translateX(-80%);
+    transform: translateY(-2%) translateX(55%);
 
 }
 
 
 .login h5 {
+    text-align: center;
     color: #f9f9f9;
-    transform: translateY(-46%) translateX(-30%);
+    transform: translateY(95%) translateX(-30%);
     font-weight: bold;
     font-family: "Merriweather Sans";
     font-size: 11px;
@@ -136,7 +138,7 @@ body {
     padding: 8px;
     border-radius: 20px;
     width: auto;
-    transform: translateY(-435%) translateX(-100%);
+    transform: translateY(-140%) translateX(-178%);
 
 }
 
@@ -158,7 +160,7 @@ body {
 @media (min-width:15em) {
     .login {
         width: 110%;
-        transform: translateY(-100%) translateX(24%);
+        transform: translateY(-100%) translateX(10%);
     }
 }
 

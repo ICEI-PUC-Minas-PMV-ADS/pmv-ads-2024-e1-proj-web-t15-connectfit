@@ -1,3 +1,5 @@
+
+
 function strokeAnimation() {
     const button = document.getElementById("circleAddVideo");
     const stroke = document.getElementById("strokeUp");
@@ -25,4 +27,12 @@ function teste() {
     openVideoMenu()
 }
 
-function openMenu() {}
+function closeMenu() {
+    const menu = document.getElementById("side_items");
+     menu.style.right = "-100%";
+}
+
+function openMenu() {
+    const menu = document.getElementById("side_items");
+     menu.style.right = "0.1rem";
+}
