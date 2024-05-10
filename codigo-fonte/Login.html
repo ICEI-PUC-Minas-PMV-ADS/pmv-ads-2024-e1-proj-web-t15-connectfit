@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="PT-BR">
 
 <head>
@@ -16,16 +16,12 @@
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
     crossorigin="anonymous"></script>
 
-  <script src="/codigo-fonte/js/Login.js" type="text/javascript"></script>
-
-  <!--Background-->
-  <div class="background">
-  </div>
+  <!-- Seção do formulário de login -->
   <div class="container">
     <!--Login-->
-    <section class="boxLogin container" id="Login">
+    <section class="boxLogin container">
       <div class="content">
-        <form class="login" method="post" name="login">
+        <form class="login" id="loginForm">
           <h1><i class="icon icon-key-1"></i>Bem vindo de volta!</h1>
           <h4>Acesse seu perfil fitness</h4>
           <div class="padding">
@@ -33,25 +29,21 @@
               <div>
                 <h2>Email:</h2>
               </div>
-              <label id="emailLabel" for="email_login">E-mail</label>
-              <input required="required" type="text" id="email_login" class="campos" placeholder="E-mail ou nome de usuário" name="email_login">
+              <input type="text" class="campos" placeholder="E-mail ou nome de usuário" name="email">
             </label>
             <label>
               <h3>Senha:</h3>
-              <div id="msgError"> 
-                <label id="senhaLabel" for="senha_login">Senha</label>
               <input type="password" class="campos" placeholder="Senha" name="senha">
-              <a id="senha_login" name="senha_login" required="required" href="#" class="fade_4S" title="Esqueci minha senha" data-bs-toggle="modal"
+              <a href="#" class="fade_4S" title="Esqueci minha senha" data-bs-toggle="modal"
                 data-bs-target="#exampleModal"><i></i>Esqueci minha senha</a>
             </label>
-              </div>              
           </div>
           <label>
             <h5>Lembrar minha conta</h5>
           </label>
           <label>
             <div class="linksForm">
-              <button onclick="entrar()" class="btn-primary" type="button" id="botao"></button>
+              <button class="btn-primary" type="button"></button>
             </div>
           </label>
           <!--padding-->
@@ -62,6 +54,7 @@
       </div>
     </section>
   </div>
+
   <!--Modal-->
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
@@ -85,8 +78,32 @@
     </div>
   </div>
 
+  <script>
+    // Função de login
+    document.getElementById("loginForm").addEventListener("submit", function (event) {
+      event.preventDefault(); // Impede o envio do formulário
+
+      // Objeto com os dados do usuário
+      const userData = {
+        email: "usuario@example.com",
+        senha: "minhaSenha123"
+      };
+
+      // Obtém os valores de entrada do usuário
+      const email = document.querySelector("[name=email]").value;
+      const senha = document.querySelector("[name=senha]").value;
+
+      // Verifica se as credenciais estão corretas
+      if (email === userData.email && senha === userData.senha) {
+        // Redireciona para a página "meuPerfil.html"
+        window.location.href = "meuPerfil.html";
+      } else {
+        // Exibe mensagem de erro
+        alert("Credenciais inválidas. Tente novamente.");
+      }
+    });
+  </script>
+
 </body>
-
-
 
 </html>
