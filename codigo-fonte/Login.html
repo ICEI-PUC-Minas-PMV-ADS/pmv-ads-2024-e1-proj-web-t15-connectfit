@@ -23,7 +23,7 @@
   </div>
   <div class="container">
     <!--Login-->
-    <section class="boxLogin container">
+    <section class="boxLogin container" id="Login">
       <div class="content">
         <form class="login" method="post" name="login">
           <h1><i class="icon icon-key-1"></i>Bem vindo de volta!</h1>
@@ -33,21 +33,25 @@
               <div>
                 <h2>Email:</h2>
               </div>
-              <input type="text" class="campos" placeholder="E-mail ou nome de usuário" name="email">
+              <label id="emailLabel" for="email_login">E-mail</label>
+              <input required="required" type="text" id="email_login" class="campos" placeholder="E-mail ou nome de usuário" name="email_login">
             </label>
             <label>
               <h3>Senha:</h3>
+              <div id="msgError"> 
+                <label id="senhaLabel" for="senha_login">Senha</label>
               <input type="password" class="campos" placeholder="Senha" name="senha">
-              <a href="#" class="fade_4S" title="Esqueci minha senha" data-bs-toggle="modal"
+              <a id="senha_login" name="senha_login" required="required" href="#" class="fade_4S" title="Esqueci minha senha" data-bs-toggle="modal"
                 data-bs-target="#exampleModal"><i></i>Esqueci minha senha</a>
             </label>
+              </div>              
           </div>
           <label>
             <h5>Lembrar minha conta</h5>
           </label>
           <label>
             <div class="linksForm">
-              <button class="btn-primary" type="button"></button>
+              <button onclick="entrar()" class="btn-primary" type="button" id="botao"></button>
             </div>
           </label>
           <!--padding-->
