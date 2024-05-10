@@ -4,7 +4,7 @@ Segundo o portal de notícias G1, metade das pessoas costuma desistir de pratica
 
 Pensando no desafio de conciliar a rotina desgastante com a prática regular de exercícios físicos, para que se torne algo benéfico à saúde e prazeroso, foi desenvolvida a aplicação ConnectFit. Com o objetivo de incentivar novos usuários a criar padrões de rotina mais saudáveis e promover a criação de uma comunidade, além de estreitar laços entre praticantes de uma mesma academia. A ConnectFit não é apenas uma ferramenta de acompanhamento de exercícios, mas sim uma comunidade diversa, onde os praticantes de atividade física podem se conectar, compartilhar experiências e se apoiar mutuamente em suas jornadas de condicionamento físico.
 
-Em síntese, a ConnectFit busca diminuir a evasão de novos praticantes e promover um ambiente mais dinâmico dentro dos ambientes voltados à prática de atividades físicas. Dessa forma, pretendemos diminuir o índice de absenteísmo dos clientes/alunos nesses locais, trazendo a esse público alvo a motivação necessária no momento adequado o auxílio e o encorajamento necessário.
+A ConnectFit busca diminuir a evasão de novos praticantes e promover um ambiente mais dinâmico dentro dos ambientes voltados à prática de atividades físicas. Dessa forma, pretendemos diminuir o índice de absenteísmo dos clientes/alunos nesses locais, trazendo a esse público alvo a motivação necessária no momento adequado o auxílio e o encorajamento necessário.
 
 ## Problema
 Com a agitação do dia-a-dia e a rotina desgastante do mundo atual, a prática de atividade física geralmente não é priorizada, o que acarreta no aumento do índice de evasão nos ambientes voltados para saúde e bem-estar.
@@ -15,12 +15,12 @@ A problemática da evasão de praticantes de exercícios físicos em academias e
 
 Diminuir o índice de absenteísmo dos clientes/alunos em ambiente voltado para atividade física, consequentemente promover a saúde e bem-estar através da criação de uma comunidade mais consciente quanto à qualidade de ter uma vida ativa. 
 
-**Como objetivos específicos, podemos destacar**
-> - Aproximar a interação dos profissionais de saúde com o público alvo;
-> - Elucidar a importância da manutenção da prática de atividade física;
-> - Trazer um ambiente, motivacional, educativo que promova bem estar físico e mental.
+**Como objetivos específicos, podemos destacar:**
+> - O Compartilhamento de rotinas;
+> - Postagens de vídeos instrutivos e dicas de profissionais;
+> - Conectar pessoas que buscam uma vida saudável;
+> - Mostrar conteúdos sobre nutrição e bem-estar;
 
-A ConnectFit não se limita a ser apenas uma ferramenta de acompanhamento de exercícios, mas sim uma plataforma que seja abrangente, com a finalidade de promover a saúde e o bem-estar através da criação de uma comunidade mais ativa e solidária. Ao enfrentar os desafios da evasão de praticantes de exercícios físicos de forma inovadora e centrada no usuário, a ConnectFit tem o potencial de fazer uma diferença significativa na promoção de estilos de vida mais ativos e saudáveis.
 
 ## Justificativa
 
