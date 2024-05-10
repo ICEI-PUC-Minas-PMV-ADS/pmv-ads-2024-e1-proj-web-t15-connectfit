@@ -84,6 +84,7 @@ body {
     border-radius: 80px;
     transform: translateY(-10%);
     transition: 0.4s;
+    color: #f9f9f9;
 }
 
 .login .btn {
