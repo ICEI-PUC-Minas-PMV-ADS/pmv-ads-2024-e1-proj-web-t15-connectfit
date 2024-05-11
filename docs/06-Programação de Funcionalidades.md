@@ -2,6 +2,50 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="5-Arquitetura da Solução.md"> Arquitetura da Solução</a>
 
+
+### Home (RF-001)
+
+Responsável: Ana Clara 
+
+O acesso a tela de cadastro poderá ser feito através do botão de "home" das paginas. As estruturas de dados foram baseadas em HTML, CSS e JS.
+
+Exemplo: 
+
+
+![Cadastro](/docs/img/Home.webp)
+
+
+
+#### Requisito atendido
+
+RF-001: A aplicação deve permitir que os usuários se cadastrem.
+RF-002: A aplicação deve permitir ao usuário fazer o login da sua conta.
+
+
+#### Artefatos da funcionalidade
+
+●index.html
+
+●index.css
+
+●index.js
+
+
+#### Estrutura de Dados
+
+●[Cadastro.html](/docs/img/Home.webp)
+
+
+#### Instruções de acesso
+
+Abra um navegador de Internet e informe a seguinte URL: 
+
+Ao acessar a seguinte url, será aberto de imediato a página inicial do site.
+
+<hr>
+
+
+
 ### Tela de Cadastro (RF-001)
 
 Responsável: Melyssa
