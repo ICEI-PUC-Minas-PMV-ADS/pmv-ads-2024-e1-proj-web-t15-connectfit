@@ -8,7 +8,7 @@ Responsável: Melyssa
 
 O acesso a tela de cadastro poderá ser feito através da barra de navegação clicando em “Cadastrar”. As estruturas de dados foram baseadas em HTML, CSS e JS.
 
-Exemplo da tela de cadastro: 
+Exemplo: 
 
 
 ![Cadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-connectfit/blob/773ea17df9a1fd0e9e008bd13305cac8b6ac93d6/docs/img/Cadastro.png)
@@ -44,11 +44,11 @@ Ao clicar em “Cadastar” localizado no canto superior direito da barra de nav
 
 ### Tela de Login (RF-002)
 
-Responsável: Maria
+Responsável: Melyssa
 
 O acesso a tela de login poderá ser feito através da barra de navegação no canta superior direito, ao lado do botão "Cadastrar". As estruturas de dados foram baseadas em HTML, CSS e JS.
 
-Exemplo da tela de login: 
+Exemplo: 
 
 
 ![Pagina-login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-connectfit/blob/9d6d895deda36289578098b4c7e359db525917ba/docs/img/Tela%20Login.png)
@@ -85,7 +85,7 @@ Responsável: Evellyn
 
 As estruturas de dados foram baseadas em HTML, CSS e JS.
 
-Exemplo do filtro de pesquisa na tela de Livros:
+Exemplo:
 
 ![Compartilhamento](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-connectfit/blob/2b6199e314ad3ce53c0431d60bbc1d296160e048/docs/img/redes-sociais.png)
 
@@ -114,5 +114,3 @@ RF-003/ RF-010- A aplicação deve permitir o compartilhamento de posts. & A apl
 4.	 Clique no botão "Rede Social", e você será redirecionado a página de rede social. 
 
 <hr>
-
-
