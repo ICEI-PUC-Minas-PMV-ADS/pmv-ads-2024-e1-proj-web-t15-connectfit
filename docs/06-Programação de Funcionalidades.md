@@ -41,3 +41,41 @@ Abra um navegador de Internet e informe a seguinte URL:
 Ao clicar em “Cadastar” localizado no canto superior direito da barra de navegação, terá acesso a página de cadastro.
 
 <hr>
+
+### Tela de Login (RF-002)
+
+Responsável: Maria
+
+O acesso a tela de login poderá ser feito através da barra de navegação no canta superior direito, ao lado do botão "Cadastrar". As estruturas de dados foram baseadas em HTML, CSS e JS.
+
+Exemplo da tela de login: 
+
+
+![Pagina-login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-connectfit/blob/9d6d895deda36289578098b4c7e359db525917ba/docs/img/Tela%20Login.png)
+
+
+#### Requisito atendido
+
+RF-002: O site deve permitir ao usuário fazer login na sua conta.
+
+#### Artefatos da funcionalidade
+
+●	Login.html 
+
+●	LoginScreen.css
+
+● Login.js
+
+
+#### Estrutura de Dados
+
+●	[Login.html](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-connectfit/blob/9d6d895deda36289578098b4c7e359db525917ba/codigo-fonte/Login.html)
+
+
+#### Instruções de acesso
+
+1.	Abra um navegador de Internet e informe a seguinte URL:
+2.	Ao clicar em “Entrar” no canto superior direito da tela, terá acesso a página de login.
+
+<hr>
+
