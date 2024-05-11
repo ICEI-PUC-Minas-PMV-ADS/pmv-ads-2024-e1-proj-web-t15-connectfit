@@ -74,7 +74,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
 |RF-01| A aplicação deve permitir que os usuários se cadastrem.   | ALTA | 
-|RF-02| A aplicação deve permitir comentários e curtidas em posts.  | ALTA | 
+|RF-02| A aplicação deve permitir ao usuário fazer o login da sua conta.   | ALTA | 
 |RF-03| A aplicação deve permitir o compartilhamento de posts. | ALTA |
 |RF-04| A aplicação deve permitir que o profissional ministre aulas pagas e gratuitas de forma virtual. | MÉDIA |
 |RF-05| A aplicação deve permitir ao usuário fácil conexão com profissionais. | ALTA |
@@ -83,8 +83,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |RF-08| A aplicação deve disponibilizar uma agenda com horários de eventos e compromissos.  | MÉDIA |
 |RF-09| A aplicação deve permitir que o profissional agende aulas.  | MÉDIA |
 |RF-10| A aplicação deve permitir que o usuario recuse solicitações de amizade.  | MÉDIA |
-|RF-11| A aplicação deve permitir ao usuário fazer o login da sua conta.   | ALTA | 
-
+|RF-11| A aplicação deve permitir comentários e curtidas em posts.  | ALTA | 
 **Prioridade: Alta / Média / Baixa.  
 
 ### Requisitos Não Funcionais
