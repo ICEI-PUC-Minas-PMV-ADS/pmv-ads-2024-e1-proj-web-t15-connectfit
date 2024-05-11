@@ -87,7 +87,7 @@ As estruturas de dados foram baseadas em HTML, CSS e JS.
 
 Exemplo do filtro de pesquisa na tela de Livros:
 
-![Compartilhamento]([https://user-images.githubusercontent.com/100447878/173857385-bd1ea51a-2ba7-43e5-ac71-6502b1a13773.png](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-connectfit/blob/5ac5a658bddd7c0af4281146145d1a9333576b83/docs/img/redes-sociais.png))
+![Compartilhamento](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-connectfit/blob/2b6199e314ad3ce53c0431d60bbc1d296160e048/docs/img/redes-sociais.png)
 
 
 #### Requisitos atendidos
