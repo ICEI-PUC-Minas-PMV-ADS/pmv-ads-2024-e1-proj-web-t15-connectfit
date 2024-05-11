@@ -33,7 +33,7 @@ RF-002: A aplicação deve permitir ao usuário fazer o login da sua conta.
 
 #### Estrutura de Dados
 
-●[Cadastro.html](/docs/img/Home.webp)
+●[index.html](/docs/img/Home.webp)
 
 
 #### Instruções de acesso
