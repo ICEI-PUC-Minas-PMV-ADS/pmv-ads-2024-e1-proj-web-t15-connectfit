@@ -84,6 +84,7 @@ body {
     border-radius: 80vh;
     transform: translateY(-10%);
     transition: 0.4s;
+    color: #f9f9f9;
 }
 
 .login .btn {
@@ -117,14 +118,15 @@ body {
     padding: 8px;
     border-radius: 20px;
     width: auto;
-    transform: translateY(-290%) translateX(-80%);
+    transform: translateY(-290%) translateX(250%);
 
 }
 
 
 .login h5 {
+    text-align: center;
     color: #f9f9f9;
-    transform: translateY(-46%) translateX(-30%);
+    transform: translateY(95%) translateX(-30%);
     font-weight: bold;
     font-family: "Merriweather Sans";
     font-size: 11px;
@@ -136,7 +138,7 @@ body {
     padding: 8px;
     border-radius: 20px;
     width: auto;
-    transform: translateY(-435%) translateX(-100%);
+    transform: translateY(-280%) translateX(160%);
 
 }
 
@@ -152,13 +154,23 @@ body {
     text-align: center;
 }
 
+.btn-dark {
+    background-color:rgb(255, 209, 209);
+    color: rgb(255, 97, 0);
+    padding: 2px 80px 2px 80px;
+    font-family: "Merriweather Sans";
+    font-weight: bold;
+    transform: translateX(-0);
+    border-radius: 4px;
+    transition: 0.4s;
+}
 
 /*Responsivo*/
 /*480PX BREAKPOINT*/
 @media (min-width:15em) {
     .login {
         width: 110%;
-        transform: translateY(-100%) translateX(24%);
+        transform: translateY(-100%) translateX(5%);
     }
 }
 

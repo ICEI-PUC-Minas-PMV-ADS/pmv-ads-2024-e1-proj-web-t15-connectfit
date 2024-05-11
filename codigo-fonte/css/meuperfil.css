@@ -203,7 +203,7 @@ a:hover {
 .botaoDados  {
     background-color: #ff6000; /* Cor de fundo */
     color: #454545; /* Cor do texto */
-    padding: 10px 25px; /* Espaçamento interno (vertical, horizontal) */
+    padding: 10px 29px; /* Espaçamento interno (vertical, horizontal) */
     border: none; /* Sem borda */
     border-radius: 15px; /* Cantos arredondados */
     cursor: pointer; /* Cursor de mão ao passar por cima */
@@ -212,6 +212,11 @@ a:hover {
     margin: 15px
     
     
+}
+
+.botaoDados a {
+    color:#454545;
+    text-decoration: none;
 }
 
 .botaoDados:hover {
@@ -231,6 +236,11 @@ a:hover {
 
 }
 
+.botaoAulas a {
+    color:#454545;
+    text-decoration: none;
+}
+
 .botaoAulas:hover {
     background-color: #ffe6c7;
 }
@@ -247,9 +257,36 @@ a:hover {
     margin: 15px;
 }
 
+.botaoProfissionais a {
+    color:#454545;
+    text-decoration: none;
+}
+
 .botaoProfissionais:hover {
     background-color: #ffe6c7;
 }
+
+.botaoRedesocial {
+    background-color: #ff6000; /* Cor de fundo */
+    color: #454545; /* Cor do texto */
+    padding: 10px 29px; /* Espaçamento interno (vertical, horizontal) */
+    border: none; /* Sem borda */
+    border-radius: 15px; /* Cantos arredondados */
+    cursor: pointer; /* Cursor de mão ao passar por cima */
+    font-size: 16px; /* Tamanho do texto */
+    text-align: center;
+    margin: 15px;
+}
+
+.botaoRedesocial a {
+    color:#454545;
+    text-decoration: none;
+}
+
+.botaoRedesocial:hover {
+    background-color: #ffe6c7;
+}
+
 
 footer {
     background-color: #2c231c;

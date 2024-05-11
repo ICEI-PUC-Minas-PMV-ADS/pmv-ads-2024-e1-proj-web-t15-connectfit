@@ -2,11 +2,17 @@
 
 @font-face {
     font-family: "merriweathersansBold";
-    src: url(/fonte/merriweatherSans/MerriweatherSans-Bold.ttf);
+    src: url(../fonte/merriweatherSans/MerriweatherSans-Bold.ttf);
 }
+
+@font-face {
+    font-family: "merriweatherSans";
+    src: url(../fonte/merriweatherSans/MerriweatherSans-Regular.ttf);
+}
+
 @font-face {
     font-family: "worksansExtrabold";
-    src: url(/fonte/workSans/WorkSans-ExtraBold.ttf);
+    src: url(../fonte/workSans/WorkSans-ExtraBold.ttf);
 }
 
 :root {
@@ -14,7 +20,9 @@
     --beige: #FBECD9;
     --black: #2B241C;
     --grey: #454545;
-    --title: "worksansExtrabold"
+    --darkOrange: #FF6000;
+    --title: "worksansExtrabold";
+    --paragraph: "merriweatherSans";
 }
 
 * {
@@ -50,7 +58,7 @@ nav span {
     color: var(--beige);
 }
 
-/* ADICIONAR VIDEO */
+/* BOTÃO ADICIONAR VIDEO */
 
 #addVideo {
     display: flex;
@@ -65,11 +73,20 @@ nav span {
     width: 3.5rem;
     border-radius: 5rem;
     position: relative;
-
+    z-index: 3;
 }
 
 #circleAddVideo:hover {
     cursor: pointer;
+}
+
+#circleOverlay {
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: var(--black);
+    border-radius: 100%;
+    transform: translateX(-3.1rem);
+    z-index: 2;
 }
 
 .stroke {
@@ -78,10 +95,10 @@ nav span {
     height: 0.2rem;
     width: 2.4rem;
     position: absolute;
-    top: 3.9rem ;
+    top: 3.6rem ;
     left: 2.5rem;
     transition: ease-in-out 0.3s;
-    z-index: 1;
+    z-index: 3;
 }
 
 .up{
@@ -89,11 +106,21 @@ nav span {
 }
 
 #menuButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     visibility: hidden;
     background-color: var(--orange);
-    padding: 0 1rem;
-    margin-left: -.4rem;
+    padding: .2rem 2rem;
+    margin-left: -4rem;
     border-radius: 0 3rem 0 0;
+    z-index: 1;
+}
+
+#menuButton a:hover {
+    cursor: pointer;
+    color: var(--grey);
+    font-style: italic;
 }
 
 #menuIcon:hover {
@@ -133,22 +160,105 @@ nav span {
 
 /* CARREGAR VIDEO */
 
+.newVideo i {
+    margin: 1rem 2rem;
+    display: block;
+    text-align: left;
+}
+
+
 .newVideo {
-    display: flex;
-    flex-direction:  column;
+    display: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
     position: fixed;
-    background-color: darkmagenta;
+    background-color: var(--black);
     width: 30vw;
     height: 60vh;
     transform: translate(30vw, 20vh);
-    box-shadow: darkorchid 2rem 2rem,
-    pink -2rem -2rem;
+    box-shadow: rgba(43, 36, 28, .3) 2rem 2rem,
+    rgba(43, 36, 28, .4) -2rem -2rem;
 }
 
-.newVideo {
-
+.newVideo h2 {
+    color: var(--orange);
+    font-family: var(--title);
+    font-style: italic;
+    font-size: 1.5rem;
 }
 
+.newVideo h3, i {
+    color: var(--beige);
+}
+
+
+.newVideo input[type="file"] {
+    position: relative;
+    padding: 2rem;
+    opacity: 0;
+    z-index: 1;
+}
+
+.newVideo .overlayInput{
+    content: "";
+    position: absolute;
+    color: var(--beige);
+    border: var(--beige) .2rem solid;
+    transform: translate(12.5rem, 6rem);
+    top: 0;
+    left: 0;
+    width: 11rem;
+    height: 5rem;
+    opacity: 1;
+}
+
+.overlayInput:hover, input[type="file"] {
+    cursor: pointer;
+}
+
+.overlayInput p {
+    font-size: .7rem;
+    font-family: var(--paragraph);
+}
+
+.questionContainer {
+    margin-top: 2rem;
+    font-family: var(--paragraph);
+}
+
+.question input {
+    background-color: var(--black);
+    color: var(--beige);
+    border: none;
+    border-bottom: .1rem solid var(--beige);
+}
+
+.question input:focus {
+    border: none;
+    border-bottom: .1rem solid var(--orange);
+    outline: none;
+}
+
+.question h3 {
+    text-align: left;
+    margin-left: 30%;
+    transform: translateY(90%);
+    font-size: 1.3rem;
+    transition: .3s ease-in-out;
+}
+
+.newVideo input[type="submit"] {
+    background-color: #FFA559;
+    border: none;
+    font-family: var(--title);
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+}
+
+.newVideo input[type="submit"]:hover {
+    background-color: var(--darkOrange);
+}
 /* SIDEBAR */
 
 #abrir, #fechar {
@@ -170,7 +280,7 @@ nav span {
     right: -100%;
     z-index: 1;
     list-style-type: none;
-    transition: .5s ease-in-out;
+    transition: .4s ease-in-out;
 }
 
 .side-item {
@@ -217,7 +327,8 @@ nav span {
 }
 
 #searchbar:focus {
-    border: none;
+    outline: none;
+    background-color: rgba(251, 236, 217, 0.1);
 }
 
 #searchbarButton {
@@ -233,6 +344,7 @@ nav span {
 #searchbarButton i{
     color: var(--beige);
     background-color: var(--orange);
+    outline: none;
     border: none;
 }
 
@@ -242,32 +354,94 @@ main {
     background-color: var(--beige);
 }
 
+/* BANNER */
+
+.closeVideoBanner:hover {
+    cursor: pointer;
+}
+
+#containerBanner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 2rem;
+}
+
+.banner {
+    flex: 0 0 auto;
+    width: calc((100vw - 70vw) / 2);
+    height: 75vh;
+    background-color: yellow;
+}
+
+.banner:nth-child(2) {
+    flex: 0 1 70vw;
+    margin: 0 30px;
+}
+
+.sideBanner {
+    height: 60vh;
+    opacity: 0.7;
+}
+
+.banner:nth-child(1) {
+    background: url(../img/agendamento-img1.jpg) center/cover;
+}
+
+.banner:nth-child(2) {
+    background: url(../img/agendamento-img2.jpg) center/cover;
+}
+
+.banner:nth-child(3) {
+    background: url(../img/agendamento-img3.jpg) center/cover;
+}
+
+.bannerTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--paragraph);
+    font-size: 1.5rem;
+
+}
+
+.bannerTitle span {
+    font-family: var(--title);
+    color: var(--darkOrange);
+    font-size: 2rem;
+    padding-right: 1rem
+}
 /* CONTAINER  VIDEO*/
 
 .foryou {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: red;
-    color: #FBECD9;
+    color: var(--beige);
     padding: 1rem;
+    margin: 5rem 0;
 }
+
+
 
 .videoFY a {
     text-decoration: none;
-    color: var(--beige);
+    color: var(--black);
 }
 
 .videoFY {
     width: 25vw;
     height: 40vh;
-    background-color: blue;
+    border-radius: 1rem;
+    border: .1px solid var(--black);
 }
 
 .videoFYBanner {
-    background: yellowgreen;
+    background: url("../img/agendamento-img1.jpg") center/cover;
     width: 100%;
     height: 70%;
+    border-radius: 1rem;
 }
 
 .infoFY {
@@ -281,7 +455,7 @@ main {
 }
 
 .roundFY {
-    background-color: purple;
+    background: url("../img/agendamento-img-avatar1.jpg") center/cover;
     border-radius: 100%;
     width: 3rem;
     height: 3rem;
@@ -293,6 +467,7 @@ main {
 
 .orangeBanner {
   background-color: var(--orange);
+  padding: 1rem 3rem;
 }  
 
 .orangeBanner p {
@@ -303,6 +478,7 @@ main {
     font-size: 1.6rem;
     font-style: italic;
     font-weight: bold;
+    line-height: 1rem;
 }
 
 /* CONTAINER VIDEOS AGENDADOS */
@@ -311,8 +487,7 @@ main {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: red;
-    color: #FBECD9;
+    color: var(--black);
     padding: 1rem;
 }
 
@@ -324,11 +499,13 @@ main {
 .videoAgendado {
     width: 25vw;
     height: 40vh;
-    background-color: blue;
+    border-radius: 1rem;
+    border: .1px solid var(--black);
 }
 
 .videoAgendadoBanner {
-    background: yellowgreen;
+    background: url("../img/agendamento-img2.jpg") center/cover;
+    border-radius: 1rem;
     width: 100%;
     height: 70%;
 }
@@ -344,7 +521,7 @@ main {
 }
 
 .roundAgendado {
-    background-color: purple;
+    background: url("../img/agendamento-img-avatar1.jpg") center/cover;
     border-radius: 100%;
     width: 3rem;
     height: 3rem;
@@ -355,7 +532,15 @@ main {
 /* FOOTER */
 
 footer {
+    display: flex;
     background-color: var(--black);
     width: 100vw;
     height: 25vh;
+    color: var(--beige);
+    justify-content: center;
+    align-items: center;
+}
+
+footer div img {
+    margin: 3rem 0;
 }

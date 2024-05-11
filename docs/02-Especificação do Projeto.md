@@ -56,15 +56,16 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`                                             |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|--------------------------------------------------------------------------------|----------------------------------------|
-|Profissional | ministrar aulas virtuais, pagas e gratuitas.  | orientar e melhorar os resultados obtidos com a prática indicada de exercícios. |
-|Praticante/profissional | fazer compartilhamentos sobre minha rotina.  | influenciar outros indivíduos a manterem uma vida saudável. |
-|Praticante/profissional|ter acesso aos compartilhamentos de rotinas alheias. | estabelecer novos vínculos e melhorar a automotivação.   |
-|Praticante/profissional | editar meu perfil.  | ter uma experiência mais agradável e personalizada na plataforma. |
-|Praticante/profissional | cadastrar meu perfil com as minhas necessidades.  | para obter atenção  personalizada e acesso a conteúdos relevantes. |
-|Praticante/profissional | organizar agenda de treinamentos, atividades e eventos.| desenvolver uma rotina regular e consistente de atividades físicas para uma vida mais ativa |
-|Praticante/profissional |receber notificações personalizadas sobre determinados assuntos.  | me manter informado sobre as atualizações e notícias.|
-|Praticante/profissional | poder curtir e comentar em perfis em que nos seguimos mutuamente     | ter relações de amizades dentro da plataforma.|
-
+|Profissional/praticantes | Cadastrar meu perfil com as minhas necessidades  | obter atenção personalizada e acesso a conteúdos relevantes |
+|Praticante/profissional | Poder entrar em seu perfil  | Para ter acesso a novidades fitness | 
+|Profissional| Ministrar aulas virtuais  | orientar e melhorar os resultados dos praticantes   |
+|Praticante/profissional | Fazer compartilhamentos de posts sobre minha rotina  | dar engajamento a conteudos relacionados ao intuito do site  |
+|Praticante/profissional | Ter acesso aos compartilhamentos de rotinas alheias  | ver e acompanhar outros individuos |
+|Profissional | Agendar aulas| repassar e compartilhar conteúdos de forma educativa |
+|Praticante/profissional |Organizar agenda de treinos e eventos  | ter uma rotina consistente de atividades |
+|Praticante/profissional | Receber notificações personalizadas sobre determinados assuntos    | Me manter informado sobre as atualizações e notícias|
+|Praticante/profissional | Poder curtir e comentar em perfis em que nos seguimos mutuamente | ter amigos dentro do site |
+|Praticante | Facilidade na comunicação com especialistas | obter um contato diferenciado e sanar dúvidas |
 
 ## Requisitos
 
@@ -73,33 +74,27 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
 |RF-01| A aplicação deve permitir que os usuários se cadastrem.   | ALTA | 
-|RF-02| A aplicação deve permitir que os usuários criem e editem seus perfis.   | ALTA | 
-|RF-03| A aplicação deve permitir o compartilhamento de posts para que os usuários registrem diariamente suas atividades físicas realizadas e suas experiências.  | ALTA |
-|RF-04| A aplicação deve permitir que o profissional ministre aulas pagas e gratuitas de forma virtual.   | ALTA |
-|RF-05| A aplicação deve permitir ao usuário fácil conexão com profissionais, para obter orientação especializada. | ALTA |
-|RF-06| A aplicação deve permitir o envio de  notificações aos membros sobre eventos e outros avisos relevantes.   | MÉDIA |
-|RF-07| A aplicação deve enviar notifucações personalizadas aos usuários para lembrá-los de seus compromissos agendados.   | MÉDIA |
-|RF-08| A aplicação deve disponibilizar uma agenda com horários de eventos e compromissos.  | BAIXA |
-|RF-09| A aplicação deve permitir que o profissional agende aulas.  | BAIXA |
-|RF-10| A aplicação deve permitir que os usuários comentem em posts de outros usuários.  | MÉDIA |
-|RF-11| A aplicação deve permitir que os usuários curtam e favoritem o que lhe for agradável.  | MÉDIA |
-|RF-12| A aplicação deve permitir que os usuários possam adicionar como amigos outros usuários.   | MÉDIA |
-
+|RF-02| A aplicação deve permitir ao usuário fazer o login da sua conta.   | ALTA | 
+|RF-03| A aplicação deve permitir o compartilhamento de posts. | ALTA |
+|RF-04| A aplicação deve permitir que o profissional ministre aulas pagas e gratuitas de forma virtual. | MÉDIA |
+|RF-05| A aplicação deve permitir ao usuário fácil conexão com profissionais. | ALTA |
+|RF-06| A aplicação deve permitir o envio de  notificações aos membros sobre eventos e outros avisos relevantes.  | MÉDIA |
+|RF-07| A aplicação deve permitir aos usuários acesso ao que outros usuários estão compartilhando.  | ALTA |
+|RF-08| A aplicação deve disponibilizar uma agenda com horários de eventos e compromissos.  | MÉDIA |
+|RF-09| A aplicação deve permitir que o profissional agende aulas.  | MÉDIA |
+|RF-10| A aplicação deve permitir comentários e curtidas em posts.  | ALTA | 
 **Prioridade: Alta / Média / Baixa.  
 
 ### Requisitos Não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-01| A aplicação deve ser responsiva, para que os elementos do projeto se adaptem a diferentes resoluções e dispositivos.  | ALTA | 
-|RNF-02| Desenvolvimento mobile-first, levando em consideração a experiência do usuário e preferência pela utilização de smartphones de maneira ágil no dia a dia | ALTA | 
-|RNF-03| A aplicação deve estar disponibilizada publicamente e compatível com os principais buscadores | ALTA | 
-|RNF-04| Interface amigável, com elementos dispostos de forma acessível e proporcionando uma experiência agradável ao usuário, seguindo boas práticas de SEO e bom senso no desenvolvimento  | BAIXA | 
-|RNF-05| A aplicação deve ser compatível com os principais navegadores web como por exemplo: Opera, Google Chrome, Firefox, Microsoft Edge e Safari.  | ALTA | 
-|RNF-06| Implementar medidas de segurança robustas para proteger as informações pessoais e os dados de saúde dos usuários contra acessos não autorizados ou vazamentos.  | ALTA | 
-|RNF-07| Projetar a plataforma para suportar um grande número de usuários simultâneos e um aumento gradual na base de usuários sem comprometer o desempenho  | ALTA | 
-|RNF-08| Certificar-se de que a aplicação seja acessível para usuários com deficiências visuais, motoras ou cognitivas, seguindo as diretrizes de acessibilidade da web  | MÉDIA | 
-|RNF-09| Garantir que a plataforma esteja disponível 24 horas por dia, 7 dias por semana, com tempo de inatividade mínimo para manutenção programada.  | BAIXA |
+|RNF-01| A aplicação deve ser responsiva, para que os elementos do projeto se adaptem a diferentes resoluções de desktops e smartphones.  | ALTA | 
+|RNF-02| A aplicação deve garantir que o site seja intuitivo proporcionando uma experiência eficiente para os usuários | ALTA | 
+|RNF-03| A aplicação deve ser compatível com os principais navegadores web como o Google Chrome, firefox e Microsoft Edge | ALTA | 
+|RNF-04| A aplicação deve garantir que a plataforma esteja disponível 24/7 com tempo de inatividade para manutenção programada de 10 horas semanais em média  | MÉDIA | 
+|RNF-05| A aplicação deve permitir a criação de uma senha forte com caracteres especiais  | ALTA | 
+
 
 
 **Prioridade: Alta / Média / Baixa.

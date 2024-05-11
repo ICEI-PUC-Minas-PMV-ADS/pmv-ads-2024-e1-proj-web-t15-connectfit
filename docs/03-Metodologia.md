@@ -31,7 +31,7 @@ A fim de obter um processo mais organizado, optamos por utilizar o Github para a
 
 O quadro Kanban desenvolvido pelo grupo pode ser acessado clicando [aqui](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1016/views/2). Abaixo, é possível ver uma representação dele.
 
-![Imagem-quadro-kanbam](/docs/img/backlog%20do%20produto.png)
+![Imagem-quadro-kanbam](/docs/img/Quadrokanban.png)
 Figura 1 - Quadro Kanbam gerenciado pelo grupo.
 
 ## Labels
