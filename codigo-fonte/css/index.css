@@ -364,6 +364,11 @@ li, a
     color: #fff;
     background-color: #06A0BC;
     border-radius: 50px;
+    transition: background-color .350s ease;
+}
+
+.buttonArea a:hover{
+    background-color: #035d6d;
 }
 
 /*Secao de demonstracao de atividades de usuarios*/
@@ -395,15 +400,15 @@ li, a
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    padding: 30px 20px;
+    padding: 0 20px;
+    margin-bottom: 50px;
 }
 
 .itemActivity{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-evenly;
-    padding: 40px 20px;
     margin-bottom: 20px;
     border-radius: 25px;
 }
@@ -412,29 +417,43 @@ li, a
     margin-bottom: 0;
 }
 
-.itemActivity h4{
-    margin-bottom: 15px;
-    font-size: 24px;
-    font-weight: 600;
-    text-align: center;
+.itemActivity .imgActivity img{
+    border-radius: 25px 25px 0 0;
+    max-width: 100%;
+    display: block;
+    height: auto;
 }
 
-.itemActivity p{
+.itemActivity.practitioner p{
     font-size: 18px;
     font-weight: 400;
     text-align: center;
 }
 
 .itemActivity .userId{
-    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 15px;
 }
 
 .itemActivity .userId img{
+    border-radius: 50px;
+    width: 50px;
+}
 
+.itemActivity .userId .itemDescription{
+    margin-left: 20px;    
+}
+.itemActivity .userId h4{
+    font-size: 16px;
+    font-weight: 600;     
 }
 
 .itemActivity .userId span{
-
+    font-size: 13px;
+    font-weight: 400;
 }
 
 .activity.practitioner{
