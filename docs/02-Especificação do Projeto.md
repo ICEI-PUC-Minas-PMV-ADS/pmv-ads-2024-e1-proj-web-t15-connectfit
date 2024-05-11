@@ -83,7 +83,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |RF-08| A aplicação deve disponibilizar uma agenda com horários de eventos e compromissos.  | MÉDIA |
 |RF-09| A aplicação deve permitir que o profissional agende aulas.  | MÉDIA |
 |RF-10| A aplicação deve permitir que o usuario recuse solicitações de amizade.  | MÉDIA |
-
+|RF-11| A aplicação deve permitir ao usuário fazer o login da sua conta.   | ALTA | 
 
 **Prioridade: Alta / Média / Baixa.  
 
