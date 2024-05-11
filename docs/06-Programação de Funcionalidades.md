@@ -79,3 +79,39 @@ RF-002: O site deve permitir ao usuário fazer login na sua conta.
 
 <hr>
 
+### Compartilhamento (RF-003)/ Comentários e curtidas em posts (RF-010)
+
+Responsável: Evellyn
+
+As estruturas de dados foram baseadas em HTML, CSS e JS.
+
+Exemplo do filtro de pesquisa na tela de Livros:
+
+![Compartilhamento]([https://user-images.githubusercontent.com/100447878/173857385-bd1ea51a-2ba7-43e5-ac71-6502b1a13773.png](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-connectfit/blob/5ac5a658bddd7c0af4281146145d1a9333576b83/docs/img/redes-sociais.png))
+
+
+#### Requisitos atendidos
+
+RF-003/ RF-010- A aplicação deve permitir o compartilhamento de posts. & A aplicação deve permitir comentários e curtidas em posts.
+
+
+#### Artefatos da funcionalidade
+
+●	redesocial.html 
+
+●	redesocial.css
+
+
+#### Estrutura de Dados
+
+●[RedeSocial](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-connectfit/blob/5ac5a658bddd7c0af4281146145d1a9333576b83/codigo-fonte/redesocial.html)
+
+
+#### Instruções de acesso
+1.	Abra um navegador de Internet e informe a seguinte URL: 
+2.	Realize o Login.
+3.	Após o login você será redirecionado para a pág "Meu Perfil". 
+4.	 Clique no botão "Rede Social", e você será redirecionado a página de rede social. 
+
+<hr>
+
