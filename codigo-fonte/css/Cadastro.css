@@ -118,7 +118,7 @@ body {
     padding: 8px;
     border-radius: 20px;
     width: auto;
-    transform: translateY(-2%) translateX(55%);
+    transform: translateY(-290%) translateX(250%);
 
 }
 
@@ -138,7 +138,7 @@ body {
     padding: 8px;
     border-radius: 20px;
     width: auto;
-    transform: translateY(-140%) translateX(-178%);
+    transform: translateY(-280%) translateX(160%);
 
 }
 
@@ -154,13 +154,23 @@ body {
     text-align: center;
 }
 
+.btn-dark {
+    background-color:rgb(255, 209, 209);
+    color: rgb(255, 97, 0);
+    padding: 2px 80px 2px 80px;
+    font-family: "Merriweather Sans";
+    font-weight: bold;
+    transform: translateX(-0);
+    border-radius: 4px;
+    transition: 0.4s;
+}
 
 /*Responsivo*/
 /*480PX BREAKPOINT*/
 @media (min-width:15em) {
     .login {
         width: 110%;
-        transform: translateY(-100%) translateX(10%);
+        transform: translateY(-100%) translateX(5%);
     }
 }
 
