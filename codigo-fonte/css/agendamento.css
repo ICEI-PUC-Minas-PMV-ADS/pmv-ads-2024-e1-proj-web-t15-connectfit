@@ -532,7 +532,15 @@ main {
 /* FOOTER */
 
 footer {
+    display: flex;
     background-color: var(--black);
     width: 100vw;
     height: 25vh;
+    color: var(--beige);
+    justify-content: center;
+    align-items: center;
+}
+
+footer div img {
+    margin: 3rem 0;
 }
