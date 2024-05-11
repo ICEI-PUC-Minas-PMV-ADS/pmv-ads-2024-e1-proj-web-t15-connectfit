@@ -30,16 +30,37 @@ Figura 1 - Tela de Login
 
 Exibe informações sobre os profissionais e contato para agendamento de aulas e consultas.
 
-<img src= >
+<img src="/docs/img/profissionais.png">
 
 Figura 2- Tela dos Profissionais
 
-<h3><b>Tela de vizualização do Perfil</b></h3>
+<h3><b>Tela de visualização do Perfil</b></h3>
 
 Exibe as informações sobre o perfil do usuário bem como suas aulas agendadas. 
 
 <img src=https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-connectfit/blob/53b1c73bf9f0d61c383a4541fbe1b8f2dab5b835/docs/img/MeuPerfil.png>
 Figura 3 - Tela do Perfil
+
+<h3><b>Tela de visualização da página principal</b></h3>
+
+Exibe informações gerais sobre a nossa empresa e é a principal forma do usuário acessar páginas de identificação como a de Login e a de senha.
+
+<img src="/docs/img/pag-index.png">
+Figura 4 - Tela da página principal
+
+<h3><b>Tela de arquivos de aulas</b></h3>
+
+Exibe links externos cadastrados por profissionais que redirecionam à aulas que já aconteceram ou que estão acontecendo ao vivo.
+
+<img src="/docs/img/arquivo-aulas.png">
+Figura 5 - Tela da página de arquivos de aula
+
+<h3><b>Tela da página de rede social</b></h3>
+
+Local adequado para o compartilhamento e interação entre profissionais e alunos que utilizam a plataforma.
+
+<img src="/docs/img/rede-social.png">
+Figura 6 - Tela da rede social
 
 <h3><b>Nosso logotipo</b></h3>
 
@@ -47,4 +68,4 @@ Para a criação do logotipo do site foi utilizada pesos de academia e simbolos 
 
 <img src=https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-connectfit/blob/23f498ab3a183354009144b7fc507229157271db/docs/img/Logo.png>
 
-Figura 4 - Logotipo do site
+Figura 7 - Logotipo do site
