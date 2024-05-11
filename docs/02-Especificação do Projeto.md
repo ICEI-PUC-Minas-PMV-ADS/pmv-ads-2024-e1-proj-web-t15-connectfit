@@ -57,7 +57,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`                                             |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|--------------------------------------------------------------------------------|----------------------------------------|
 |Profissional/praticantes | Cadastrar meu perfil com as minhas necessidades  | obter atenção personalizada e acesso a conteúdos relevantes |
-|Praticante/profissional | Poder recusar solicitações de amizades  | Poder recusar solicitações de amizades | 
+|Praticante/profissional | Poder entrar em seu perfil  | Para ter acesso a novidades fitness | 
 |Profissional| Ministrar aulas virtuais  | orientar e melhorar os resultados dos praticantes   |
 |Praticante/profissional | Fazer compartilhamentos de posts sobre minha rotina  | dar engajamento a conteudos relacionados ao intuito do site  |
 |Praticante/profissional | Ter acesso aos compartilhamentos de rotinas alheias  | ver e acompanhar outros individuos |
