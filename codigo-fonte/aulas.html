@@ -17,26 +17,68 @@
           <!-- ADICIONAR VIDEO -->
             <div id="addVideo" onclick="teste()">
                 <input type="checkbox" name="" id="circleAddVideo">
+                <div id="circleOverlay"></div>
                 <div id="strokeUp" class="stroke up"></div>
                 <div class="stroke"></div>
                 <div id="menuButton">
-                    <p><a href="#">Iniciar transmissão</a> | <a href="#">Carregar vídeo</a></p>
+                    <p><a onclick="openLive()">Iniciar transmissão</a> | <a onclick="openUpload()">Carregar vídeo</a></p>
                 </div>
             </div>
 
-            <div id="startLive" class="newVideo">
-              <div id="" onclick="">
+            <!-- UPLOAD DO VIDEO -->
+
+            <div id="uploadVideo" class="newVideo">
+              <div class="closeVideoBanner" onclick="closeUpload()">
                 <i class="fa-solid fa-x"></i>
               </div>
               <h2>CARREGUE SEU VIDEO</h2>
+              <div class="overlayInput">
+                
+                <i class="fa-regular fa-image"></i>
+                <p>ESCOLHA UMA THUMBNAIL</p>
+              </div>
               <input type="file" name="thumbnail" id="">
-              <h3> Título</h3>
-              <input type="text" name="" id="">
-              <h3>Link Drive</h3>
-              <input type="text" name="" id="">
+              <div class="questionContainer">
+                <div class="question">
+                  <h3> Título</h3>
+                  <input type="text" name="" id="" onclick="focusInput()" >
+                </div>
+                <div class="question">
+                  <h3>Link Drive</h3>
+                  <input type="text" name="" id="" onclick="focusInput()">
+                </div>
+              </div>
               <input type="submit" value="POSTAR">
             </div>
-            <!-- <div id="uploadVideo" class="newVideo"></div> -->
+            <!-- INICIAR TRANSMISSÃO -->
+
+            <div id="startLive" class="newVideo">
+              <div class="closeVideoBanner" onclick="closeLive()">
+                <i class="fa-solid fa-x"></i>
+              </div>
+              <h2>INICIE UMA LIVE</h2>
+              <div class="overlayInput">
+                
+                <i class="fa-regular fa-image"></i>
+                <p>ESCOLHA UMA THUMBNAIL</p>
+              </div>
+              <input type="file" name="thumbnail" id="">
+              <div class="questionContainer">
+                <div class="question">
+                  <h3> Título</h3>
+                  <input type="text" name="" id="" onclick="focusInput()">
+                </div>
+                <div class="question">
+                  <h3>Link Drive</h3>
+                  <input type="text" name="" id="" onclick="focusInput()">
+                </div>
+                <div class="question">
+                  <h3>Duração</h3>
+                  <input type="text" name="" id="" onclick="focusInput()">
+                </div>
+            </div>
+              <input type="submit" value="POSTAR">
+            </div>
 
             <h1 id="menuLogo"><span>CONNECT</span>FIT</h1>
 
@@ -54,15 +96,15 @@
 
                 <li class="side-item">
                   <a href="#">
-                    <i class="fa-solid fa-house"></i>
+                    <i class="fa-solid fa-box-archive"></i>
                     <span class="item-description">
-                      Home
+                      Arquivo de aulas
                     </span>
                   </a>
                 </li>
 
                 <li class="side-item">
-                  <a href="#">
+                  <a href="/redesocial.html">
                     <i class="fa-solid fa-user-group"></i>
                     <span class="item-description">
                       Comunidade
@@ -71,7 +113,7 @@
                 </li>
 
                 <li class="side-item">
-                  <a href="#">
+                  <a href="/fisioterapeuta.html">
                     <i class="fa-solid fa-stethoscope"></i>
                     <span class="item-description">
                       Profissionais
@@ -80,7 +122,7 @@
                 </li>
 
                 <li class="side-item">
-                  <a href="#">
+                  <a href="/meuperfil.html">
                     <i class="fa-solid fa-id-card"></i>
                     <span class="item-description">
                       Meu Perfil
@@ -89,7 +131,7 @@
                 </li>
 
                 <li class="side-item">
-                  <a href="#">
+                  <a href="/index.html">
                     <i class="fa-solid fa-right-from-bracket"></i>
                     <span class="item-description">
                       Sair
@@ -111,34 +153,18 @@
     <!-- FIM DO MENU -->
     <!-- BANNERS PRINCIPAIS -->
     <main>
-        <!-- <div class="content-banner">
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img class="d-block w-100" src="/img/agendamento-img1.jpg" alt="First slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="/img/agendamento-img2.jpg" alt="Second slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="/img/agendamento-img3.jpg" alt="Third slide">
-              </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
-        </div> -->
+      <div id="containerBanner">
+        <div class="banner sideBanner">
+        </div>
+        <div class="banner"></div>
+        <div class="banner sideBanner"></div>
+      </div>
+
+      <div class="bannerTitle">
+        <p> <span>JOSHUA, THE BAKER</span> LEVANTAMENTO DE PESO</p>
+      </div>
+      
+      
         <!-- COMPONENTE: VIDEO -->
         <div class="foryou">
 
@@ -206,10 +232,10 @@
 
     </main>
     <footer>
-        <div id="footer-icon"></div>
+      <div>
+        <img src="/img/logo_branco-meuperfil.png" alt="">
+        <p>CONNECTFIT 2024 - Todos os direitos reservados</p>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+      </div>
 </body>
 </html>
