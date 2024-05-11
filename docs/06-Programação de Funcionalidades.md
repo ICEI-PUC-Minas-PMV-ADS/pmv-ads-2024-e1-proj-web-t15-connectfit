@@ -11,7 +11,7 @@ O acesso a tela de cadastro poderá ser feito através da barra de navegação c
 Exemplo da tela de cadastro: 
 
 
-![Cadastro]()
+![Cadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-connectfit/blob/773ea17df9a1fd0e9e008bd13305cac8b6ac93d6/docs/img/Cadastro.png)
 
 
 
@@ -31,7 +31,7 @@ RF-001: A aplicação deve permitir que os usuários se cadastrem.
 
 #### Estrutura de Dados
 
-●[Cadastro.html]()
+●[Cadastro.html](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-connectfit/blob/773ea17df9a1fd0e9e008bd13305cac8b6ac93d6/codigo-fonte/Cadastro.html)
 
 
 #### Instruções de acesso
