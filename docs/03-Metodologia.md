@@ -44,7 +44,9 @@ Cada tarefa possui uma categoria, podendo ser filtrada por meio de labels (etiqu
 - Design (Criação de um modelo preliminar antes do desenvolvimento);
 - Help wanted (Sinalização de um problema que exige maior atenção por parte dos membros do grupo.);
 - Question (Requisição de mais informações para que a tarefa possa ser concluida);
-- Wontfix (Problema cuja solução não será desenvolvida naquele momento).
+- Figma (telas do site/esboços);
+- Testes (testes das paginas sendo feitas);
+
 
 ![Etiquetas](/docs/img/labels.png)
 FIgura 2 - Labels adotadas para o projeto.
