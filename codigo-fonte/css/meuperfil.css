@@ -214,6 +214,11 @@ a:hover {
     
 }
 
+.botaoDados a {
+    color:#454545;
+    text-decoration: none;
+}
+
 .botaoDados:hover {
     background-color: #ffe6c7; /* Cor de fundo ao passar o mouse por cima */
 }
@@ -231,6 +236,11 @@ a:hover {
 
 }
 
+.botaoAulas a {
+    color:#454545;
+    text-decoration: none;
+}
+
 .botaoAulas:hover {
     background-color: #ffe6c7;
 }
@@ -245,6 +255,11 @@ a:hover {
     font-size: 16px; /* Tamanho do texto */
     text-align: center;
     margin: 15px;
+}
+
+.botaoProfissionais a {
+    color:#454545;
+    text-decoration: none;
 }
 
 .botaoProfissionais:hover {
