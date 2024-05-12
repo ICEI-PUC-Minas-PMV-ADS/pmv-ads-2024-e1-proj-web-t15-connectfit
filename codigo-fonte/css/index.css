@@ -189,7 +189,7 @@ li, a
 } 
 
 
-/* O código abaixo foi feito por Jonathan, ainda ajustando para integrar certinho*/
+/* O código abaixo foi escrito por Jonathan, ajustes feitos para integrar certinho*/
 .container{
     position: relative;
     width: 100%;
@@ -417,17 +417,26 @@ li, a
     margin-bottom: 0;
 }
 
-.itemActivity .imgActivity img{
+.itemActivity.pro .imgActivity img{
     border-radius: 25px 25px 0 0;
     max-width: 100%;
     display: block;
     height: auto;
 }
 
-.itemActivity.practitioner p{
+.itemActivity.practitioner h4{
     font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 0 0 0;
+}
+
+.itemActivity.practitioner p{
+    font-size: 16px;
     font-weight: 400;
     text-align: center;
+    padding: 30px 20px 0 20px;
 }
 
 .itemActivity .userId{
@@ -440,13 +449,13 @@ li, a
 
 .itemActivity .userId img{
     border-radius: 50px;
-    width: 50px;
+    width: 45px;
 }
 
 .itemActivity .userId .itemDescription{
     margin-left: 20px;    
 }
-.itemActivity .userId h4{
+.itemActivity .userId h5{
     font-size: 16px;
     font-weight: 600;     
 }
@@ -454,10 +463,6 @@ li, a
 .itemActivity .userId span{
     font-size: 13px;
     font-weight: 400;
-}
-
-.activity.practitioner{
-
 }
 
 .itemActivity.practitioner{
@@ -472,10 +477,6 @@ li, a
     background-color: #FFA559;
 }
 
-.sectionActivities .buttonArea{
-    
-}
-
 @media only screen and (min-width:768px){
     .listActivities{
         flex-direction: row;
@@ -486,12 +487,6 @@ li, a
     }
 }
 
-.sectionBannerFooter{
-    
-}
-
-.sectionBannerFooter picture{
-}
 .sectionBannerFooter picture source{
     max-width: 100%;
     display: block;
