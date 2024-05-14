@@ -1,7 +1,7 @@
 # Apresentação da Solução
 
 1. Apresentação em Slides:
-[Apresentação - ConnectFit.pdf] ()
+● [Apresentação - ConnectFit.pdf](ConnectFit.pdf)
 
 2. Vídeo de apresentação do projeto:
 
