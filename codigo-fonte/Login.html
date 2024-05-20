@@ -30,11 +30,11 @@
               <div>
                 <h2>Email:</h2>
               </div>
-              <input type="text" class="campos" placeholder="E-mail ou nome de usuário" name="email">
+              <input type="email" class="campos" placeholder="E-mail ou nome de usuário" name="email" required>
             </label>
             <label>
               <h3>Senha:</h3>
-              <input type="password" class="campos" placeholder="Senha" name="senha">
+              <input type="password" class="campos" placeholder="Senha" name="senha" required>
               <a href="#" class="fade_4S" title="Esqueci minha senha" data-bs-toggle="modal"
                 data-bs-target="#exampleModal"><i></i>Esqueci minha senha</a>
             </label>
@@ -68,7 +68,7 @@
           <form>
             <div class="mb-3">
               <label for="recipient-name" class="col-form-label">Redefinir senha:</label>
-              <input type="text" class="form-control" id="recipient-name" placeholder="E-mail">
+              <input type="email" class="form-control" id="recipient-name" placeholder="E-mail">
             </div>
           </form>
         </div>
@@ -84,23 +84,20 @@
     document.getElementById("loginForm").addEventListener("submit", function (event) {
       event.preventDefault(); // Impede o envio do formulário
 
-      // Objeto com os dados do usuário
-      const userData = {
-        email: "usuario@example.com",
-        senha: "minhaSenha123"
-      };
-
       // Obtém os valores de entrada do usuário
       const email = document.querySelector("[name=email]").value;
       const senha = document.querySelector("[name=senha]").value;
 
-      // Verifica se as credenciais estão corretas
-      if (email === userData.email && senha === userData.senha) {
+      // Obtém os dados do usuário do localStorage
+      const user = JSON.parse(localStorage.getItem('user'));
+
+      // Verifica se o usuário existe e as credenciais estão corretas
+      if (user && user.email === email && user.senha === senha) {
         // Redireciona para a página "meuPerfil.html"
         window.location.href = "meuPerfil.html";
       } else {
         // Exibe mensagem de erro
-        alert("Credenciais inválidas. Tente novamente.");
+        alert("E-mail ou senha incorretos. Tente novamente.");
       }
     });
   </script>

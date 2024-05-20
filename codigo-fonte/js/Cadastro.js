@@ -1,31 +1,22 @@
-const exampleModal = document.getElementById('exampleModal')
-exampleModal.addEventListener('show.bs.modal', event => {
-    // Button that triggered the modal
-    const button = event.relatedTarget
-    // Extract info from data-bs-* attributes
-    const recipient = button.getAttribute('data-bs-whatever')
-    // If necessary, you could initiate an AJAX request here
-    // and then do the updating in a callback.
-    //
-    // Update the modal's content.
-    const modalTitle = exampleModal.querySelector('.modal-title')
-    const modalBodyInput = exampleModal.querySelector('.modal-body input')
+function registerUser(event) {
+    event.preventDefault(); // Evita o envio do formulário
 
-    modalTitle.textContent = `New message to ${recipient}`
-    modalBodyInput.value = recipient
-})
+    const nome = document.forms['register']['nome'].value;
+    const nomeExibicao = document.forms['register']['nomeExibicao'].value;
+    const email = document.forms['register']['email'].value;
+    const senha = document.forms['register']['senha'].value;
 
-// Seleciona o botão com a classe .btn-primary
-const btnPrimary = document.querySelector('.btn-primary');
+    // Cria um objeto com os dados do usuário
+    const user = {
+        nome: nome,
+        nomeExibicao: nomeExibicao,
+        email: email,
+        senha: senha
+    };
 
-// Adiciona um ouvinte de evento para o clique no botão
-btnPrimary.addEventListener('click', function () {
-    // Verifica se o botão tem a classe 'active'
-    if (this.classList.contains('active')) {
-        // Remove a classe 'active' para restaurar a cor inicial
-        this.classList.remove('active');
-    } else {
-        // Adiciona a classe 'active' para definir a cor desejada
-        this.classList.add('active');
-    }
-});
+    // Converte o objeto para uma string JSON e armazena no localStorage
+    localStorage.setItem('user', JSON.stringify(user));
+
+    // Redireciona para a página "meuperfil.html"
+    window.location.href = "meuperfil.html";
+}
