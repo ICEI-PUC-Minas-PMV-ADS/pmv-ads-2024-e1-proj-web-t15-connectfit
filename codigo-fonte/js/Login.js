@@ -13,7 +13,7 @@ exampleModal.addEventListener('show.bs.modal', event => {
 
   modalTitle.textContent = `New message to ${recipient}`
   modalBodyInput.value = recipient
-})
+});
 
 // Captura o modal
 const exampleModal = document.getElementById('exampleModal');
