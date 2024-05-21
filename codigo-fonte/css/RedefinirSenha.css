@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+
+body {
+    background-image: url(/codigo-fonte/img/background-login.jpeg);
+    background-size:cover ;
+    background-position: unset;
+    background-repeat: no-repeat;
+    width: 80vw;
+    height: 110vh;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    position:relative;
+}
