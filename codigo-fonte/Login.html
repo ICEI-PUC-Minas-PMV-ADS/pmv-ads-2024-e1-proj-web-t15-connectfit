@@ -16,6 +16,10 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
     crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script>
+    emailjs.init('nxt-7T9RFOg1xtCRf'); // User ID do EmailJS
+  </script>
 
   <!-- Seção do formulário de login -->
   <div class="container">
@@ -94,10 +98,29 @@
       // Verifica se o usuário existe e as credenciais estão corretas
       if (user && user.email === email && user.senha === senha) {
         // Redireciona para a página "meuPerfil.html"
-        window.location.href = "meuPerfil.html";
+        window.location.href = "meuperfil.html";
       } else {
         // Exibe mensagem de erro
         alert("E-mail ou senha incorretos. Tente novamente.");
+      }
+    });
+
+    // Função para enviar email de redefinição de senha
+    document.querySelector('#exampleModal .btn-secondary').addEventListener('click', function () {
+      const email = document.getElementById('recipient-name').value;
+
+      if (email) {
+        emailjs.send('service_fyudh0i', 'template_v8eeosl', {
+          to_email: email,
+          message: 'Clique no link para redefinir sua senha: <a href="link-de-redefinicao">Redefinir Senha</a>'
+        })
+        .then(function(response) {
+          alert('Email de redefinição de senha enviado com sucesso.');
+        }, function(error) {
+          alert('Erro ao enviar email de redefinição de senha. Tente novamente mais tarde.');
+        });
+      } else {
+        alert('Por favor, preencha o campo de email.');
       }
     });
   </script>
