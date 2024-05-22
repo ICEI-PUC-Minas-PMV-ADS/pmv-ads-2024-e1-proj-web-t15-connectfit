@@ -1,0 +1,36 @@
+:root {
+    --orange: #FFA559;
+    --grey: #454545;
+    --black: #2B241C;
+    --beige: #FBECD9;
+}
+
+#side_items {
+    position: fixed;
+    background-color: var(--grey);
+    height: 100vh;
+    width: 22vw;
+    top: 0;
+    padding: 2rem;
+    right: -100%;
+    z-index: 1;
+    list-style-type: none;
+    transition: .4s ease-in-out;
+}
+
+.side-item {
+    padding: 1rem;
+}
+
+.side-item i, .side-item .item-description {
+    color: var(--beige);
+}
+
+.side-item:hover {
+    background-color: var(--orange);
+    color: var(--black);
+}
+
+.side-item a {
+    text-decoration: none;
+}

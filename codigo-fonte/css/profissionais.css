@@ -74,3 +74,36 @@
     border: none;
     border-radius: 8px;
 }
+
+.profissoes {
+    display: grid;
+    gap: 24px;
+    padding: 16px 24px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.botao-profissao {
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    text-decoration: none;
+    flex-direction: column;
+    background-color: #ffedd0;
+}
+
+.botao-profissao .icone-barra-lateral {
+    padding: 8px;
+}
+
+.botao-profissao .texto {
+    width: 100%;
+    padding: 6px;
+    color: #6b2800;
+    text-align: center;
+    border-radius: 0 0 5px 5px;
+    background-color: #ffa662;
+}
+
+.icone-barra-lateral {
+    width: 72px;
+}
