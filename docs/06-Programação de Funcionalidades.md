@@ -229,7 +229,7 @@ RF-004: A aplicação deve permitir que o profissional ministre aulas pagas e gr
 
 #### Estrutura de Dados
 
-●[index.html](/docs/img/aulas.png)
+●[aulas.html](/docs/img/aulas.png)
 
 
 #### Instruções de acesso
