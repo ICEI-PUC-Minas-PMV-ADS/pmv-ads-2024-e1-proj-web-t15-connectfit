@@ -46,7 +46,7 @@ Ao acessar a seguinte url, será aberto de imediato a página inicial do site.
 
 
 
-### Tela de Cadastro (RF-001)
+### Tela de Cadastro (RF-002)
 
 Responsável: Melyssa
 
@@ -86,7 +86,7 @@ Ao clicar em “Cadastar” localizado no canto superior direito da barra de nav
 
 <hr>
 
-### Tela de Login (RF-002)
+### Tela de Login (RF-003)
 
 Responsável: Melyssa
 
@@ -123,7 +123,7 @@ RF-002: O site deve permitir ao usuário fazer login na sua conta.
 
 <hr>
 
-### Compartilhamento (RF-003)/ Comentários e curtidas em posts (RF-010)
+### Compartilhamento (RF-004)/ Comentários e curtidas em posts (RF-010)
 
 Responsável: Evellyn
 
@@ -159,7 +159,7 @@ RF-003/ RF-010- A aplicação deve permitir o compartilhamento de posts. & A apl
 
 <hr>
 
-### Tela de meu perfil (RF-001)
+### Tela de meu perfil (RF-005)
 
 Responsável: Nasson 
 
@@ -190,6 +190,46 @@ RF-002: A aplicação deve permitir ao usuário fazer o login da sua conta.
 #### Estrutura de Dados
 
 ●[meuperfil.html](/docs/img/MeuPerfil.png)
+
+
+#### Instruções de acesso
+
+Abra um navegador de Internet e informe a seguinte URL: 
+
+Ao acessar a seguinte url, será aberto de imediato a página inicial do site.
+
+<hr>
+
+### tela de Aulas (RF-006)
+
+Responsável: Danielle
+
+O acesso a tela de aulas poderá ser feito através do botão de "aulas" no menu das páginas. As estruturas de dados foram baseadas em HTML, CSS e JS.
+
+Exemplo: 
+
+
+![Aulas](/docs/img/aulas.png)
+
+
+
+#### Requisito atendido
+
+RF-004: A aplicação deve permitir que o profissional ministre aulas pagas e gratuitas de forma virtual.
+
+
+#### Artefatos da funcionalidade
+
+●aulas.html
+
+●menu.css
+
+●menu.js
+
+
+#### Estrutura de Dados
+
+●[index.html](/docs/img/aulas.png)
 
 
 #### Instruções de acesso
