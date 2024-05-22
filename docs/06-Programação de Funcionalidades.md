@@ -158,3 +158,44 @@ RF-003/ RF-010- A aplicação deve permitir o compartilhamento de posts. & A apl
 4.	 Clique no botão "Rede Social", e você será redirecionado a página de rede social. 
 
 <hr>
+
+### Tela de meu perfil (RF-001)
+
+Responsável: Nasson 
+
+O acesso a tela de mwu perfil poderá ser feito através do botão de "meu perfil" no menu das páginas. As estruturas de dados foram baseadas em HTML, CSS e JS.
+
+Exemplo: 
+
+
+![Meu Perfil](/docs/img/MeuPerfil.png)
+
+
+
+#### Requisito atendido
+
+RF-001: A aplicação deve permitir que os usuários se cadastrem.
+RF-002: A aplicação deve permitir ao usuário fazer o login da sua conta.
+
+
+#### Artefatos da funcionalidade
+
+●meuperfil.html
+
+●meuperfil.css
+
+●meuperfil.js
+
+
+#### Estrutura de Dados
+
+●[meuperfil.html](/docs/img/MeuPerfil.png)
+
+
+#### Instruções de acesso
+
+Abra um navegador de Internet e informe a seguinte URL: 
+
+Ao acessar a seguinte url, será aberto de imediato a página inicial do site.
+
+<hr>
