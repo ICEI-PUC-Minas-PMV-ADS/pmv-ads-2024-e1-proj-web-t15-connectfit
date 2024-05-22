@@ -270,40 +270,6 @@ nav span {
     cursor: pointer;
 }
 
-#side_items {
-    position: fixed;
-    background-color: var(--grey);
-    height: 100vh;
-    width: 20vw;
-    top: 0;
-    padding: 2rem;
-    right: -100%;
-    z-index: 1;
-    list-style-type: none;
-    transition: .4s ease-in-out;
-}
-
-.side-item {
-    padding: 2rem;
-    
-}
-
-.side-item i {
-    color: var(--beige);
-}
-
-.side-item:hover {
-    background-color: var(--orange);
-    color: var(--black);
-}
-
-.side-item a {
-    text-decoration: none;
-
-}
-
-
-
 /* SEARCHBOX*/
 
 #searchbarContainer {
