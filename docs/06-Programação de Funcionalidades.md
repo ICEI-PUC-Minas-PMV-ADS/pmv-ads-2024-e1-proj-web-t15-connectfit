@@ -5,7 +5,7 @@
 
 ### Home (RF-001)
 
-Responsável: Ana Clara 
+Responsável: Ana Clara e Jonathan
 
 O acesso a tela de cadastro poderá ser feito através do botão de "home" das paginas. As estruturas de dados foram baseadas em HTML, CSS e JS.
 
@@ -33,7 +33,7 @@ RF-002: A aplicação deve permitir ao usuário fazer o login da sua conta.
 
 #### Estrutura de Dados
 
-●[index.html](/docs/img/Home.webp)
+●[index.html](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-connectfit/blob/5ac5a658bddd7c0af4281146145d1a9333576b83/codigo-fonte/index.html))
 
 
 #### Instruções de acesso
@@ -189,7 +189,7 @@ RF-002: A aplicação deve permitir ao usuário fazer o login da sua conta.
 
 #### Estrutura de Dados
 
-●[meuperfil.html](/docs/img/MeuPerfil.png)
+●[meuperfil.html](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-connectfit/blob/5ac5a658bddd7c0af4281146145d1a9333576b83/codigo-fonte/meuperfil.html))
 
 
 #### Instruções de acesso
@@ -229,7 +229,7 @@ RF-004: A aplicação deve permitir que o profissional ministre aulas pagas e gr
 
 #### Estrutura de Dados
 
-●[aulas.html](/docs/img/aulas.png)
+●[aulas.html](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-connectfit/blob/5ac5a658bddd7c0af4281146145d1a9333576b83/codigo-fonte/aulas.html))
 
 
 #### Instruções de acesso
