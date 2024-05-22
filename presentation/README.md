@@ -3,13 +3,13 @@
 1. Apresentação em Slides:
 ● [Apresentação - ConnectFit.pdf](ApresentaçãoConnectFit.pdf)
 
-2. Vídeo de apresentação do projeto:
+<br>
 
+2. Vídeo de apresentação do site:
 
 <br>
 
 3. Vídeo de apresentação das funcionalidades:
-git add
 
 <br>
 
