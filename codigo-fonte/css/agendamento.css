@@ -205,7 +205,7 @@ nav span {
     position: absolute;
     color: var(--beige);
     border: var(--beige) .2rem solid;
-    transform: translate(12.5rem, 6rem);
+    transform: translate(12rem, 6rem);
     top: 0;
     left: 0;
     width: 11rem;
@@ -314,6 +314,33 @@ nav span {
     border: none;
 }
 
+/* CONTROL BAR */
+
+.controlbarContainer {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem 0;
+}
+
+.controlbarContainer h3 {
+    font-family: var(--title);
+}
+
+.controlbarContainer h3:hover {
+    cursor: pointer;
+}
+
+.controlbarContainer h3:first-child {
+    color: var(--darkOrange);
+}
+
+.underline {
+    width: 15%;
+    height: .3rem;
+    background-color: var(--orange);
+    transform: translateX(17vw);
+    transition: ease-in-out .5s;
+}
 /* MAIN */
 
 main {
@@ -510,3 +537,16 @@ footer {
 footer div img {
     margin: 3rem 0;
 }
+
+#main2 {
+    display: none;
+}
+
+/* RESPONSIVIDADE */
+
+@media (min-width: 767px) and (max-width: 1000px) {
+    .newVideo .overlayInput{
+        transform: translate(4rem, 6rem);
+    }
+}
+
