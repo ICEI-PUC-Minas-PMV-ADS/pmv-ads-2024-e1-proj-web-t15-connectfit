@@ -64,3 +64,21 @@ function saveProfileData() {
     localStorage.setItem('celular', celular);
     localStorage.setItem('prestador', prestador);
 }
+
+function loadProfileData() {
+    const login = localStorage.getItem('login');
+    const nome = localStorage.getItem('nome');
+    const birthdate = localStorage.getItem('birthdate');
+    const telefone = localStorage.getItem('telefone');
+    const celular = localStorage.getItem('celular');
+    const prestador = localStorage.getItem('prestador');
+    const profileImg = localStorage.getItem('profileImg');
+
+    if (login) document.getElementById('login').value = login;
+    if (nome) document.getElementById('nome').value = nome;
+    if (birthdate) document.getElementById('birthdate').value = birthdate;
+    if (telefone) document.getElementById('telefone').value = telefone;
+    if (celular) document.getElementById('celular').value = celular;
+    if (prestador) document.getElementById('prestador').value = prestador;
+    if (profileImg) document.getElementById('profile-img').src = profileImg;
+}
