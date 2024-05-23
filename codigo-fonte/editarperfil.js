@@ -42,9 +42,9 @@ document.addEventListener('DOMContentLoaded', function() {
         if (novaSenha === confirmarSenha) {
             alert('Senha alterada com sucesso!');
             document.getElementById('modal-alterar-senha').style.display = 'none';
-            localStorage.setItem('password', novaSenha); // Salvando a senha no localStorage (para fins de exemplo)
+            localStorage.setItem('password', novaSenha);
         } else {
-            alert('As senhas não coincidem. Por favor, tente novamente.');
+            alert('As senhas não coincidem!');
         }
     });
 });
@@ -56,6 +56,7 @@ function saveProfileData() {
     const telefone = document.getElementById('telefone').value;
     const celular = document.getElementById('celular').value;
     const prestador = document.getElementById('prestador').value;
+    const about = document.getElementById('about').value;
 
     localStorage.setItem('login', login);
     localStorage.setItem('nome', nome);
@@ -63,6 +64,12 @@ function saveProfileData() {
     localStorage.setItem('telefone', telefone);
     localStorage.setItem('celular', celular);
     localStorage.setItem('prestador', prestador);
+    localStorage.setItem('about', about);
+
+    const profileImg = document.getElementById('profile-img').src;
+    if (profileImg) {
+        localStorage.setItem('profileImg', profileImg);
+    }
 }
 
 function loadProfileData() {
@@ -72,13 +79,31 @@ function loadProfileData() {
     const telefone = localStorage.getItem('telefone');
     const celular = localStorage.getItem('celular');
     const prestador = localStorage.getItem('prestador');
+    const about = localStorage.getItem('about');
     const profileImg = localStorage.getItem('profileImg');
 
-    if (login) document.getElementById('login').value = login;
-    if (nome) document.getElementById('nome').value = nome;
-    if (birthdate) document.getElementById('birthdate').value = birthdate;
-    if (telefone) document.getElementById('telefone').value = telefone;
-    if (celular) document.getElementById('celular').value = celular;
-    if (prestador) document.getElementById('prestador').value = prestador;
-    if (profileImg) document.getElementById('profile-img').src = profileImg;
+    if (login) {
+        document.getElementById('login').value = login;
+    }
+    if (nome) {
+        document.getElementById('nome').value = nome;
+    }
+    if (birthdate) {
+        document.getElementById('birthdate').value = birthdate;
+    }
+    if (telefone) {
+        document.getElementById('telefone').value = telefone;
+    }
+    if (celular) {
+        document.getElementById('celular').value = celular;
+    }
+    if (prestador) {
+        document.getElementById('prestador').value = prestador;
+    }
+    if (about) {
+        document.getElementById('about').value = about;
+    }
+    if (profileImg) {
+        document.getElementById('profile-img').src = profileImg;
+    }
 }
