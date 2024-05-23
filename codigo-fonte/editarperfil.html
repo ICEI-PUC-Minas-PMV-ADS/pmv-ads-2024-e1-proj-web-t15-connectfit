@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Ediçao do Perfil</title>
+        <link rel="shortcut icon" type="image/x-icon" href="/codigo-fonte/img/Logoicon.ico">
+        <meta charset="utf-8">
+        <meta name="description" content="Pagina de edição do Perfil do Usuário">
+        <meta name="keywords" content="edição perfil do usuário, edição perfil profissionais, perfil usuário, meus dados, minhas aulas, connectfit">
+        <meta name="author" content="Nasson Freitas de Paula">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/meuperfil.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">     
+        <script src="/codigo-fonte/js/meuperfil.js" defer></script>
+    </head>
+    <body>
+        <div class="profile-container">
+            <h2>Meu Perfil</h2>
+            <div class="profile-section">
+                <div class="profile-picture">
+                    <img id="profile-img" src="profile-picture.jpg" alt="Profile Picture">
+                    <label for="upload-photo" class="upload-button">Carregar Foto</label>
+                    <input type="file" id="upload-photo" accept="image/*" style="display: none;">
+                </div>
+                <form id="profile-form">
+                    <div class="form-group">
+                        <label for="login">Login*</label>
+                        <input type="email" id="login" name="login" value="karyna@shosp.com.br" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="nome">Nome*</label>
+                        <input type="text" id="nome" name="nome" value="GISELE" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="birthdate">Data de Nascimento</label>
+                        <input type="date" id="birthdate" name="birthdate" value="2019-09-04">
+                    </div>
+                    <div class="form-group">
+                        <label for="telefone">Telefone</label>
+                        <input type="tel" id="telefone" name="telefone" value="(21) 3215-8788">
+                    </div>
+                    <div class="form-group">
+                        <label for="celular">Celular</label>
+                        <input type="tel" id="celular" name="celular" value="(21) 98664-8888">
+                    </div>
+                    <div class="form-group">
+                        <label for="prestador">Prestador</label>
+                        <select id="prestador" name="prestador">
+                            <option value="nao">NÃO É PRESTADOR</option>
+                            <option value="sim">É PRESTADOR</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <button type="button" id="alterar-senha">Alterar senha</button>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit">Salvar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
