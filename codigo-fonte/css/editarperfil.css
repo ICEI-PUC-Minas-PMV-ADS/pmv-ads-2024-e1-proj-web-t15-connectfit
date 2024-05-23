@@ -64,6 +64,12 @@ body {
     margin-bottom: 5px;
     font-weight: bold;
 }
+.form-group input, .form-group select, .form-group textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
 
 .form-group input, .form-group select {
     width: calc(100% - 20px);
