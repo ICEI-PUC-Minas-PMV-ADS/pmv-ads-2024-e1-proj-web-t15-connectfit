@@ -78,6 +78,10 @@ body {
     border-radius: 4px;
 }
 
+.form-group textarea {
+    resize: vertical;
+}
+
 #alterar-senha, .form-group button[type="submit"] {
     background-color: #007bff;
     color: white;
