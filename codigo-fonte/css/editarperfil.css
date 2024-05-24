@@ -152,8 +152,8 @@ body {
     margin-bottom: 20px;
     font-size: 35px;
     color: #454545;
-    font-family: sans-serif;
-    font-weight:bold;
+    font-family: merriweather;
+    font-weight: bolder;
     
     
     
@@ -181,15 +181,16 @@ body {
     display: block;
     margin-top: 10px;
     padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
+    background-color: #ff6000;
+    color: #454545;
     text-align: center;
-    border-radius: 4px;
+    border-radius: 15px;
     cursor: pointer;
+    font-weight: bold;
 }
 
 .upload-button:hover {
-    background-color: #0056b3;
+    background-color: #ffa559;
 }
 
 .form-group {
@@ -223,17 +224,18 @@ body {
 }
 
 #alterar-senha, .form-group button[type="submit"] {
-    background-color: #007bff;
-    color: white;
+    background-color: #ff6000;
+    color: #454545;
     border: none;
     padding: 10px 20px;
-    border-radius: 4px;
+    border-radius: 15px;
     cursor: pointer;
     width: calc(100% - 20px);
+    font-weight: bold;
 }
 
 #alterar-senha:hover, .form-group button[type="submit"]:hover {
-    background-color: #0056b3;
+    background-color: #ffa559;
 }
 
 .form-group button[type="button"] {
