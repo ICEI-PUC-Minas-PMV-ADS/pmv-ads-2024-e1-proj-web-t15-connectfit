@@ -122,6 +122,9 @@ a:hover {
     color:#ff6000;
 }
 
+
+
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -265,3 +268,28 @@ body {
     text-decoration: none;
     cursor: pointer;
 }
+
+
+footer {
+    background-color: #2c231c;
+    padding: 30px;
+    
+}
+.rodape {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color:white;
+        padding: 0;
+        margin: 0;
+            
+    }
+    
+     
+    #logo-rodape {
+        display: block;
+        height: 100x;
+        width: 150px;
+        margin: 0;
+        padding: 10px;
+
