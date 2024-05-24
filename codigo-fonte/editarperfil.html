@@ -1,103 +1,107 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <title>Ediçao do Perfil</title>
-        <link rel="shortcut icon" type="image/x-icon" href="/codigo-fonte/img/Logoicon.ico">
-        <meta charset="utf-8">
-        <meta name="description" content="Pagina de edição do Perfil do Usuário">
-        <meta name="keywords" content="edição perfil do usuário, edição perfil profissionais, perfil usuário, meus dados, minhas aulas, connectfit">
-        <meta name="author" content="Nasson Freitas de Paula">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/editarperfil.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">     
-        <!--<script src="/codigo-fonte/js/meuperfil.js" defer></script>-->
-    </head>
-    <header class="cabecalho">
-
-        <div class="pesquisa">
-
-            <!-- <span><a href="/"><img id="ps" src="lupa.png" alt="Pesquisa"></a></span> -->
-            
-        </div>
-
-        <div class="logoPrincipal">
+<head>
+    <title>Edição do Perfil</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/codigo-fonte/img/Logoicon.ico">
+    <meta charset="utf-8">
+    <meta name="description" content="Pagina de edição do Perfil do Usuário">
+    <meta name="keywords" content="edição perfil do usuário, edição perfil profissionais, perfil usuário, meus dados, minhas aulas, connectfit">
+    <meta name="author" content="Nasson Freitas de Paula">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/editarperfil.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">     
+    <!--<script src="/codigo-fonte/js/meuperfil.js" defer></script>-->
+</head>
+<header class="cabecalho">
+    <div class="pesquisa">
+        <!-- <span><a href="/"><img id="ps" src="lupa.png" alt="Pesquisa"></a></span> -->
+    </div>
+    <div class="logoPrincipal">
         <span id="logo">Connect<span id="logo2">Fit</span></span>
+    </div>
+    <nav class="navbar">
+        <ul class="menu" id="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Login.html">Login</a></li>
+            <li><a href="redesocial.html">Serviços</a></li>
+            <li><a href="meuperfil.html">Meu Perfil</a></li>
+        </ul>
+        <div class="hamburguer-menu" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
         </div>
-                     
-        <nav class="navbar">
-            <ul class="menu" id="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="Login.html">Login</a></li>
-                <li><a href="redesocial.html">Serviços</a></li>
-                <li><a href="index.html">Contato</a></li>
-            </ul>
-            <div class="hamburguer-menu" onclick="toggleMenu()">
-                <div class="bar"></div>
-                <div class="bar"></div>
-                <div class="bar"></div>
+    </nav>
+</header>
+<body>
+    <div class="profile-container">
+        <h2>Meu Perfil</h2>
+        <div class="profile-section">
+            <div class="profile-picture">
+                <img id="profile-img" src="profile-picture.jpg" alt="Sua Foto">
+                <label for="upload-photo" class="upload-button">Carregar Foto</label>
+                <input type="file" id="upload-photo" accept="image/*" style="display: none;">
             </div>
-            
-        </nav>
-            
-    </header>
-    <body>
-        <div class="profile-container">
-            <h2>Meu Perfil</h2>
-            <div class="profile-section">
-                <div class="profile-picture">
-                    <img id="profile-img" src="profile-picture.jpg" alt="Profile Picture">
-                    <label for="upload-photo" class="upload-button">Carregar Foto</label>
-                    <input type="file" id="upload-photo" accept="image/*" style="display: none;">
+            <form id="profile-form">
+                <div class="form-group">
+                    <label for="login">Login*</label>
+                    <input type="email" id="login" name="login" value="" placeholder="nome@perfil.com.br" required>
                 </div>
-                <form id="profile-form">
-                    <div class="form-group">
-                        <label for="login">Login*</label>
-                        <input type="email" id="login" name="login" value="" placeholder="nome@perfil.com.br" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="nome">Nome*</label>
-                        <input type="text" id="nome" name="nome" value="" placeholder="Seu nome" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="birthdate">Data de Nascimento</label>
-                        <input type="date" id="birthdate" name="birthdate" value="" placeholder="2019-09-04">
-                    </div>
-                    <div class="form-group">
-                        <label for="telefone">Telefone</label>
-                        <input type="tel" id="telefone" name="telefone" value="" placeholder="(33) 3322-1100">
-                    </div>
-                    <div class="form-group">
-                        <label for="celular">Celular</label>
-                        <input type="tel" id="celular" name="celular" value="" placeholder="(33) 98664-8888">
-                    </div>
-                    <div class="form-group">
-                        <label for="prestador">Profissional da Saúde</label>
-                        <select id="prestador" name="prestador">
-                            <option value="nao">NÃO</option>
-                            <option value="sim">SIM</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="about">Sobre Mim</label>
-                        <textarea id="about" name="about" rows="4" placeholder="Escreva algo sobre você..."></textarea>
-                    </div>
-                    <div class="form-group">
-                        <button type="button" id="alterar-senha">Alterar senha</button>
-                    </div>
-                    <div class="form-group">
-                        <button type="submit">Salvar</button>
-                    </div>
-                </form>
-            </div>
+                <div class="form-group">
+                    <label for="nome">Nome*</label>
+                    <input type="text" id="nome" name="nome" value="" placeholder="Seu nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="birthdate">Data de Nascimento</label>
+                    <input type="date" id="birthdate" name="birthdate" value="" placeholder="2019-09-04">
+                </div>
+                <div class="form-group">
+                    <label for="idade">Idade</label>
+                    <input type="number" id="idade" name="idade" value="" placeholder="Sua idade">
+                </div>
+                <div class="form-group">
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" name="telefone" value="" placeholder="(33) 3322-1100">
+                </div>
+                <div class="form-group">
+                    <label for="celular">Celular</label>
+                    <input type="tel" id="celular" name="celular" value="" placeholder="(33) 98664-8888">
+                </div>
+                <div class="form-group">
+                    <label for="prestador">Profissional da Saúde</label>
+                    <select id="prestador" name="prestador">
+                        <option value="nao">NÃO</option>
+                        <option value="sim">SIM</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="academias">Academias que frequento</label>
+                    <input type="text" id="academias" name="academias" value="" placeholder="Nome das academias">
+                </div>
+                <div class="form-group">
+                    <label for="localizacao">Localização</label>
+                    <input type="text" id="localizacao" name="localizacao" value="" placeholder="Sua localização">
+                </div>
+                <div class="form-group">
+                    <label for="about">Sobre Mim</label>
+                    <textarea id="about" name="about" rows="4" placeholder="Escreva algo sobre você..."></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="button" id="alterar-senha">Alterar senha</button>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Salvar</button>
+                </div>
+            </form>
         </div>
+    </div>
 
-         <!-- Modal para alterar senha -->
-
+    <!-- Modal para alterar senha -->
     <div id="modal-alterar-senha" class="modal">
         <div class="modal-content">
             <span class="close-button">&times;</span>
@@ -119,13 +123,11 @@
     </div>
 
     <footer>
-
         <div class="rodape">
-        <img id="logo-rodape" src="img/logo_branco-meuperfil.png" alt="logo">
-        <p>CONNECTFIT 2024 - Todos os direitos reservados</p>
+            <img id="logo-rodape" src="img/logo_branco-meuperfil.png" alt="logo">
+            <p>CONNECTFIT 2024 - Todos os direitos reservados</p>
         </div>
-        
-    </footer>        
+    </footer>
 
     <script src="editarperfil.js"></script>
 </body>

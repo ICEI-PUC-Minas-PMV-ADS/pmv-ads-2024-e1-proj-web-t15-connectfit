@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
         event.preventDefault();
         saveProfileData();
         alert('Perfil salvo com sucesso!');
+        window.location.href = "meuperfil.html";
     });
 
     document.getElementById('alterar-senha').addEventListener('click', function() {
@@ -58,17 +59,23 @@ function saveProfileData() {
     const login = document.getElementById('login').value;
     const nome = document.getElementById('nome').value;
     const birthdate = document.getElementById('birthdate').value;
+    const idade = document.getElementById('idade').value;
     const telefone = document.getElementById('telefone').value;
     const celular = document.getElementById('celular').value;
     const prestador = document.getElementById('prestador').value;
+    const academias = document.getElementById('academias').value;
+    const localizacao = document.getElementById('localizacao').value;
     const about = document.getElementById('about').value;
 
     localStorage.setItem('login', login);
     localStorage.setItem('nome', nome);
     localStorage.setItem('birthdate', birthdate);
+    localStorage.setItem('idade', idade);
     localStorage.setItem('telefone', telefone);
     localStorage.setItem('celular', celular);
     localStorage.setItem('prestador', prestador);
+    localStorage.setItem('academias', academias);
+    localStorage.setItem('localizacao', localizacao);
     localStorage.setItem('about', about);
 
     const profileImg = document.getElementById('profile-img').src;
@@ -76,19 +83,20 @@ function saveProfileData() {
         localStorage.setItem('profileImg', profileImg);
     }
 
-
-// Redireciona para a página "meuperfil.html"
-window.location.href = "meuperfil.html";
-
+    // Redireciona para a página "meuperfil.html"
+    window.location.href = "meuperfil.html";
 }
 
 function loadProfileData() {
     const login = localStorage.getItem('login');
     const nome = localStorage.getItem('nome');
     const birthdate = localStorage.getItem('birthdate');
+    const idade = localStorage.getItem('idade');
     const telefone = localStorage.getItem('telefone');
     const celular = localStorage.getItem('celular');
     const prestador = localStorage.getItem('prestador');
+    const academias = localStorage.getItem('academias');
+    const localizacao = localStorage.getItem('localizacao');
     const about = localStorage.getItem('about');
     const profileImg = localStorage.getItem('profileImg');
 
@@ -101,6 +109,9 @@ function loadProfileData() {
     if (birthdate) {
         document.getElementById('birthdate').value = birthdate;
     }
+    if (idade) {
+        document.getElementById('idade').value = idade;
+    }
     if (telefone) {
         document.getElementById('telefone').value = telefone;
     }
@@ -109,6 +120,12 @@ function loadProfileData() {
     }
     if (prestador) {
         document.getElementById('prestador').value = prestador;
+    }
+    if (academias) {
+        document.getElementById('academias').value = academias;
+    }
+    if (localizacao) {
+        document.getElementById('localizacao').value = localizacao;
     }
     if (about) {
         document.getElementById('about').value = about;
