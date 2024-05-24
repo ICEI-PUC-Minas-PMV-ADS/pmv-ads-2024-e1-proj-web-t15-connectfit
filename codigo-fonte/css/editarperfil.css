@@ -127,8 +127,8 @@ a:hover {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    display: flex;
+    background-color: #ffa559;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -136,11 +136,15 @@ body {
 }
 
 .profile-container {
-    background: white;
+    background:#ffe6c7;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 400px;
-    padding: 20px;
+    width: 50%;
+    /* padding: 20px; */
+    margin: 5% 15% 5% 20%;
+    box-sizing: border-box;
+    
+    
 }
 
 .profile-container h2 {
@@ -292,4 +296,5 @@ footer {
         width: 150px;
         margin: 0;
         padding: 10px;
+    }    
 
