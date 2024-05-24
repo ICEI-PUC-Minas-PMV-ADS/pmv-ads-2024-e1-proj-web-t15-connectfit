@@ -75,6 +75,11 @@ function saveProfileData() {
     if (profileImg) {
         localStorage.setItem('profileImg', profileImg);
     }
+
+
+// Redireciona para a página "meuperfil.html"
+window.location.href = "meuperfil.html";
+
 }
 
 function loadProfileData() {
