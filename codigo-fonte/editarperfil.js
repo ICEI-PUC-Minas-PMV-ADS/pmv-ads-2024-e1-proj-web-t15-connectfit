@@ -1,3 +1,8 @@
+function toggleMenu() {
+    var menu = document.getElementById("menu");
+    menu.classList.toggle("active")
+}
+
 document.addEventListener('DOMContentLoaded', function() {
     // Carregar dados do localStorage
     loadProfileData();
