@@ -150,6 +150,13 @@ body {
 .profile-container h2 {
     text-align: center;
     margin-bottom: 20px;
+    font-size: 35px;
+    color: #454545;
+    font-family: sans-serif;
+    font-weight:bold;
+    
+    
+    
 }
 
 .profile-section {
@@ -188,6 +195,8 @@ body {
 .form-group {
     width: 100%;
     margin-bottom: 15px;
+    color: #454545;
+    font-weight: bold;
 }
 
 .form-group label {
