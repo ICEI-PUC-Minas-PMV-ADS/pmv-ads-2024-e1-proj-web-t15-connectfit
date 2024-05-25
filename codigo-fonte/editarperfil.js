@@ -65,8 +65,8 @@ function saveProfileData() {
     const prestador = document.getElementById('prestador').value;
     const academias = document.getElementById('academias').value;
     const localizacao = document.getElementById('localizacao').value;
-    const about = document.getElementById('about').value;
     const nomeQueQueroSerChamado = document.getElementById('nome-que-quero-ser-chamado').value;
+    const about = document.getElementById('about').value;
 
     localStorage.setItem('login', login);
     localStorage.setItem('nome', nome);
@@ -77,6 +77,7 @@ function saveProfileData() {
     localStorage.setItem('prestador', prestador);
     localStorage.setItem('academias', academias);
     localStorage.setItem('localizacao', localizacao);
+    localStorage.setItem('nome-que-quero-ser-chamado', nomeQueQueroSerChamado);
     localStorage.setItem('about', about);
 
     const profileImg = document.getElementById('profile-img').src;
@@ -99,8 +100,8 @@ function loadProfileData() {
     const academias = localStorage.getItem('academias');
     const localizacao = localStorage.getItem('localizacao');
     const about = localStorage.getItem('about');
-    const profileImg = localStorage.getItem('profileImg');
     const nomeQueQueroSerChamado = localStorage.getItem('nome-que-quero-ser-chamado');
+    const profileImg = localStorage.getItem('profileImg');
 
     if (login) {
         document.getElementById('login').value = login;
@@ -132,9 +133,10 @@ function loadProfileData() {
     if (about) {
         document.getElementById('about').value = about;
     }
+    if (nomeQueQueroSerChamado) {
+        document.getElementById('nome-que-quero-ser-chamado').value = nomeQueQueroSerChamado;
+    }    
     if (profileImg) {
         document.getElementById('profile-img').src = profileImg;
     }
-    if (nomeQueQueroSerChamado) {
-        document.getElementById('nome-que-quero-ser-chamado').value = nomeQueQueroSerChamado;
 }

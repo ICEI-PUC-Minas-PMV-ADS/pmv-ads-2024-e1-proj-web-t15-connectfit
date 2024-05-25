@@ -10,7 +10,8 @@ document.addEventListener("DOMContentLoaded", function() {
        localStorage.getItem('nome') !== null &&
        localStorage.getItem('idade') !== null &&
        localStorage.getItem('academias') !== null &&
-       localStorage.getItem('localizacao') !== null) {
+       localStorage.getItem('localizacao') !== null &&
+       localStorage.getItem('about') !== null) {
         
         // Carrega os valores do localStorage
         var profileImg = localStorage.getItem('profileImg');
@@ -19,6 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
         var idade = localStorage.getItem('idade');
         var academias = localStorage.getItem('academias');
         var localizacao = localStorage.getItem('localizacao');
+        var about = localStorage.getItem('about');
         
         // Atribui os valores aos elementos HTML
         document.getElementById('user-Photo').src = profileImg;
@@ -27,6 +29,7 @@ document.addEventListener("DOMContentLoaded", function() {
         document.getElementById('user-Age').textContent = idade;
         document.getElementById('user-Gyms').textContent = academias;
         document.getElementById('user-Location').textContent = localizacao;
+        document.getElementById('user-Description').textContent = about;
     } else {
         // Caso não haja dados no localStorage, exibe uma mensagem de erro ou realiza outra ação apropriada
         console.log('Dados não encontrados no localStorage.');
