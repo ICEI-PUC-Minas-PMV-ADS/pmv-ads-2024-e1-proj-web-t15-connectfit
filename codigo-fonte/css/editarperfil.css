@@ -60,8 +60,6 @@ body {
     font-weight: bold;
 }
 
-
-
 .fa-x  {
     color: white;
     font-size: 40px;
@@ -80,7 +78,6 @@ body {
 .item-description {
     font-weight: normal;
 }
-
 
 .navbar {
     display: inline-flex;
@@ -142,9 +139,6 @@ a:hover {
 #logo2 {
     color:#ff6000;
 }
-
-
-
 
 body {
     font-family: Arial, sans-serif;

@@ -114,7 +114,6 @@ body {
     display: block;
 }
 
-
 a {
     color: #ff6000; /* Define a cor do texto do link */
     text-decoration: none; /* Remove o sublinhado padrão */
@@ -235,8 +234,7 @@ a:hover {
     font-size: 16px; /* Tamanho do texto */
     text-align: center;
     margin: 15px
-    
-    
+        
 }
 
 .botaoDados a {
@@ -318,21 +316,19 @@ footer {
     
 }
 .rodape {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        color:white;
-        padding: 0;
-        margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:white;
+    padding: 0;
+    margin: 0;
             
-    }
-    
-     
-    #logo-rodape {
-        display: block;
-        height: 100x;
-        width: 150px;
-        margin: 0;
-        padding: 10px;
-
-    }
+}
+         
+#logo-rodape {
+    display: block;
+    height: 100x;
+    width: 150px;
+    margin: 0;
+    padding: 10px;
+}
