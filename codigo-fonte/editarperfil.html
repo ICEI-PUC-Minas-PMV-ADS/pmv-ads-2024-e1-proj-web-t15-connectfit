@@ -16,6 +16,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">     
     <!--<script src="/codigo-fonte/js/meuperfil.js" defer></script>-->
+    
+    <link rel="stylesheet" href="css/menu.css">
+    <script src="https://kit.fontawesome.com/d3e80ce908.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/menu.js"></script>
+
 </head>
 <header class="cabecalho">
     <div class="pesquisa">
@@ -24,7 +29,75 @@
     <div class="logoPrincipal">
         <span id="logo">Connect<span id="logo2">Fit</span></span>
     </div>
+
+    <ul id="side_items">
+        <i onclick="closeMenu()" class="fa-solid fa-x menu-icone"></i>
+
+        <li class="side-item">
+          <a href="/codigo-fonte/aulas.html">
+            <i class="fa-solid fa-box-archive"></i>
+            <span class="item-description">
+              Arquivo de aulas
+            </span>
+          </a>
+        </li>
+
+        <li class="side-item">
+          <a href="/codigo-fonte/redesocial.html">
+            <i class="fa-solid fa-user-group"></i>
+            <span class="item-description">
+              Rede Social
+            </span>
+          </a>
+        </li>
+
+        <li class="side-item">
+          <a href="/codigo-fonte/profissionais.html">
+            <i class="fa-solid fa-stethoscope"></i>
+            <span class="item-description">
+              Profissionais
+            </span>
+          </a>
+        </li>
+
+        <li class="side-item">
+          <a href="/codigo-fonte/editarperfil.html">
+            <i class="fa-solid fa-id-card"></i>
+            <span class="item-description">
+              Meu Perfil
+            </span>
+          </a>
+        </li>
+
+        <li class="side-item">
+          <a href="/codigo-fonte/index.html">
+            <i class="fa-solid fa-right-from-bracket"></i>
+            <span class="item-description">
+              Sair
+            </span>
+          </a>
+        </li>
+
+      </ul>
+
+
     <nav class="navbar">
+        <!-- <ul class="menu" id="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Login.html">Login</a></li>
+            <li><a href="fisioterapeuta.html">Profissionais</a></li>
+            <li><a href="editarperfil.html">Editar Perfil</a></li>
+        </ul> -->
+        <div class="hamburguer-menu" onclick="openMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        
+    </nav>
+
+
+    <!-- <nav class="navbar">
         <ul class="menu" id="menu">
             <li><a href="Login.html">Login</a></li>
             <li><a href="fisioterapeuta.html">Profissionais</a></li>
@@ -35,7 +108,7 @@
             <div class="bar"></div>
             <div class="bar"></div>
         </div>
-    </nav>
+    </nav> -->
 </header>
 <body>
     <div class="profile-container">

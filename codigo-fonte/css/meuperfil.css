@@ -60,6 +60,25 @@ body {
     font-weight: bold;
 }
 
+.fa-x  {
+    color: white;
+    font-size: 40px;
+}
+
+#fechar:hover, #abrir:hover {
+    cursor: pointer;
+}
+
+.side-item {
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: 20px;
+}
+
+.item-description {
+    font-weight: normal;
+}
+
 .navbar {
     display: inline-flex;
     justify-content: left;
