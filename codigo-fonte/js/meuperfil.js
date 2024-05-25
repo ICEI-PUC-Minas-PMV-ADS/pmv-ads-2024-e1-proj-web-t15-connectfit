@@ -6,7 +6,7 @@ function toggleMenu() {
 document.addEventListener("DOMContentLoaded", function() {
     // Verifica se há dados armazenados no localStorage
     if(localStorage.getItem('profileImg') !== null &&
-       localStorage.getItem('login') !== null &&
+       localStorage.getItem('nome-que-quero-ser-chamado') !== null &&
        localStorage.getItem('nome') !== null &&
        localStorage.getItem('idade') !== null &&
        localStorage.getItem('academias') !== null &&
@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function() {
         
         // Carrega os valores do localStorage
         var profileImg = localStorage.getItem('profileImg');
-        var login = localStorage.getItem('login');
+        var nomeQueQueroSerChamado = localStorage.getItem('nome-que-quero-ser-chamado');
         var nome = localStorage.getItem('nome');
         var idade = localStorage.getItem('idade');
         var academias = localStorage.getItem('academias');
@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function() {
         
         // Atribui os valores aos elementos HTML
         document.getElementById('user-Photo').src = profileImg;
-        document.getElementById('user-Name').textContent = login;
+        document.getElementById('user-Name').textContent = nomeQueQueroSerChamado;
         document.getElementById('user-Full-Name').textContent = nome;
         document.getElementById('user-Age').textContent = idade;
         document.getElementById('user-Gyms').textContent = academias;
