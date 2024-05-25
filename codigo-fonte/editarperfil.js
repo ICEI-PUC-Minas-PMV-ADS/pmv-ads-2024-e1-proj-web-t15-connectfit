@@ -66,6 +66,7 @@ function saveProfileData() {
     const academias = document.getElementById('academias').value;
     const localizacao = document.getElementById('localizacao').value;
     const about = document.getElementById('about').value;
+    const nomeQueQueroSerChamado = document.getElementById('nome-que-quero-ser-chamado').value;
 
     localStorage.setItem('login', login);
     localStorage.setItem('nome', nome);
@@ -99,6 +100,7 @@ function loadProfileData() {
     const localizacao = localStorage.getItem('localizacao');
     const about = localStorage.getItem('about');
     const profileImg = localStorage.getItem('profileImg');
+    const nomeQueQueroSerChamado = localStorage.getItem('nome-que-quero-ser-chamado');
 
     if (login) {
         document.getElementById('login').value = login;
@@ -133,4 +135,6 @@ function loadProfileData() {
     if (profileImg) {
         document.getElementById('profile-img').src = profileImg;
     }
+    if (nomeQueQueroSerChamado) {
+        document.getElementById('nome-que-quero-ser-chamado').value = nomeQueQueroSerChamado;
 }
