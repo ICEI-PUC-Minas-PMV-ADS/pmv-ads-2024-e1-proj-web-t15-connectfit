@@ -134,6 +134,13 @@ a:hover {
     background-color: #ffa559;
 }
 
+.fotoMenu {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
+
 .middle > h2 {
     text-align: left;
     color:#ff6000;
