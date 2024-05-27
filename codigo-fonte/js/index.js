@@ -6,13 +6,14 @@ document.addEventListener('DOMContentLoaded', function(e) {
         document.documentElement.classList.add('disabled');
     });
 
-    document.querySelectorAll('.menu-icon-close, .menu-aside-layer').forEach(function(element) {
+    document.querySelectorAll('.menu-icon-close, .menu-aside-layer, .menu-item').forEach(function(element) {
         element.addEventListener('click', function() {
             document.querySelector('.menu-aside').classList.remove('active');
             document.documentElement.classList.remove('disabled');
         });
     });
 })
+// TENTATIVA DE UTILIZAR JQUERY AINDA VOU AJUSTAR DIREITINHO JS PURO LOGO ACIMA
 // (function($) {
 // 	$(document).ready(function(e) {
 //         /*================= ICONE DO MENU =================*/
