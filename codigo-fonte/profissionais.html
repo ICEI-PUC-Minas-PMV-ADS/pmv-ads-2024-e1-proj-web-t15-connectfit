@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Connectfit</title>
-    <link rel="shortcut icon" type="image/x-icon" href="/codigo-fonte/img/Logoicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="img/Logoicon.ico">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/d3e80ce908.js" crossorigin="anonymous"></script>
@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/profissionais.css">
 
     <script type="text/javascript" src="js/menu.js"></script>
+    <script type="text/javascript" src="js/profissionais.js"></script>
 </head>
 <body>
   <header class="cabecalho">
@@ -34,7 +35,7 @@
               <i onclick="closeMenu()" class="fa-solid fa-x menu-icone"></i>
 
               <li class="side-item">
-                <a href="/codigo-fonte/aulas.html">
+                <a href="aulas.html">
                   <i class="fa-solid fa-box-archive"></i>
                   <span class="item-description">
                     Arquivo de aulas
@@ -43,7 +44,7 @@
               </li>
 
               <li class="side-item">
-                <a href="/codigo-fonte/redesocial.html">
+                <a href="redesocial.html">
                   <i class="fa-solid fa-user-group"></i>
                   <span class="item-description">
                     Comunidade
@@ -52,7 +53,7 @@
               </li>
 
               <li class="side-item">
-                <a href="/codigo-fonte/profissionais.html">
+                <a href="profissionais.html">
                   <i class="fa-solid fa-stethoscope"></i>
                   <span class="item-description">
                     Profissionais
@@ -61,7 +62,7 @@
               </li>
 
               <li class="side-item">
-                <a href="/codigo-fonte/meuperfil.html">
+                <a href="meuperfil.html">
                   <i class="fa-solid fa-id-card"></i>
                   <span class="item-description">
                     Meu Perfil
@@ -70,7 +71,7 @@
               </li>
 
               <li class="side-item">
-                <a href="/codigo-fonte/index.html">
+                <a href="index.html">
                   <i class="fa-solid fa-right-from-bracket"></i>
                   <span class="item-description">
                     Sair
@@ -86,12 +87,12 @@
       <h2 class="titulo">Profissionais</h2>
 
       <div class="profissoes">
-        <a class="botao-profissao" href="fisioterapeuta.html">
+        <a class="botao-profissao" href="javascript:exibirProfissionais('fisioterapeutas');">
             <img class="icone-barra-lateral"  src="img/fisioterapeuta.png" alt="fisioterapeuta">
             <span class="texto">Fisioterapeuta</span>
         </a>
 
-        <a class="botao-profissao" href="#">
+        <a class="botao-profissao" href="javascript:exibirProfissionais('personais');">
             <img class="icone-barra-lateral" src="img/personal.png" alt="personal">
             <span class="texto">Personal</span>
         </a>
@@ -107,9 +108,9 @@
         </a>
     </div>
 
-    <div class="lista">
-          <div class="profissional">
-              <div class="avatar">
+    <div class="lista" id="fisioterapeutas" style="display:none">
+          <div class="profissional" >
+              <div class="avatar" >
                   <img src="img/avatar1 (3).png" alt="avatar">
                   Mariana Oliveira
               </div>
@@ -160,34 +161,35 @@
               <button class="seguir">Seguir</button>
           </div>
 
-          <div class="profissional">
-              <div class="avatar">
-                  <img src="img/avatar1 (1).png" alt="avatar">
-                  Lara Daniela
-              </div>
-
-              <div class="contatos">
-                  <div class="contato">
-                      <img src="img/endereço.png" alt="endereço">
-                      Belo Horizonte/MG
-                  </div>
-
-                  <div class="contato">
-                      <img src="img/instagram_color.png" alt="instagram">
-                      @lara
-                  </div>
-
-                  <div class="contato">
-                      <img src="img/whatsapp.png" alt="whatsapp">
-                      (xx) 99999-9999
-                  </div>
-              </div>
-              
-              <button class="seguir">Seguir</button>
+         
+      </div>
+      <div class="lista" id="personais" style="display:none">
+        <div class="profissional">
+          <div class="avatar">
+              <img src="img/avatar1 (1).png" alt="avatar">
+              Lara Daniela
           </div>
+
+          <div class="contatos">
+              <div class="contato">
+                  <img src="img/endereço.png" alt="endereço">
+                  Belo Horizonte/MG
+              </div>
+
+              <div class="contato">
+                  <img src="img/instagram_color.png" alt="instagram">
+                  @lara
+              </div>
+
+              <div class="contato">
+                  <img src="img/whatsapp.png" alt="whatsapp">
+                  (xx) 99999-9999
+              </div>
+          </div>
+          
+          <button class="seguir">Seguir</button>
+      </div>   
       </div>
   </main>
-
-  <script type="text/javascript" src="js/profissionais.js"></script>
 </body>
 </html>
