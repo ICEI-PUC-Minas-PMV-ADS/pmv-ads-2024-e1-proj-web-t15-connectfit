@@ -29,7 +29,30 @@ body
     list-style-type:none;
 }
 
-/*MENU LATERAL*/
+.divretangulo
+{
+    background-color:rgb(43, 37, 26);
+    top: 0;
+    left: 0;
+    width: 100%; /* 50% da largura da janela do navegador */
+    height: 15%; /* 50% da altura da janela do navegador */
+    position: fixed;
+    z-index: 9999999999;
+}
+
+.divmenu
+{
+    background-color:rgba(255, 255, 255, 0.675);
+    display:flex;
+    width: 8vh;
+    height: 6vh;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;
+    border-radius: 15%;
+    cursor: pointer;
+}
+
+/* CSS MENU LATERAL - AINDA INCOMPLETO!! (JONATHAN) */
 .menu-aside {
     position: fixed;
     top: 0;
@@ -79,31 +102,6 @@ body
         width: 320px;
     }
 }
-
-.divretangulo
-{
-    background-color:rgb(43, 37, 26);
-    top: 0;
-    left: 0;
-    width: 100%; /* 50% da largura da janela do navegador */
-    height: 15%; /* 50% da altura da janela do navegador */
-    position: fixed;
-    z-index: 9999999999;
-}
-
-.divmenu
-{
-    background-color:rgba(255, 255, 255, 0.675);
-    display:flex;
-    width: 8vh;
-    height: 6vh;
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center;
-    border-radius: 15%;
-    cursor: pointer;
-}
-
-
 
 .divlog
 {
