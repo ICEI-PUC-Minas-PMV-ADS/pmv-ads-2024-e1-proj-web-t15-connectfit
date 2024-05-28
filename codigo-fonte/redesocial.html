@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/menu.css">
 
     <script type="text/javascript" src="js/menu.js"></script>
+    <script type="text/javascript" src="js/redesocial.js"></script>
 </head>
 <body>
     <header class="cabecalho">
@@ -84,11 +85,14 @@
 
     <main class="conteudo">
         <div class="barra-lateral">
-            <form class="formulario-post" action="">
+            <div class="formulario-post" action="">
                 <h2 class="titulo-post">Poste o que esta pensando</h2>
-                <textarea name="" id="" cols="30" rows="10"></textarea>
-            </form>
+                <textarea name="" id="textoPulicacao" cols="30" rows="10"></textarea>
+                <button onclick="publicarPostagem()">Publicar</button>
+            </div>
 
+            
+            
             <h2 class="titulo-barra-lateral">Profissionais</h2>
 
             <div class="profissoes">
