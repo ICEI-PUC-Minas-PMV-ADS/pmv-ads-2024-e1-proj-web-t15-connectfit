@@ -1,6 +1,8 @@
 function escondeProfissionais(){
     document.getElementById("fisioterapeutas").style.display = "none";
     document.getElementById("personais").style.display = "none";
+    document.getElementById("medicos").style.display = "none";
+    document.getElementById("nutricionistas").style.display = "none";
 }
 
 function exibirProfissionais(tipoProfissonal) {
