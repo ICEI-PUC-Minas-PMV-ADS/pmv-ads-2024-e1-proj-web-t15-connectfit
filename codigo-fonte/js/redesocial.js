@@ -1,5 +1,6 @@
 function previaImagem() {
-    const preview = document.getElementById("previaImagem");
+    var preview = document.getElementById("previaImagem");
+    preview.style.display = "flex"
     const file = document.getElementById("upload").files[0];
     const reader = new FileReader();
   
@@ -31,5 +32,6 @@ function publicarPostagem(){
         primeiraDivPost.parentElement.insertBefore(novaDivCriada, primeiraDivPost);
         textoASerPublicado = document.getElementById("textoPulicacao").value = "";
         previaImagem.src = "";
+        previaImagem.style.display = "none";
     }
 }
