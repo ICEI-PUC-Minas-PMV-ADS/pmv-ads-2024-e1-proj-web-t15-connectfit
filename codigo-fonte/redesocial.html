@@ -88,7 +88,8 @@
             <div class="formulario-post" action="">
                 <h2 class="titulo-post">Poste o que esta pensando</h2>
                 <textarea name="" id="textoPulicacao" cols="30" rows="10"></textarea>
-                <input type="file" class="upload" required>
+                <input type="file" id="upload" onchange="previaImagem()"/>
+                <img src="" id="previaImagem" alt="Prévia de Imagem" />
                 <button onclick="publicarPostagem()">Publicar</button>
             </div>
 
