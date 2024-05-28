@@ -16,6 +16,10 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">     
         <script src="/codigo-fonte/js/meuperfil.js" defer></script>
+        
+        <link rel="stylesheet" href="css/menu.css">
+        <script src="https://kit.fontawesome.com/d3e80ce908.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/menu.js" defer></script>
       
     </head>
     <body>
@@ -30,20 +34,70 @@
             <div class="logoPrincipal">
             <span id="logo">Connect<span id="logo2">Fit</span></span>
             </div>
-                         
+             
+            <ul id="side_items">
+                <i onclick="closeMenu()" class="fa-solid fa-x menu-icone"></i>
+
+                <li class="side-item">
+                  <a href="/codigo-fonte/aulas.html">
+                    <i class="fa-solid fa-box-archive"></i>
+                    <span class="item-description">
+                      Arquivo de aulas
+                    </span>
+                  </a>
+                </li>
+
+                <li class="side-item">
+                  <a href="/codigo-fonte/redesocial.html">
+                    <i class="fa-solid fa-user-group"></i>
+                    <span class="item-description">
+                      Rede Social
+                    </span>
+                  </a>
+                </li>
+
+                <li class="side-item">
+                  <a href="/codigo-fonte/profissionais.html">
+                    <i class="fa-solid fa-stethoscope"></i>
+                    <span class="item-description">
+                      Profissionais
+                    </span>
+                  </a>
+                </li>
+
+                <li class="side-item">
+                  <a href="/codigo-fonte/editarperfil.html">
+                    <i class="fa-solid fa-id-card"></i>
+                    <span class="item-description">
+                      Editar Perfil
+                    </span>
+                  </a>
+                </li>
+
+                <li class="side-item">
+                  <a href="/codigo-fonte/index.html">
+                    <i class="fa-solid fa-right-from-bracket"></i>
+                    <span class="item-description">
+                      Sair
+                    </span>
+                  </a>
+                </li>
+
+              </ul>
+
+
             <nav class="navbar">
-                <ul class="menu" id="menu">
+                <!-- <ul class="menu" id="menu">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="Login.html">Login</a></li>
-                    <li><a href="redesocial.html">Serviços</a></li>
-                    <li><a href="index.html">Contato</a></li>
-                </ul>
-                <div class="hamburguer-menu" onclick="toggleMenu()">
+                    <li><a href="fisioterapeuta.html">Profissionais</a></li>
+                    <li><a href="editarperfil.html">Editar Perfil</a></li>
+                </ul> -->
+                <div class="hamburguer-menu" onclick="openMenu()">
                     <div class="bar"></div>
                     <div class="bar"></div>
                     <div class="bar"></div>
-                </div>
-                
+                </div>           
             </nav>
                 
         </header>
@@ -52,11 +106,11 @@
                         <img class="fotoMenu" id="user-Photo" src="" alt="Foto Menu">
                         <br>
                         <br>
-                        <button class="botaoDados"><a href="Cadastro.html">Meus Dados</a></button>
+                        <button class="botaoDados"><a href="editarperfil.html">Editar Perfil</a></button>
                         <br>
                         <button class="botaoAulas"><a href="aulas.html">Minhas Aulas</a></button>
                         <br>
-                        <button class="botaoProfissionais"><a href="fisioterapeuta.html">Profissionais</a></button>
+                        <button class="botaoProfissionais"><a href="profissionais.html">Profissionais</a></button>
                         <br>
                         <button class="botaoRedesocial"><a href="redesocial.html">Rede Social</a></button>
                     </div>
@@ -64,7 +118,7 @@
                         <h1><b>Olá, <span id="user-Name">Usuário</span>!</b></h1>
                         <h2><b>Eu sou:</b></h2>
                         <br>                        
-                        <p id="user-Description">Descrição do usuário</p>
+                        <p id="user-Description">Descrição do usuário</p>                        
                     </div>
                     <div class="section right">
                         <h2><b>Sobre mim:</b></h2>

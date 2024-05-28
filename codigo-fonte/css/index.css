@@ -36,6 +36,8 @@ body
     left: 0;
     width: 100%; /* 50% da largura da janela do navegador */
     height: 15%; /* 50% da altura da janela do navegador */
+    position: fixed;
+    z-index: 9999999999;
 }
 
 .divmenu
@@ -46,7 +48,59 @@ body
     height: 6vh;
     justify-content: center; /* Centraliza horizontalmente */
     align-items: center;
-    border-radius: 15%;  
+    border-radius: 15%;
+    cursor: pointer;
+}
+
+/* CSS MENU LATERAL - AINDA INCOMPLETO!! (JONATHAN) */
+.menu-aside {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 350ms ease;
+}
+
+.menu-aside.active {
+    opacity: 1;
+    pointer-events: auto;
+
+}
+
+.menu-aside.active .menu-aside-content {
+    transform: none;
+}
+
+.menu-aside-layer {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.menu-aside-content {
+    background-color: rgb(43, 37, 26);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    transform: translateX(-100%);
+    transition: transform 350ms ease;
+}
+
+@media only screen and (min-width:768px) {
+    .menu-aside-content{
+        width: 320px;
+    }
 }
 
 .divlog

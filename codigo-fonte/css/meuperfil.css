@@ -60,6 +60,24 @@ body {
     font-weight: bold;
 }
 
+.fa-x  {
+    color: white;
+    font-size: 40px;
+}
+
+#fechar:hover, #abrir:hover {
+    cursor: pointer;
+}
+
+.side-item {
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: 20px;
+}
+
+.item-description {
+    font-weight: normal;
+}
 
 .navbar {
     display: inline-flex;
@@ -96,7 +114,6 @@ body {
     display: block;
 }
 
-
 a {
     color: #ff6000; /* Define a cor do texto do link */
     text-decoration: none; /* Remove o sublinhado padrão */
@@ -132,6 +149,13 @@ a:hover {
     max-width: 20%;
     text-align: center;
     background-color: #ffa559;
+}
+
+.fotoMenu {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
 }
 
 .middle > h2 {
@@ -210,8 +234,7 @@ a:hover {
     font-size: 16px; /* Tamanho do texto */
     text-align: center;
     margin: 15px
-    
-    
+        
 }
 
 .botaoDados a {
@@ -287,32 +310,25 @@ a:hover {
     background-color: #ffe6c7;
 }
 
-#calendar {
-    max-width: 900px;
-    margin: 0 auto;
-}
-
 footer {
     background-color: #2c231c;
     padding: 30px;
     
 }
 .rodape {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        color:white;
-        padding: 0;
-        margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:white;
+    padding: 0;
+    margin: 0;
             
-    }
-    
-     
-    #logo-rodape {
-        display: block;
-        height: 100x;
-        width: 150px;
-        margin: 0;
-        padding: 10px;
-
-    }
+}
+         
+#logo-rodape {
+    display: block;
+    height: 100x;
+    width: 150px;
+    margin: 0;
+    padding: 10px;
+}

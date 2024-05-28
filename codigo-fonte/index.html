@@ -13,13 +13,12 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;700&display=swap">
         <link rel="shortcut icon" type="image/x-icon" href="/codigo-fonte/img/Logoicon.ico">
-        <script type="text/javascript"  src="/codigo-fonte/js/index.js"> </script>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <!-- TESTE IMPLEMENTAÇÃO JQUERY <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> -->
+        <script type="text/javascript"  src="/codigo-fonte/js/index.js"></script>
         <title>Home | ConnectFit</title>
     </head>
 
-    <body>      
-
+    <body>
         <header>
             <nav><!-- Parte do cabeçalho da página -->
                 <div class="divretangulo">
@@ -53,7 +52,39 @@
             </nav>
         </header>
 
-        
+        <!-- CÓDIGO INSERIDO POR JONATHAN CRIAÇÃO DE MENU LATERAL INTERATIVO -->
+        <div class="menu-aside">
+            <div class="menu-aside-layer"></div>
+            <div class="menu-aside-content">
+                <div class="topo-menu">
+                    <div class="logo-footer">
+                        <img src="img/logo-connectfit-footer.png" width="200" height="80" alt="Logo ConnectFIT">
+                    </div>
+                    <div class="menu-icon-close">
+                        <i class="fas fa-xmark"></i>
+                    </div>
+                </div>
+                <nav class="main-menu">
+                    <ul class="menu-list">
+                        <li class="menu-item">
+                            <a href="#" title="">ITEM</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#" title="">ITEM</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#" title="">ITEM</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#" title="">ITEM</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#" title="">ITEM</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
         <main> 
             <section class="sectionBanner">
                 <!-- CÓDIGO DE ANA CLARA (SECAO BANNER COM CAIXA DE TEXTO DE BOAS VINDAS)-->
@@ -74,7 +105,7 @@
                 </section>
 
                 <!-- O código abaixo foi escrito por Jonathan, ajustes feitos para integrar certinho -->
-                <section class="sectionPresentation container">
+                <section id="sobre" class="sectionPresentation container">
                 <div class="boxImage">
                     <img src="img/Connectfit-intro.png" width="500" height="500" alt="">
                 </div>
@@ -83,7 +114,7 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
             </section>
-            <section class="sectionUserType container">
+            <section id="usuarios" class="sectionUserType container">
                 <h3>Alunos e Profissionais 100% Conectados</h3>
                 <div class="listUser">
                     <div class="boxUser practitioner">
@@ -101,7 +132,7 @@
                     <a href="Login.html">CONNECT JÁ!</a>
                 </div>
             </section>
-            <section class="sectionActivities container">
+            <section id="atividades" class="sectionActivities container">
                 <div class="activity practitioner">
                     <h3 class="titleActivity">Compartilhe Suas Conquistas!</h3>
                     <div class="listActivities">
@@ -151,7 +182,7 @@
                                 <img src="img/perfil-profissional-3.png" alt="">
                                 <div class="itemDescription">
                                     <h5>Alongamento em casa!</h5>
-                                    <span>Lorem ipsum</span>
+                                    <span>Marcelo Twelve</span>
                                 </div>
                             </div>
                         </a>
@@ -175,7 +206,7 @@
                                 <img src="img/perfil-profissional-1.png" alt="">
                                 <div class="itemDescription">
                                     <h5>Sessão de Treino ao Ar Livre</h5>
-                                    <span>Lorem ipsum</span>
+                                    <span>Thiago Silva</span>
                                 </div>
                             </div>
                         </a>
