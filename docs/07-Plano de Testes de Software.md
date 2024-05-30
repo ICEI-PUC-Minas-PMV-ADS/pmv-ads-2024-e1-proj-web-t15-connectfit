@@ -86,7 +86,6 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
    </ul>
   </td>
   <td>Verificar se a página Perfil está apresentando as informações cadastradas pelo usuário corretamente. </td>
-  <td>Verificar se os botões da página estão direcionando corretamente para as páginas descritas. </td>
   <td>
    <ol>
     <li>Acessar o navegador.</li>
@@ -122,9 +121,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
      <li>RF-05 A aplicação deve permitir ao usuário fácil conexão (acesso aos dados para contato) com profissionais.</li>
    </ul>
   </td>
-  <td>Verificar se os profissionais aparecem conforme categoria profissional selecionada</td>
-  <td>Possibilitar que os usuários possam ter acesso aos dados dos profissionais (dados das redes sociais e números para contato)</td>
-   <td>Possibilitar que os usuários possam seguir e deixar de seguir os profissionais</td>
+  <td>Verificar se os profissionais aparecem conforme categoria profissional selecionada e os usuários possam seguir e deixar de seguir</td>
   <td>
    <ol>
     <li>Acessar o navegador.</li>
@@ -191,10 +188,11 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>CT-06: Funcionalidade da página de aulas</td>
   <td>
    <ul>
-   <li> RF-09 A aplicação deve permitir que o profissional agende aulas.</li>
+   <li>RF-09 A aplicação deve permitir que o profissional agende aulas.</li>
+   <li>RF-04 A aplicação deve permitir que o profissional ministre aulas pagas e gratuitas de forma virtual.</li>
    </ul>
   </td>
-  <td>Verificar se o perfil de categorias profissioanis está sendo feito corretamente. </td>
+  <td>Verificar se as aulas estão carregando conforme selecionadas. </td>
   <td>
    <ol>
     <li>Acessar o navegador.</li>
@@ -203,12 +201,11 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
     <li>Clicar em “Entrar”, no menu.</li>
     <li>Preencher seus dados e clicar em “Entrar”.</li>
     <li>Visualizar a página meu perfil.</li>
-    <li>Clicar no botão de profissionais.</li>
-    <li>Visualizar as categorias: Fisioterapeuta, médico, personal e nutricionista.</li>
-    <li>Clicar na categoria e seguir o profissional escolhido</li>
+    <li>Clicar no botão minhas aulas.</li>
+    <li>Selecionar o video e carregar a aula.</li>
    </ol>
    </td>
-  <td>Deve ocorrer uma seleção das informações fornecidas pelo profissional, e ao clicar na categoria escolhida, deverá abrir uma nova janela com os dados dos profissionais cadastrados na categoria selecionada.</td>
-  <td>Evellyn</td>
+  <td>Ter acesso as aulas gravadas e lives.</td>
+  <td>Danyele</td>
  </tr>
 </table>
