@@ -181,3 +181,13 @@
     width: 48px;
     position: fixed;
 }
+
+.event {
+    font-size: 6px;
+    padding: 2px;
+    background-color: #ffa662;
+    color: rgb(43, 41, 41);
+    border-radius: 5px;
+    max-height: 30px;
+    overflow: hidden;
+  }

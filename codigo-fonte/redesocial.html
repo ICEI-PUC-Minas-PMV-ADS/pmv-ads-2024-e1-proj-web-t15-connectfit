@@ -99,7 +99,18 @@
                 <button onclick="publicarPostagem()" class="postar">POSTAR</button>
             </div>
             
+            
+
             <h2 class="titulo-barra-lateral">Minha Agenda</h2>
+            
+            <div class="publica-evento" id="publicaEvento" style="display: none;">
+              <b><span >Evento(s) do dia: </span><span id="dataEvento"></span></b>
+              <br/>
+              <textarea id="textoPublicacaoEvento"></textarea>
+              <br/>
+              <button onclick="salvarEventoCalendario()" >Salvar Evento(s)</button>
+              <div id="idGuardaiDDIvCalendario"></div>
+            </div>
 
             <div class="wrapper">
               <header>

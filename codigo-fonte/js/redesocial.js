@@ -35,3 +35,24 @@ function publicarPostagem(){
         previaImagem.style.display = "none";
     }
 }
+
+function abrirCaixaPublicarEvento(idDivDiaCalendarioClicado){
+  var divDiaCalendarioClicado = document.getElementById(idDivDiaCalendarioClicado);
+  var divCaixaPublicarEvento = document.getElementById('publicaEvento');
+  divCaixaPublicarEvento.style.display = "block";
+  var divGuardarIdCalendario = document.getElementById('idGuardaiDDIvCalendario');
+  divGuardarIdCalendario.innerHTML = idDivDiaCalendarioClicado
+  divGuardarIdCalendario.style.display = "none";
+  document.getElementById('dataEvento').innerHTML = idDivDiaCalendarioClicado;
+  document.getElementById('textoPublicacaoEvento').value = divDiaCalendarioClicado.innerHTML;
+}
+
+function salvarEventoCalendario(){
+  var idDivDiaCalendaASalvar = document.getElementById('idGuardaiDDIvCalendario').innerHTML;
+  var divCalendarioCalendaASalvar = document.getElementById(idDivDiaCalendaASalvar);
+  textoPublicacaoEvento = document.getElementById('textoPublicacaoEvento').value;
+  divCalendarioCalendaASalvar.innerHTML = textoPublicacaoEvento;
+  divCalendarioCalendaASalvar.classList.add('event');
+  document.getElementById('publicaEvento').style.display = "none";
+}
+  

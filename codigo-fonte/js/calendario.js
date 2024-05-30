@@ -26,7 +26,8 @@ const renderCalendar = () => {
         // adding active class to li if the current day, month, and year matched
         let isToday = i === date.getDate() && currMonth === new Date().getMonth() 
                      && currYear === new Date().getFullYear() ? "active" : "";
-        liTag += `<li class="${isToday}">${i}</li>`;
+        liTag += "<li class='day'>"+("00"+i).slice(-2)+"<div id='"+("00"+i).slice(-2)+"-"+("00"+currMonth).slice(-2)+"-"+currYear+"'></div></li>";
+
     }
 
     for (let i = lastDayofMonth; i < 6; i++) { // creating li of next month first days
@@ -34,6 +35,16 @@ const renderCalendar = () => {
     }
     currentDate.innerText = `${months[currMonth]} ${currYear}`; // passing current mon and yr as currentDate text
     daysTag.innerHTML = liTag;
+}
+
+function aplicaListenersParaCaixaPublicarEvento(){
+    const botoesDiasCalendario = document.querySelectorAll(".day");
+    for (const botao of botoesDiasCalendario) {
+        botao.addEventListener('click', function(e) {
+            idDivDiaCalendario = e.target.querySelector('div').id;
+            abrirCaixaPublicarEvento(idDivDiaCalendario);
+        });
+    }
 }
 
 renderCalendar();
@@ -52,5 +63,8 @@ prevNextIcon.forEach(icon => { // getting prev and next icons
             date = new Date(); // pass the current date as date value
         }
         renderCalendar(); // calling renderCalendar function
+        aplicaListenersParaCaixaPublicarEvento();
     });
 });
+
+aplicaListenersParaCaixaPublicarEvento();
