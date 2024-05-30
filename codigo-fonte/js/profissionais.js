@@ -9,11 +9,12 @@ function exibirProfissionais(tipoProfissonal) {
     escondeProfissionais();
     var divListaProfissionais = document.getElementById(tipoProfissonal);
     divListaProfissionais.style.display = "flex";
-    aplicaListenerBotoesSeguir();
+    aplicaListenerBotoesSeguirPorProfissionais(tipoProfissonal);
 }
 
-function aplicaListenerBotoesSeguir(){
-    const botoesSeguir = document.querySelectorAll(".seguir");
+function aplicaListenerBotoesSeguirPorProfissionais(tipoProfissonal){
+    const divTipoProfissional = document.getElementById(tipoProfissonal);
+    const botoesSeguir = divTipoProfissional.querySelectorAll(".seguir");
     for (const botao of botoesSeguir) {
         botao.addEventListener('click', function(e) {
             const botaoSeguir = e.target;
