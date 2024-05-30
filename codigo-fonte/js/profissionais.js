@@ -16,9 +16,12 @@ function aplicaListenerBotoesSeguirPorProfissionais(tipoProfissonal){
     const divTipoProfissional = document.getElementById(tipoProfissonal);
     const botoesSeguir = divTipoProfissional.querySelectorAll(".seguir");
     for (const botao of botoesSeguir) {
-        botao.addEventListener('click', function(e) {
-            const botaoSeguir = e.target;
-            botaoSeguir.innerHTML = botaoSeguir.innerHTML === "Seguir" ? "Seguindo" : "Seguir";
-        });
+        if (botao && !botao.hasAttribute('listenerOnClick')){
+            botao.addEventListener('click', function(e) {
+                const botaoSeguir = e.target;
+                botaoSeguir.innerHTML = botaoSeguir.innerHTML === "Seguir" ? "Seguindo" : "Seguir";
+                botao.setAttribute('listenerOnClick', 'true');
+            });
+        }
     }
 }
