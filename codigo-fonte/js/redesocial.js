@@ -27,7 +27,7 @@ function publicarPostagem(){
         var novaDivCriada = document.createElement("div");
         novaDivCriada.classList.add("post");
         var srcPreviaImagem = document.getElementById("previaImagem").src;
-        novaDivCriada.innerHTML = "<div class='icone-perfil'><img src='img/foto_menu.png' alt='Sofia'>Sofia</div><p class='texto-post'>"+textoASerPublicado+"</p><img src='"+srcPreviaImagem+"' alt='Foto Sofia'>";
+        novaDivCriada.innerHTML = "<div class='icone-perfil'><img src='img/foto_menu.png' alt='Sofia'>Sofia</div><p class='texto-post'>"+textoASerPublicado+"</p><img src='"+srcPreviaImagem+"' alt='Foto Postada'>";
         var primeiraDivPost = document.querySelectorAll(".post")[0];
         primeiraDivPost.parentElement.insertBefore(novaDivCriada, primeiraDivPost);
         textoASerPublicado = document.getElementById("textoPulicacao").value = "";

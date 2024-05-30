@@ -159,6 +159,7 @@
     max-height: 256px;
     border-radius: 7px;
     grid-area: foto;
+    margin-left: auto;
 }
 
 .rodape {
