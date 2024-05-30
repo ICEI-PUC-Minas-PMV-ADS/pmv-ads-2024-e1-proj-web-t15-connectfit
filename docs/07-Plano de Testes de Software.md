@@ -79,28 +79,29 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <th>Responsável</th>
  </tr>
   <tr>
-  <td>CT-03: O site deve permitir verificar a página de perfil do usuário cadastrado</td>
+  <td>CT-03: O site deve permitir verificar a página de perfil do usuário ou profissional cadastrado</td>
   <td>
    <ul>
-   <li>RF-05 A aplicação deve permitir ao usuário fácil conexão com profissionais.</li>
    <li>RF-06 A aplicação deve permitir o envio de notificações aos membros sobre eventos e outros avisos relevantes.</li>
-   <li>RF-08 A aplicação deve disponibilizar uma agenda com horários de eventos e compromissos.</li>
    </ul>
   </td>
   <td>Verificar se a página Perfil está apresentando as informações cadastradas pelo usuário corretamente. </td>
+  <td>Verificar se os botões da página estão direcionando corretamente para as páginas descritas. </td>
   <td>
    <ol>
     <li>Acessar o navegador.</li>
     <li>Informar o endereço do site.</li>
     <li>Visualizar a página Home.</li>
-    <li>Clicar em "Cadastre-se", no Menu.</li>
-    <li>Preencher o formulário e clicar em “Cadastrar”.</li>
     <li>Visualizar a página Login.</li>
     <li>Preencher seus dados e clicar em “Entrar”.</li>
     <li>Visualizar a página Perfil.</li>
+    <li>Clicar em editar perfil e conseguir visualizar o que editou.</li>
+    <li>Clicar no botão minhas aulas direcionar para a página de aulas.</li>
+    <li>Clicar no botão profissionais e direcionar para a página dos profissionais.</li>
+    <li>Clicar no botão rede social e direcionar para a página de rede social.</li>
    </ol>
    </td>
-  <td>As informações registradas pelo usuário no momento do cadastro devem estar disponibilizadas na página Perfil.</td>
+  <td>As informações registradas pelo usuário no momento do cadastro devem estar disponibilizadas na página Perfil e acesso as demais páginas do site.</td>
   <td>Nasson</td>
  </tr>
 </table>
@@ -118,21 +119,25 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>CT-04: Funcionalidade da pagina do perfil do profissional</td>
   <td>
    <ul>
-    <li>RF-09:	A aplicação deve permitir que o profissional agende aulas.</li>
+     <li>RF-05 A aplicação deve permitir ao usuário fácil conexão (acesso aos dados para contato) com profissionais.</li>
    </ul>
   </td>
-  <td>Verificar se a aulas estão sendo carregadas</td>
+  <td>Verificar se os profissionais aparecem conforme categoria profissional selecionada</td>
+  <td>Possibilitar que os usuários possam ter acesso aos dados dos profissionais (dados das redes sociais e números para contato)</td>
+   <td>Possibilitar que os usuários possam seguir e deixar de seguir os profissionais</td>
   <td>
    <ol>
     <li>Acessar o navegador.</li>
     <li>Informar o endereço do site.</li>
-    <li>Visualizar a página de aulas.</li>
-    <li>Clicar na página Aulas.</li>
-    <li>Digitar no filtro de pesquisa algum dado presente na página Aulas e verificar se o resultado é exibido na página.</li>
+    <li>Fazer o login</li>
+    <li>Acessar a página de perfi.</li>
+    <li>Clicar no botão de profissionais.</li>
+    <li>Selecionar a categoria profissional desejada.</li>
+    <li>Clicar no botão de seguir e deixar de seguir.</li>
    </ol>
    </td>
-  <td>Os videos inseridos na página devem ser mostrar e carregados ao ser selecionado.</td>
-  <td>Ana</td>
+  <td>Os usuários poderão ter facilidade em acessar as informações para ter contato com os profissionais desejados.</td>
+  <td>Evellyn</td>
  </tr>
 </table>
 
@@ -146,23 +151,29 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <th>Responsável</th>  
  </tr>
  <tr>
-  <td>CT-05: Verificar as postagens dos usuários e profissionais nas redes sociais</td>
+  <td>CT-05: Verificar as postagens e agendamentos dos usuários e profissionais nas redes sociais</td>
   <td>
    <ul>
+    <li>RF-03 A aplicação deve permitir o compartilhamento de posts.
     <li>RF-07 A aplicação deve permitir aos usuários acesso ao que outros usuários estão compartilhando.</li>
+    <li>RF-08 A aplicação deve disponibilizar uma agenda com horários de eventos e compromissos.</li>
+    <li>RF-10 A aplicação deve permitir comentários e curtidas em posts.
    </ul>
   </td>
-  <td>Verificar se todas as informações referentes aos livros estão disponíveis na página Livros</td>
+  <td>Verificar se todas as funcionalidade de postagem e agenda estão conforme planejado</td>
   <td>
    <ol>
     <li>Acessar o navegador.</li>
     <li>Informar o endereço do site.</li>
     <li>Visualizar a página perfil.</li>
     <li>Clicar na página Redes sociais.</li>
-    <li>Visualizar as informações referentes as postagens dos usuários.</li>
+    <li>Visualizar as informações referentes as postagens dos usuários ou profissionais.</li>
+    <li>Publicar o que está pensando sobre os treinos e anexas fotos referente aos encontros e exercícios.</li>
+    <li>Ao passar o mouse sobre a data na agenda, ler o evento agendado.</li>
+    <li>Clicar na data futura para agendar o encontros e treinos.</li>
    </ol>
    </td>
-  <td>Todas as informações, incluindo imagens, postagens dos alunos e profissinais que estão disponíveis na página.</td>
+  <td>Ter acesso as informações de quem está seguindo, incluir postagem de texto e imagens dos alunos e profissinais que estão disponíveis na página e agenda interativa.</td>
   <td>Evellyn</td>
  </tr>
 </table>
@@ -177,10 +188,10 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <th>Responsável</th>
  </tr>
   <tr>
-  <td>CT-06: Funcionalidade da página dos profissionais cadastrados</td>
+  <td>CT-06: Funcionalidade da página de aulas</td>
   <td>
    <ul>
-   <li>RF-004	.</li>
+   <li> RF-09 A aplicação deve permitir que o profissional agende aulas.</li>
    </ul>
   </td>
   <td>Verificar se o perfil de categorias profissioanis está sendo feito corretamente. </td>
@@ -191,11 +202,10 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
     <li>Visualizar a página Home.</li>
     <li>Clicar em “Entrar”, no menu.</li>
     <li>Preencher seus dados e clicar em “Entrar”.</li>
-    <li>Visualizar a página Perfil.</li>
-    <li>Clicar em profissionais.</li>
+    <li>Visualizar a página meu perfil.</li>
+    <li>Clicar no botão de profissionais.</li>
     <li>Visualizar as categorias: Fisioterapeuta, médico, personal e nutricionista.</li>
     <li>Clicar na categoria e seguir o profissional escolhido</li>
-    
    </ol>
    </td>
   <td>Deve ocorrer uma seleção das informações fornecidas pelo profissional, e ao clicar na categoria escolhida, deverá abrir uma nova janela com os dados dos profissionais cadastrados na categoria selecionada.</td>
