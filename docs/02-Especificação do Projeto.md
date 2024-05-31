@@ -93,7 +93,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |RNF-02| A aplicação deve garantir que o site seja intuitivo proporcionando uma experiência eficiente para os usuários | ALTA | 
 |RNF-03| A aplicação deve ser compatível com os principais navegadores web como o Google Chrome, firefox e Microsoft Edge | ALTA | 
 |RNF-04| A aplicação deve garantir que a plataforma esteja disponível 24/7 com tempo de inatividade para manutenção programada de 10 horas semanais em média  | MÉDIA | 
-|RNF-05| A aplicação deve permitir a criação de uma senha forte com caracteres especiais  | ALTA | 
+|RNF-05| A aplicação deve permitir a criação de uma senha. | ALTA | 
 
 
 

@@ -19,7 +19,7 @@ Na Figura, é delineado o fluxo de interação do usuário através das diversas
 
 A homepage apresenta uma tela com uma mensagem de boas-vindas e um banner personalizado ao fundo. Ao decorrer da página, é possível observar algumas informações sobre a aplicação dividida em pequenos grupos.
 
-![Homepage](/docs/img/homepage.png)  
+![Homepage](/docs/img/Home.webp)  
  Figura 2 - Protótipo da página inicial
 
  ### Tela - Cadastro
