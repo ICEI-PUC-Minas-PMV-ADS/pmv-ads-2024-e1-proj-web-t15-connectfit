@@ -188,13 +188,15 @@ li, a
     .divretangulo
     {
         width:100%;
-        padding:1%;
+        height: 9%;
+        padding:0%;
     }
 
     .divobj
     {
         font-size:75%;
         margin-left:10%;
+        
     }
 
     .divlog
@@ -215,11 +217,12 @@ li, a
 
     .divobjetivo
     {
-        font-size:56%;
-        width:40%;
-        height:33%;
-        padding-top:2%;
+        font-size:69%;
+        width:60%;
+        height:40%;
         font-family: 'Merriweather Sans', Arial, Helvetica;
+        padding-top:4%;
+        margin-top:20%;
     }
 
     .banner
@@ -228,13 +231,6 @@ li, a
         background-position: center;
     }
 }
-
-/*Layout para telas de desktops Ana*/
-@media only screen and (max-width:1400px)
-{
-    
-
-} 
 
 
 /* O código abaixo foi escrito por Jonathan, ajustes feitos para integrar certinho*/
@@ -517,9 +513,6 @@ li, a
     background-color: #FF6000;
 }
 
-.activity.pro{
-
-}
 
 .itemActivity.pro{
     background-color: #FFA559;
