@@ -139,9 +139,12 @@
     padding: 16px;
     justify-items: start;
     column-gap: 16px;
+    grid-template-columns: auto 1fr;
     grid-template-areas:
             "perfil foto"
-            "texto foto";
+            "texto foto"
+            "comentarios foto"
+            "novo-comentario curtir";
     border-radius: 9px;
     background-color: #ffa662;
     border: 2px solid #95523f;
@@ -150,6 +153,77 @@
 .post .icone-perfil {
     grid-area: perfil;
 }
+
+.post .comentarios {
+    font-size: 14px;
+    grid-area: comentarios;
+}
+
+.post .comentarios .comentarios-titulo {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.post .comentarios ul {
+    list-style: none;
+}
+
+.post .comentarios ul .comentario {
+    display: grid;
+    column-gap: 16px;
+    align-items: center;
+    grid-template-columns: auto 1fr;
+    grid-template-areas:
+        "avatar autor"
+        "avatar texto";
+}
+
+.post .comentarios ul .comentario .comentario-avatar {
+    width: 48px;
+    height: 48px;
+    grid-area: avatar;
+}
+
+.post .comentarios ul .comentario .comentario-autor {
+    font-weight: bold;
+    grid-area: autor;
+}
+
+.post .comentarios ul .comentario .comentario-texto {
+    grid-area: texto;
+}
+
+.post .novo-comentario {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    width: 100%;
+}
+
+.post .novo-comentario #novo-comentario-texto {
+    flex-grow: 1;
+    padding: 2px 4px;
+    border-radius: 5px;
+    border: 2px solid #95523f;
+}
+
+.post .novo-comentario .novo-comentario-salvar {
+    color: white;
+    padding: 0 8px;
+    background-color: #FC6E51;
+}
+
+.post .curtir {
+    grid-area: curtir;
+    display: flex;
+    font-size: 24px;
+    padding: 8px;
+    width: 100%;
+    cursor: pointer;
+    justify-content: flex-end;
+}
+
+.post 
 
 .texto-post {
     grid-area: texto;
@@ -190,4 +264,4 @@
     border-radius: 5px;
     max-height: 30px;
     overflow: hidden;
-  }
+}

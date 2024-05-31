@@ -55,4 +55,41 @@ function salvarEventoCalendario(){
   divCalendarioCalendaASalvar.classList.add('event');
   document.getElementById('publicaEvento').style.display = "none";
 }
+
+function comentar(e) {
+  var post = e.target.closest('.post');
+  var novoComentario = post.querySelector('#novo-comentario-texto');
+  var textoComentario = novoComentario.value;
+  novoComentario.value = '';
+  if (textoComentario.trim() === '') {
+    return;
+  }
+
+  var nenhumComentario = post.querySelector('.comentarios > p');
   
+  if (nenhumComentario) {
+    nenhumComentario.remove();
+  }
+
+  var comentarios = post.querySelector('.comentarios ul');
+  if (!comentarios) {
+    comentarios = document.createElement('ul');
+    post.querySelector('.comentarios').appendChild(comentarios);
+  }
+  
+  var comentario = document.createElement('li');
+  comentario.classList.add('comentario');
+  comentario.innerHTML = '<img class="comentario-avatar" src="img/foto_menu.png"><span class=comentario-autor>Sophia</span><p class="comentario-texto">' + textoComentario + '</p>';
+  comentarios.appendChild(comentario);
+}
+
+function curtir(e) {
+  var curtido = e.target.classList.contains('fa-thumbs-up');
+  if (curtido) {
+    e.target.classList.remove('fa-thumbs-up');
+    e.target.classList.add('fa-thumbs-o-up');
+  } else {
+    e.target.classList.remove('fa-thumbs-o-up');
+    e.target.classList.add('fa-thumbs-up');
+  }
+}

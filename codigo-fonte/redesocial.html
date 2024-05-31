@@ -162,7 +162,29 @@
                 </div>
 
                 <p class="texto-post">Treinamento junto com os amigos numa tarde linda, todos em um caminho saudável. Foi muito divertido.</p>
+
+                <div class="comentarios">
+                  <span class="comentarios-titulo">Comentários</span>
+                  
+                  <ul>
+                    <li class="comentario">
+                      <img class="comentario-avatar" src="img/avatar1 (3).png" alt="Lara">
+                      <span class="comentario-autor">Lara</span>
+                      <p class="comentario-texto">Adorei essa tarde</p>
+                    </li> 
+                  </ul>
+                </div>
+
+                <div class="novo-comentario">
+                  <input id="novo-comentario-texto" type="text">
+                  <button class="novo-comentario-salvar" type="button" onclick="comentar(event)">Comentar</button>
+                </div>
+
                 <img src="img/img1.png" alt="Foto Mariana">
+
+                <div class="curtir">
+                  <i class="fa fa-thumbs-o-up" onclick="curtir(event)"></i>
+                </div>
             </div>
 
             <div class="post">
@@ -172,7 +194,22 @@
                 </div>
 
                 <p class="texto-post">Sempre é bom fazer uma caminhada ao ar livre pela manhã, isso me relaxa muito. Amigos vamos marcar uma caminhada?</p>
+
+                <div class="comentarios">
+                  <span class="comentarios-titulo">Comentários</span>
+                  <p>Ainda não há comentarios nesse post. Seja o primeiro a comentar</p>
+                </div>
+
+                <div class="novo-comentario">
+                  <input id="novo-comentario-texto" type="text">
+                  <button class="novo-comentario-salvar" type="button" onclick="comentar(event)">Comentar</button>
+                </div>
+
                 <img src="img/img2.png" alt="Foto Junior">
+
+                <div class="curtir">
+                  <i class="fa fa-thumbs-o-up" onclick="curtir(event)"></i>
+                </div>
             </div>
         </div>
     </main>
