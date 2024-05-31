@@ -59,7 +59,7 @@ Figura 5 - Tela de Edição
 
 Exibe informações gerais sobre a nossa empresa e é a principal forma do usuário acessar páginas de identificação como a de Login e a de senha.
 
-<img src="/docs/img/pag-index.png">
+<img src="/docs/img/Home.webp">
 Figura 6 - Tela da página principal
 
 <h3><b>Tela de arquivos de aulas</b></h3>
