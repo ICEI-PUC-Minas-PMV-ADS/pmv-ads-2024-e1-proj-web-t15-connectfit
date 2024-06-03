@@ -8,6 +8,7 @@ html {
     height: 100vh;
     overflow-y: scroll;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 /*Layout de todo conteúdo do body*/
@@ -94,6 +95,57 @@ body
     overflow-x: hidden;
     transform: translateX(-100%);
     transition: transform 350ms ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topo-menu {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin: 95px 0 50px 0;
+}
+
+.iconClose{
+    cursor: pointer;
+}
+
+.main-menu{
+    width: 100%;
+}
+
+.menu-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.menu-item {
+    width: 100%;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    background-color: #2B241C;
+    transition: background-color 350ms;
+}
+
+.menu-item a {
+    color: #fff;
+    transition: color 350ms;
+}
+
+.menu-item:hover {
+    background-color: #424242;
+}
+
+.menu-item a:hover {
+    color: #FF6000;
 }
 
 @media only screen and (min-width:768px) {
@@ -101,6 +153,8 @@ body
         width: 320px;
     }
 }
+
+/* FIM CÓDIGO MENU LATERAL ELABORADO POR JONATHAN */
 
 .divlog
 {
@@ -442,7 +496,7 @@ li, a
 .listActivities{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: stretch;
     justify-content: space-evenly;
     padding: 0 20px;
     margin-bottom: 50px;

@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;700&display=swap">
         <link rel="shortcut icon" type="image/x-icon" href="/codigo-fonte/img/Logoicon.ico">
         <!-- TESTE IMPLEMENTAÇÃO JQUERY <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> -->
-        <script type="text/javascript"  src="/codigo-fonte/js/index.js"></script>
+        <script type="text/javascript"  src="js/index.js"></script>
         <title>Home | ConnectFit</title>
     </head>
 
@@ -27,7 +27,7 @@
                         
                         <div class="divmenu">
                             <li> 
-                                <a href="/"> <i class="fas fa-bars" style="padding-left: 3px"></i> </a> 
+                                <a href="javascript:;"> <i class="fas fa-bars" style="padding-left: 3px"></i> </a> 
                             </li>
                         </div>
 
@@ -58,28 +58,25 @@
             <div class="menu-aside-content">
                 <div class="topo-menu">
                     <div class="logo-footer">
-                        <img src="img/logo-connectfit-footer.png" width="200" height="80" alt="Logo ConnectFIT">
+                        <img src="img/logo-connectfit-footer.png" width="150" height="60" alt="Logo ConnectFIT">
                     </div>
                     <div class="menu-icon-close">
-                        <i class="fas fa-xmark"></i>
+                        <img class="iconClose" src="img/x.svg" width="32" height="32">
                     </div>
                 </div>
-                <nav class="main-menu">
+                <nav id="navbar" class="main-menu">
                     <ul class="menu-list">
                         <li class="menu-item">
-                            <a href="#" title="">ITEM</a>
+                            <a href="#sobre">A CONNECTFIT</a>
                         </li>
                         <li class="menu-item">
-                            <a href="#" title="">ITEM</a>
+                            <a href="#usuarios">APRESENTAÇÃO</a>
                         </li>
                         <li class="menu-item">
-                            <a href="#" title="">ITEM</a>
+                            <a href="#atividades-praticantes">PRATICANTES</a>
                         </li>
                         <li class="menu-item">
-                            <a href="#" title="">ITEM</a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="#" title="">ITEM</a>
+                            <a href="#atividades-profissionais">PROFISSIONAIS</a>
                         </li>
                     </ul>
                 </nav>
@@ -139,13 +136,13 @@
                     <a href="Login.html">CONNECT JÁ!</a>
                 </div>
             </section>
-            <section id="atividades" class="sectionActivities container">
-                <div class="activity practitioner">
+            <section class="sectionActivities container">
+                <div id="atividades-praticantes" class="activity practitioner">
                     <h3 class="titleActivity">Compartilhe Suas Conquistas!</h3>
                     <div class="listActivities">
                         <div class="itemActivity practitioner">
                             <h4>Motivação!</h4>
-                            <p>Desistir não faz parte do treino.</p>
+                            <p>Desistir não faz parte do treino. vamos juntos por mais! #rumo10km</p>
                             <div class="userId">
                                 <img src="img/perfil-profissional-2.png" alt="">
                                 <div class="itemDescription">
@@ -156,7 +153,7 @@
                         </div>
                         <div class="itemActivity practitioner">
                             <h4>Preparo!</h4>
-                            <p>A importância do aquecimento: prepare seu corpo para evitar lesões.</p>
+                            <p>A importância do aquecimento: prepare seu corpo para evitar lesões. Notei uma grande melhora até mesmo na execução dos exercícios ao incluir uns minutinhos de alongamento na rotina!</p>
                             <div class="userId">
                                 <img src="img/perfil-profissional-2.png" alt="">
                                 <div class="itemDescription">
@@ -167,7 +164,7 @@
                         </div>
                         <div class="itemActivity practitioner">
                             <h4>Inspiração!</h4>
-                            <p>Acredite no seu potencial e vá além dos seus limites!</p>
+                            <p>Acredite no seu potencial e vá além dos seus limites! Hoje foi dia de longão muito bem acompanhado!</p>
                             <div class="userId">
                                 <img src="img/perfil-profissional-2.png" alt="">
                                 <div class="itemDescription">
@@ -178,7 +175,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="activity pro">
+                <div id="atividades-profissionais" class="activity pro">
                     <h3 class="titleActivity">Atividades Exclusivas Com Nossos Parceiros</h3>
                     <div class="listActivities">
                         <a href="#" class="itemActivity pro">
