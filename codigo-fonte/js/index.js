@@ -12,6 +12,16 @@ document.addEventListener('DOMContentLoaded', function(e) {
             document.documentElement.classList.remove('disabled');
         });
     });
+
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("navbar").style.top = "0";
+    } else {
+        document.getElementById("navbar").style.top = "-50px";
+    }
+}
 })
 // TENTATIVA DE UTILIZAR JQUERY AINDA VOU AJUSTAR DIREITINHO JS PURO LOGO ACIMA
 // (function($) {
