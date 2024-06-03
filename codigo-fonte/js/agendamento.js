@@ -1,4 +1,3 @@
-
 // BOTAO ADICIONAR VIDEO
 function strokeAnimation() {
     const button = document.getElementById("circleAddVideo");
@@ -80,35 +79,3 @@ function focusInput() {
         });
     });
 }
-
-// MAINS
-
-function switchMain1() {
-    const main1 = document.getElementById('main1');
-    const main2 = document.getElementById('main2');
-    const firstH3 = document.querySelector('.controlbarContainer h3:first-child');
-    const lastH3 = document.querySelector('.controlbarContainer h3:last-child');
-    const underline = document.getElementsByClassName('underline');
-
-    main1.style.display = "none"
-    main2.style.display = "block";
-    firstH3.style.color = "var(--black)";
-    lastH3.style.color = "var(--darkOrange)";
-    underline.style.transform = "translateX(60vw)";
-}
-
-function switchMain2() {
-    main1 = document.getElementById('main1');
-    main2 = document.getElementById('main2');
-    firstH3 = document.querySelector('.controlbarContainer h3:first-child');
-    lastH3 = document.querySelector('.controlbarContainer h3:last-child');
-
-    main1.style.display = "block";
-    main2.style.display = "none";
-    firstH3.style.color = "var(--darkOrange)";
-    lastH3.style.color = "var(--black)";
-    underline.style.transform = "translateX(17vw)";
-}
-
-// CRUD - VIDEOS
-
