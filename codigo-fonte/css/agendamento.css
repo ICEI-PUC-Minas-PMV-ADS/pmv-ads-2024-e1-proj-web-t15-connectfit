@@ -488,46 +488,6 @@ footer div img {
     margin: 3rem 0;
 }
 
-/* PSEUDO PAGINA */
-
-
-
-#myVideosContainer .myVideo{
-    margin: 5rem 0;
-    
-}
-
-.myVideo {
-    display: flex;
-    justify-content: space-around;
-}
-
-.myBanner {
-    background-color: yellow;
-    width: 40vw;
-    height: 40vh;
-}
-
-.myFirstCol {
-    background-color: crimson;
-    flex-grow: .5;
-}
-
-.mySecondCol {
-    display: flex;
-    flex-direction: column;
-    background-color: palevioletred;
-    flex-grow: .2;
-
-}
-
-.straight-line {
-    display: block;
-    background-color: var(--black);
-    width: 100vw;
-    height: .1rem;
-}
-
 /* RESPONSIVIDADE */
 
 @media (min-width: 767px) and (max-width: 1000px) {
