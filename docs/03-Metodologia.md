@@ -24,10 +24,10 @@ Nossa divisão de papéis foi organizada da seguinte forma:
 A fim de obter um processo mais organizado, optamos por utilizar o Github para atribuir tarefas aos membros do grupo, cada uma delas setorizadas em uma das colunas abaixo:
 
 - Backlog do produto: Representa todas as tarefas que precisam ser realizadas ao decorrer do projeto.
-- Pendente: Tarefas que foram filtradas do backlog do produto e iram ser desenvolvidas ao decorrer da sprint.
+- Backlog da sprint: Tarefas que foram filtradas do backlog do produto e iram ser desenvolvidas ao decorrer da sprint.
 - Em desenvolvimento: Tarefas da coluna "pendente" que já foram iniciadas.
 - Teste:  Tarefas finalizadas, mas que ainda não foram revisadas.
-- Pronto: Tarefas que já foram finalizadas e revisadas.
+- Concluído: Tarefas que já foram finalizadas e revisadas.
 
 O quadro Kanban desenvolvido pelo grupo pode ser acessado clicando [aqui](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1016/views/2). Abaixo, é possível ver uma representação dele.
 
