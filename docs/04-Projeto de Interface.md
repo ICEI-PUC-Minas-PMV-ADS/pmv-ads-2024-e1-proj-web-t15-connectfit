@@ -55,7 +55,7 @@ Figura 6 - Protótiṕo da página de Meu Perfil.
 
 Nessa tela, o usuário tem acesso ao link de aulas gravadas e que estão acontecendo ao vivo por meio de outras plataformas, assim como o profissional consegue comunicar a todos que alguma aula foi postada ou que ele está ao vivo em alguma rede social.
 
-![Aulas](/docs/img/aulas.png)  
+![Aulas](/docs/img/aulas1.png)  
 Figura 7 - Protótiṕo da página de Aulas.
 
 ### Tela - Redes sociais
