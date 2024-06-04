@@ -12,7 +12,7 @@ Na Figura, é delineado o fluxo de interação do usuário através das diversas
 
  Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>. -->
 
- ![User Flow](/docs/img/wireframe.jpeg)
+ ![User Flow](/docs/img/telafuncionamento.png)
  Figura 1 - Protótipo do Userflow
 
  ### Tela - HOMEPAGE
