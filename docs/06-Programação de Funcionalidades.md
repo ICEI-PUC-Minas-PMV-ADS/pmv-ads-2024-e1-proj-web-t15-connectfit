@@ -131,7 +131,7 @@ As estruturas de dados foram baseadas em HTML, CSS e JS.
 
 Exemplo:
 
-![Compartilhamento](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-connectfit/blob/2b6199e314ad3ce53c0431d60bbc1d296160e048/docs/img/redes-sociais.png)
+![Compartilhamento](/docs/img/redesocial.png)
 
 
 #### Requisitos atendidos
@@ -209,7 +209,7 @@ O acesso a tela de aulas poderá ser feito através do botão de "aulas" no menu
 Exemplo: 
 
 
-![Aulas](/docs/img/aulas.png)
+![Aulas](/docs/img/aulas1.png)
 
 
 
