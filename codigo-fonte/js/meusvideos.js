@@ -99,6 +99,25 @@ function newVideo(id, tipo, titulo, link, duracao) {
 
 // NOVO VIDEO - CARREGAR VIDEO
 
+if(localStorage.getItem('profileImg') !== null &&
+localStorage.getItem('nome-que-quero-ser-chamado') !== null &&
+localStorage.getItem('nome') !== null &&
+localStorage.getItem('idade') !== null &&
+localStorage.getItem('academias') !== null &&
+localStorage.getItem('localizacao') !== null &&
+localStorage.getItem('about') !== null) {
+ 
+ // Carrega os valores do localStorage
+ var profileImg = localStorage.getItem('profileImg');
+ var nomeQueQueroSerChamado = localStorage.getItem('nome-que-quero-ser-chamado');
+ var nome = localStorage.getItem('nome');
+ var idade = localStorage.getItem('idade');
+ var academias = localStorage.getItem('academias');
+ var localizacao = localStorage.getItem('localizacao');
+ var about = localStorage.getItem('about');
+
+}
+
 function addNewVideo() {
 
     if (thumbnail.value === "" || titulo.value === "" || link.value === "") {
@@ -126,6 +145,19 @@ function addNewVideo() {
       </div>
       
       <div class="straight-line></div>"`
+
+      let fyvid = `          <div class="videoFY">
+      <a href="#">
+          <div class="videoFYBanner" style="background-image: url('${thumbnail.value})></div>
+          <div class=" infoFY">
+            <div class="roundFY" style="background-image: url('${profileImg.value} center/cover "></div>
+            <div>
+              <h3> ${titulo.value}</h3>
+              <p>${nome}</p>
+            </div>
+          </div>\
+        </a>
+      </div>`
 
       containerVideos.append(vid)
     }
