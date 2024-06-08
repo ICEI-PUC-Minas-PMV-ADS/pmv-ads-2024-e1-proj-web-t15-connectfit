@@ -11,11 +11,10 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
     <br>
     Responsável: Ana Clara.
     <br>
-    <video width="1280" height="720" controls>
-      <source src="/docs/gravacoes/gravacaohome.mp4" type="video/mp4">
-      </video>
+    <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-connectfit/raw/7f78fe3b230a68d61ed4b537fe3e6d2ddbfab3c1/docs/gravacoes/gravacaoCadastro.mp4">Link para o vídeo de cadastro</a>
   </li>
 </ol>
+
 
 
 ## Avaliação
