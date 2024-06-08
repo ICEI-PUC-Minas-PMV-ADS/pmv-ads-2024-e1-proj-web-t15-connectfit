@@ -10,16 +10,27 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 
     Responsável: Ana Clara e Jonathan.
 
-<a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-connectfit/raw/7f78fe3b230a68d61ed4b537fe3e6d2ddbfab3c1/docs/gravacoes/gravacaohome.mp4">Link para o vídeo de Página Inicial</a>
+https://github.com/anaaclsp/Ana-Clara-ads-2024-proj-web-turma-15-connectfit/assets/123707884/4b8bb3b7-1ff6-4256-affa-733a74f4980f
+
+
 
   </li>
   <hr>
 
-  <li> CT-02: Verificar o funcionamento da página de Login.
+  <li> CT-02: Verificar o funcionamento da página de Login e Cadastro.
 
   Responsável: Melyssa.
-        
-<a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-connectfit/raw/7f78fe3b230a68d61ed4b537fe3e6d2ddbfab3c1/docs/gravacoes/gravacaoLogin.mp4">Link para o vídeo de Login</a>
+
+  
+
+https://github.com/anaaclsp/Ana-Clara-ads-2024-proj-web-turma-15-connectfit/assets/123707884/d899c6da-16bf-4990-a4a8-eea045f371e6
+
+
+      
+
+https://github.com/anaaclsp/Ana-Clara-ads-2024-proj-web-turma-15-connectfit/assets/123707884/7f3c4590-22db-4803-b5ac-d5bc9fb7048b
+
+
 
   </li>
   <hr>
@@ -28,16 +39,16 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 
 Responsável: Nasson.
       
-<a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-connectfit/raw/7f78fe3b230a68d61ed4b537fe3e6d2ddbfab3c1/docs/gravacoes/gravacaoMeuPerfil.mp4">Link para o vídeo de Meu Perfil</a>
+
 
   </li>
   <hr>
 
-  <li> CT-04: Verificar funcionamento da página de Profissionais.
+  <li> CT-04: Verificar funcionamento da página de Profissionais e Rede Social.
 
 Responsável: Evellyn.
       
-<a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-connectfit/raw/7f78fe3b230a68d61ed4b537fe3e6d2ddbfab3c1/docs/gravacoes/gravacaoProfissionais.mp4">Link para o vídeo de Profissionais</a>
+
 
   </li>
   <hr>
@@ -46,7 +57,7 @@ Responsável: Evellyn.
 
 Responsável: Danielle.
       
-<a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-connectfit/raw/7f78fe3b230a68d61ed4b537fe3e6d2ddbfab3c1/docs/gravacoes/gravacaoAulas.mp4">Link para o vídeo de Aulas</a>
+
 
   </li>
   <hr>
