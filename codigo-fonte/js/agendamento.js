@@ -26,6 +26,17 @@ function teste() {
     openVideoMenu()
 }
 
+// SIDEBAR
+
+function closeMenu() {
+    const menu = document.getElementById("side_items");
+    menu.style.right = "-100%";
+}
+
+function openMenu() {
+    const menu = document.getElementById("side_items");
+    menu.style.right = "0.1rem";
+}
 // UPLOAD VIDEO
 
 function closeUpload () {
