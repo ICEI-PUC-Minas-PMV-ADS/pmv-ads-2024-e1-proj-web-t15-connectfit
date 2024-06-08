@@ -11,7 +11,7 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
     <br>
     Responsável: Ana Clara.
     <br>
-      https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-connectfit/blob/7f78fe3b230a68d61ed4b537fe3e6d2ddbfab3c1/docs/gravacoes/gravacaoCadastro.mp4" type="video/mp4
+      https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-connectfit/blob/7f78fe3b230a68d61ed4b537fe3e6d2ddbfab3c1/docs/gravacoes/gravacaoCadastro.mp4
   </li>
 </ol>
 
