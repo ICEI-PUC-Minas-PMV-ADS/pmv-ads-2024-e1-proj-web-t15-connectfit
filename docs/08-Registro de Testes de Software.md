@@ -4,9 +4,22 @@
 
 Relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado em um plano de testes pré-definido.
 
+<ol>
+  <li> CT-01: Verificar o funcionamento dos botões da Página Inicial.
+
+  Responsável: Ana.
+
+  <video width="320" height="240" controls>
+    <source src="/docs/gravacoes/gravacaoHome.mp4" type="video/mp4">
+    Seu navegador não suporta a tag de vídeo.
+  </video>
+  
+  </li>
+  <hr>
+</ol>
+
+
+
 ## Avaliação
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
-
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
+Os testes de software mostraram que os requisitos priorizados foram atendidos, funcionando como planejado.
