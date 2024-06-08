@@ -11,9 +11,9 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
     <br>
     Responsável: Ana Clara.
     <br>
-    <video>
+    <video width="1280" height="720" controls>
       <source src="/docs/gravacoes/gravacaohome.mp4" type="video/mp4">
-      <video>
+      </video>
   </li>
 </ol>
 
