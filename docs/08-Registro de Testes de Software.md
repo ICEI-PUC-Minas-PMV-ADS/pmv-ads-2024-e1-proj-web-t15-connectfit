@@ -4,19 +4,17 @@
 
 Relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado em um plano de testes pré-definido.
 
+
 <ol>
-
-  <li> CT-01: Verificar o funcionamento dos botões da Página Inicial.
-
-  Responsável: Ana Clara.
-  <br>
-    <source src="/docs/gravacoes/gravacaohome.mp4" type="video/mp4">
-    
+  <li> 
+    CT-01: Verificar o funcionamento dos botões da Página Inicial.
+    <br>Responsável: Ana Clara.
+    <br>
+    <video>
+      <source src="/docs/gravacoes/gravacaocadastro.mp4" type="video/mp4">
+    </video>
   </li>
-  <hr>
-  
 </ol>
-
 
 
 ## Avaliação
