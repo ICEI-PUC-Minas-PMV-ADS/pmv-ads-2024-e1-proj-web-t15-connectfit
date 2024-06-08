@@ -353,13 +353,6 @@ main {
     background-color: var(--beige);
 }
 
-/* BANNER */
-
-.carousel .slide{
-    z-index: 1;
-}
-
-
 /* CONTAINER  VIDEO*/
 
 .foryou {
@@ -511,9 +504,11 @@ footer div img {
 }
 
 .myBanner {
-    background-color: yellow;
     width: 40vw;
     height: 40vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .myFirstCol {
