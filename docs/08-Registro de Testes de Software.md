@@ -5,17 +5,20 @@
 Relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado em um plano de testes pré-definido.
 
 <ol>
+
   <li> CT-01: Verificar o funcionamento dos botões da Página Inicial.
 
-  Responsável: Ana.
+  Responsável: Ana Clara.
+  <br>
 
   <video width="320" height="240" controls>
     <source src="/docs/gravacoes/gravacaoHome.mp4" type="video/mp4">
-    Seu navegador não suporta a tag de vídeo.
+    
   </video>
-  
+
   </li>
   <hr>
+  
 </ol>
 
 
