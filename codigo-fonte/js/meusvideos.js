@@ -133,37 +133,47 @@ if (localStorage.getItem('profileImg') !== null &&
 function addNewVideo() {
 
     if (thumbnail.value === "" || titulo.value === "" || link.value === "") {
-        alert("Você precisa preencher todos os campos!")
-        console.log(titulo.value, link.value)
+        alert("Você precisa preencher todos os campos!");
+        console.log(titulo.value, link.value);
     } else {
-        console.log("tudo certo")
+        console.log("tudo certo");
 
-        let vid = document.createElement("div.myVideo")
-        vid.innerHTML = `          <div class="myVideo">
-        <div class="myBanner" style="background-image: url('${thumbnail.value}'); background-size: cover; background-position: center;">
-        </div>
-        <div class="myFirstCol">
-          <h4> TÍTULO:</h4>
-          <p>${titulo.value}</p>
-          <h4> LINK:</h4>
-          <p>${link.value}</p>
-        </div>
-        <div class="mySecondCol">
-          <a href="#" class="delete">
-            <i class="fa-solid fa-trash"></i>
-            Excluir
-          </a>
-        </div>
-      </div>
-      
-      <div class="straight-line></div>"`
+        // Salvando os valores separadamente no localStorage
+        localStorage.setItem("thumbnail", thumbnail.value);
+        localStorage.setItem("titulo", titulo.value);
+        localStorage.setItem("link", link.value);
 
-        containerVideos.append(vid)
+        // Criando e adicionando o novo vídeo na lista
+        let vid = document.createElement("div.myVideo");
+        vid.innerHTML = `          
+            <div class="myVideo">
+            <div class="myBanner" style="background-image: url('${thumbnail.value}'); background-size: cover; background-position: center;">
+                </div>
+                <div class="myFirstCol">
+                    <h4> TÍTULO:</h4>
+                    <p>${titulo.value}</p>
+                    <h4> LINK:</h4>
+                    <p>${link.value}</p>
+                </div>
+                <div class="mySecondCol">
+                    <a href="#" class="delete">
+                        <i class="fa-solid fa-trash"></i>
+                        Excluir
+                    </a>
+                </div>
+            </div>
+            <div class="straight-line></div>"`;
+
+        containerVideos.append(vid);
+
+        // Limpar os campos de entrada
+        titulo.value = "";
+        link.value = "";
+        thumbnail.value = "";
+
+        // Salvando os dados no localStorage
+        saveData();
     }
-    titulo.value = "";
-    link.value = "";
-    thumbnail.value = "";
-    saveData()
 }
 
 containerVideos.addEventListener("click", function (e) {
@@ -181,4 +191,4 @@ function showVideos() {
     containerVideos.innerHTML = localStorage.getItem("videos")
 }
 
-showVideos()
+    showVideos();

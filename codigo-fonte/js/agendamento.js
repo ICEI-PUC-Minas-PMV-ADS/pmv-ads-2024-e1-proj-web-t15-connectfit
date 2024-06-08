@@ -90,3 +90,32 @@ function focusInput() {
         });
     });
 }
+
+// CARREGAR VIDEOS 
+
+document.addEventListener('DOMContentLoaded', function () {
+    const forYouContainer = document.getElementById('foryou');
+
+    function loadVideosForYou() {
+        const thumbnail = localStorage.getItem("thumbnail");
+        const titulo = localStorage.getItem("titulo");
+        const link = localStorage.getItem("link");
+
+        if (thumbnail && titulo && link) {
+            let vid = document.createElement("div");
+            vid.className = "videoFY";
+            vid.innerHTML = `
+                <a href="${link}">
+                    <div class="videoFYBanner" style="background-image: url('${thumbnail}'); background-size: cover; background-position: center;"></div>
+                    <div class="infoFY">
+                        <div>
+                            <h3>${titulo}</h3>
+                        </div>
+                    </div>
+                </a>`;
+            forYouContainer.appendChild(vid);
+        }
+    }
+
+    loadVideosForYou();
+});
