@@ -8,7 +8,8 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 <ol>
   <li> 
     CT-01: Verificar o funcionamento dos botões da Página Inicial.
-    <br>Responsável: Ana Clara.
+    <br>
+    Responsável: Ana Clara.
     <br>
     <video>
       <source src="/docs/gravacoes/gravacaocadastro.mp4" type="video/mp4">
