@@ -27,8 +27,8 @@ if(localStorage.getItem('profileImg') !== null &&
 } else {
     // Caso não haja dados no localStorage, exibe uma mensagem de erro ou realiza outra ação apropriada
     console.log('Dados não encontrados no localStorage.');
-
-    function previaImagem() {
+}
+function previaImagem() {
   var preview = document.getElementById("previaImagem");
   preview.style.display = "flex";
   const file = document.getElementById("upload").files[0];
@@ -50,20 +50,32 @@ if(localStorage.getItem('profileImg') !== null &&
 function publicarPostagem() {
   var textoASerPublicado = document.getElementById("textoPulicacao").value;
   var previaImagem = document.getElementById("previaImagem");
+
   if (!textoASerPublicado || !previaImagem.src) {
-    alert("Por favor preencha todos os campos antes de publicar a mensagem (inclusive upload da imagem a ser publicada)!");
+      alert("Por favor preencha todos os campos antes de publicar a mensagem (inclusive upload da imagem a ser publicada)!");
   } else {
-    var novaDivCriada = document.createElement("div");
-    novaDivCriada.classList.add("post");
-    var srcPreviaImagem = previaImagem.src;
-    novaDivCriada.innerHTML = "<div class='icone-perfil'><img src='img/foto_menu.png' alt='Sofia'>Sofia</div><p class='texto-post'>" + textoASerPublicado + "</p><img src='" + srcPreviaImagem + "' alt='Foto Postada'>";
-    var primeiraDivPost = document.querySelectorAll(".post")[0];
-    primeiraDivPost.parentElement.insertBefore(novaDivCriada, primeiraDivPost);
-    document.getElementById("textoPulicacao").value = "";
-    previaImagem.src = "";
-    previaImagem.style.display = "none";
+      // Obter dados do usuário do localStorage
+      var profileImg = localStorage.getItem('profileImg');
+      var nomeQueQueroSerChamado = localStorage.getItem('nome-que-quero-ser-chamado');
+
+      // Criar o elemento de postagem
+      var novaDivCriada = document.createElement("div");
+      novaDivCriada.classList.add("post");
+
+      // Construir a postagem com os dados do usuário
+      novaDivCriada.innerHTML = "<div class='icone-perfil'><img src='" + profileImg + "' alt='" + nomeQueQueroSerChamado + "'>" + nomeQueQueroSerChamado + "</div><p class='texto-post'>" + textoASerPublicado + "</p><img src='" + previaImagem.src + "' alt='Foto Postada'>";
+
+      // Inserir a postagem no início do contêiner de postagens
+      var postsContainer = document.getElementById("posts");
+      postsContainer.insertBefore(novaDivCriada, postsContainer.firstChild);
+
+      // Limpar campos e redefinir a prévia da imagem
+      document.getElementById("textoPulicacao").value = "";
+      previaImagem.src = "";
+      previaImagem.style.display = "none";
   }
 }
+
 
 function abrirCaixaPublicarEvento(idDivDiaCalendarioClicado) {
   var divDiaCalendarioClicado = document.getElementById(idDivDiaCalendarioClicado);
@@ -106,11 +118,25 @@ function comentar(e) {
     post.querySelector('.comentarios').appendChild(comentarios);
   }
 
+  // Busca os dados do usuário no localStorage
+  var profileImg = localStorage.getItem('profileImg');
+  var nomeQueQueroSerChamado = localStorage.getItem('nome-que-quero-ser-chamado');
+
+  // Cria o novo comentário usando os dados do localStorage
+
   var comentario = document.createElement('li');
   comentario.classList.add('comentario');
-  comentario.innerHTML = '<img class="comentario-avatar" src="img/foto_menu.png"><span class=comentario-autor>Sophia</span><p class="comentario-texto">' + textoComentario + '</p>';
+  comentario.innerHTML = '<img class="comentario-avatar" src="' + profileImg + '"><span class="comentario-autor">' + nomeQueQueroSerChamado + '</span><p class="comentario-texto">' + textoComentario + '</p>';
   comentarios.appendChild(comentario);
 }
+  
+  function adicionarComentario(textoComentario) {
+    var comentario = document.createElement('li');
+    comentario.classList.add('comentario');
+    comentario.innerHTML = `<img class="comentario-avatar" src="${profileImg}"><span class="comentario-autor">Sophia</span><p class="comentario-texto">${textoComentario}</p>`;
+    document.getElementById('comentarios').appendChild(comentario);
+}
+
 
 function curtir(e) {
   var curtido = e.target.classList.contains('fa-thumbs-up');
@@ -122,6 +148,21 @@ function curtir(e) {
     e.target.classList.add('fa-thumbs-up');
   }
 }
+
+function aplicaListenerBotoesSeguirPorProfissionais(tipoProfissonal) {
+  const divTipoProfissional = document.getElementById(tipoProfissonal);
+  const botoesSeguir = divTipoProfissional.querySelectorAll(".seguir");
+  botoesSeguir.forEach(botao => {
+    botao.addEventListener('click', function (e) {
+      const botaoSeguir = e.target;
+      botaoSeguir.innerHTML = botaoSeguir.innerHTML === "Seguir" ? "Seguindo" : "Seguir";
+    });
+  });
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+  aplicaListenerBotoesSeguirPorProfissionais('posts');
+});
 
 function seguir(e) {
   var botaoSeguir = e.target;
@@ -154,4 +195,3 @@ function seguir(e) {
 document.addEventListener("DOMContentLoaded", function() {
   aplicaListenerBotoesSeguirPorProfissionais('posts');
 });
-}
