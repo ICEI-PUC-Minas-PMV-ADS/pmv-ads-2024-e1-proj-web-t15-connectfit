@@ -116,7 +116,7 @@ document.addEventListener('DOMContentLoaded', function () {
             const vid = document.createElement("div");
             vid.className = "videoFY";
             vid.innerHTML = `
-                <a href="${video.link}">
+                <a href="${video.link}" target="_blank">
                     <div class="videoFYBanner" style="background-image: url('${video.thumbnail}'); background-size: cover; background-position: center;"></div>
                     <div class="infoFY">
                         <div>

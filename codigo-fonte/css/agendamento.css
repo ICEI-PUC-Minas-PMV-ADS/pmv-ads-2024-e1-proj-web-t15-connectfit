@@ -51,7 +51,7 @@ nav h1 {
     color: var(--orange);
     font-family: var(--title);
     font-size: 2rem;
-    transform: translateX(-9rem);
+    transform: translateX(43vw);
 }
 
 nav span {
