@@ -5,35 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Connectfit</title>
     <link rel="shortcut icon" type="image/x-icon" href="img/Logoicon.ico">
-
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/d3e80ce908.js" crossorigin="anonymous"></script>
-
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/profissionais.css">
-
     <script type="text/javascript" src="js/menu.js"></script>
     <script type="text/javascript" src="js/profissionais.js"></script>
+    <style>
+    .idlogo{
+        transform: translateX(43vw);
+    }
+    </style>
 </head>
 <body>
   <header class="cabecalho">
-      <svg class="icone-cabecalho">
-          <use xlink:href="img/search.svg#icon"></use>
-      </svg>
-
-      <span id="logo">CONNECT<span class="fit">FIT</span></span>
+      
+      <div class="idlogo">
+        <span id="logo">CONNECT<span class="fit">FIT</span></span>
+      </div>
 
       <div class="foto-container">
           <a href="meuperfil.html">
               <img class="foto" src="img/foto_menu.png" alt="Foto do perfil">
           </a>
-
           <i class="fa-solid fa-bars menu-icone" onclick="openMenu()"></i>
-
           <ul id="side_items">
               <i onclick="closeMenu()" class="fa-solid fa-x menu-icone"></i>
-
               <li class="side-item">
                 <a href="aulas.html">
                   <i class="fa-solid fa-box-archive"></i>
@@ -42,7 +40,6 @@
                   </span>
                 </a>
               </li>
-
               <li class="side-item">
                 <a href="redesocial.html">
                   <i class="fa-solid fa-user-group"></i>
@@ -51,7 +48,6 @@
                   </span>
                 </a>
               </li>
-
               <li class="side-item">
                 <a href="profissionais.html">
                   <i class="fa-solid fa-stethoscope"></i>
@@ -60,7 +56,6 @@
                   </span>
                 </a>
               </li>
-
               <li class="side-item">
                 <a href="meuperfil.html">
                   <i class="fa-solid fa-id-card"></i>
@@ -69,7 +64,6 @@
                   </span>
                 </a>
               </li>
-
               <li class="side-item">
                 <a href="index.html">
                   <i class="fa-solid fa-right-from-bracket"></i>
@@ -78,80 +72,65 @@
                   </span>
                 </a>
               </li>
-
             </ul>
       </div>
   </header>
-
   <main class="conteudo">
       <h2 class="titulo">Profissionais</h2>
-
       <div class="profissoes">
         <a class="botao-profissao" href="javascript:exibirProfissionais('fisioterapeutas');">
             <img class="icone-barra-lateral"  src="img/fisioterapeuta.png" alt="fisioterapeuta">
             <span class="texto">Fisioterapeuta</span>
         </a>
-
         <a class="botao-profissao" href="javascript:exibirProfissionais('personais');">
             <img class="icone-barra-lateral" src="img/personal.png" alt="personal">
             <span class="texto">Personal</span>
         </a>
-
         <a class="botao-profissao" href="javascript:exibirProfissionais('medicos');">
             <img class="icone-barra-lateral" src="img/medico.png" alt="medico">
             <span class="texto">Médico</span>
         </a>
-
         <a class="botao-profissao" href="javascript:exibirProfissionais('nutricionistas');">
             <img class="icone-barra-lateral" src="img/nutricionista.png" alt="nutricionista">
             <span class="texto">Nutricionista</span>
         </a>
     </div>
-
     <div class="lista" id="fisioterapeutas" style="display:none">
-          <div class="profissional" >
-              <div class="avatar" >
+          <div class="profissional">
+              <div class="avatar">
                   <img src="img/fisio.1.100px.png" alt="avatar">
                   Mariana Oliveira
               </div>
-
               <div class="contatos">
                   <div class="contato">
                       <img src="img/endereço.png" alt="endereço">
                       Maceió/AL
                   </div>
-
                   <div class="contato">
                       <img src="img/instagram_color.png" alt="instagram">
                       @mariana.fisio
                   </div>
-
                   <div class="contato">
                       <img src="img/whatsapp.png" alt="whatsapp">
                       (82) 99999-9999
                   </div>
               </div>
-              
               <button class="seguir">Seguir</button>
           </div>
-
           <div class="profissional">
               <div class="avatar">
                   <img src="img/avatar1 (2).png" alt="avatar">
                   Júnior Júnior
               </div>
-
               <div class="contatos">
                   <div class="contato">
                       <img src="img/endereço.png" alt="endereço">
                       Salvador/BA
                   </div>
-
                   <div class="contato">
                       <img src="img/instagram_color.png" alt="instagram">
                       @junior
                   </div>
-
                   <div class="contato">
                       <img src="img/whatsapp.png" alt="whatsapp">
                       (xx) 99999-9999
@@ -159,24 +138,20 @@
               </div>
               <button class="seguir">Seguir</button> 
           </div>
-
           <div class="profissional">
             <div class="avatar">
                 <img src="img/fisio.100px.png" alt="fisio">
                 Ana Maria
             </div>
-
             <div class="contatos">
                 <div class="contato">
                     <img src="img/endereço.png" alt="endereço">
                     Salvador/BA
                 </div>
-
                 <div class="contato">
                     <img src="img/instagram_color.png" alt="instagram">
                     @AnaMaria
                 </div>
-
                 <div class="contato">
                     <img src="img/whatsapp.png" alt="whatsapp">
                     (xx) 99999-9999
@@ -185,247 +160,202 @@
             <button class="seguir">Seguir</button>
         </div>  
     </div>
-
     <div class="lista" id="personais" style="display:none">
         <div class="profissional">
           <div class="avatar">
               <img src="img/avatar1 (1).png" alt="avatar">
               Lara Daniela
           </div>
-
           <div class="contatos">
               <div class="contato">
                   <img src="img/endereço.png" alt="endereço">
                   Belo Horizonte/MG
               </div>
-
               <div class="contato">
                   <img src="img/instagram_color.png" alt="instagram">
                   @lara
               </div>
-
               <div class="contato">
                   <img src="img/whatsapp.png" alt="whatsapp">
                   (xx) 99999-9999
               </div>
           </div>
-          
           <button class="seguir">Seguir</button>
         </div>   
-
         <div class="profissional">
           <div class="avatar">
               <img src="img/personal.100px.png" alt="personal">
               Andre Marinho
           </div>
-
           <div class="contatos">
               <div class="contato">
                   <img src="img/endereço.png" alt="endereço">
                   Belo Horizonte/MG
               </div>
-
               <div class="contato">
                   <img src="img/instagram_color.png" alt="instagram">
                   @Andre
               </div>
-
               <div class="contato">
                   <img src="img/whatsapp.png" alt="whatsapp">
                   (xx) 99999-9999
               </div>
           </div>
-          
           <button class="seguir">Seguir</button>
         </div>
-        
         <div class="profissional">
           <div class="avatar">
               <img src="img/personal.1.100px.png" alt="personal">
               Amanda 
           </div>
-
           <div class="contatos">
               <div class="contato">
                   <img src="img/endereço.png" alt="endereço">
                   Belo Horizonte/MG
               </div>
-
               <div class="contato">
                   <img src="img/instagram_color.png" alt="instagram">
                   @Amanda
               </div>
-
               <div class="contato">
                   <img src="img/whatsapp.png" alt="whatsapp">
                   (xx) 99999-9999
               </div>
           </div>
-          
           <button class="seguir">Seguir</button>
         </div>
     </div>
     <div class="lista" id="medicos" style="display:none">
         <div class="profissional">
-          
           <div class="avatar">
               <img src="img/dr.100px.png" alt="Mauro Roberto">
               Mauro Roberto
           </div>
-
           <div class="contatos">
               <div class="contato">
                   <img src="img/endereço.png" alt="endereço">
                   Recife/PE
               </div>
-
               <div class="contato">
                   <img src="img/instagram_color.png" alt="instagram">
                   @Mroberto
               </div>
-
               <div class="contato">
                   <img src="img/whatsapp.png" alt="whatsapp">
                   (xx) 99999-9999
               </div>
           </div>
-          
           <button class="seguir">Seguir</button>
         </div>   
-
         <div class="profissional">
           <div class="avatar">
               <img src="img/dr.1.100px.png" alt="Gustavo Lucca">
               Gustavo Lucca
           </div>
-
           <div class="contatos">
               <div class="contato">
                   <img src="img/endereço.png" alt="endereço">
                   Aracaju/SE
               </div>
-
               <div class="contato">
                   <img src="img/instagram_color.png" alt="instagram">
                   @DrLucca
               </div>
-
               <div class="contato">
                   <img src="img/whatsapp.png" alt="whatsapp">
                   (xx) 99999-9999
               </div>
           </div>
-          
           <button class="seguir">Seguir</button>
         </div>
-        
         <div class="profissional">
           <div class="avatar">
               <img src="img/dr.2.100px.png" alt="Adriana">
               Adriana Patrycia
           </div>
-
           <div class="contatos">
               <div class="contato">
                   <img src="img/endereço.png" alt="endereço">
                   Belo Horizonte/MG
               </div>
-
               <div class="contato">
                   <img src="img/instagram_color.png" alt="instagram">
                   @DraPaty
               </div>
-
               <div class="contato">
                   <img src="img/whatsapp.png" alt="whatsapp">
                   (xx) 99999-9999
               </div>
           </div>
-          
           <button class="seguir">Seguir</button>
         </div>  
-    </div> 
-
+    </div>
     <div class="lista" id="nutricionistas" style="display:none">
             <div class="profissional">
-              
               <div class="avatar">
                   <img src="img/nutri.100px.png" alt="Allan José">
                   Allan José
               </div>
-    
               <div class="contatos">
                   <div class="contato">
                       <img src="img/endereço.png" alt="endereço">
                       Florianópolis/SC
                   </div>
-    
                   <div class="contato">
                       <img src="img/instagram_color.png" alt="instagram">
                       @Allan
                   </div>
-    
                   <div class="contato">
                       <img src="img/whatsapp.png" alt="whatsapp">
                       (xx) 99999-9999
                   </div>
               </div>
-              
               <button class="seguir">Seguir</button>
             </div>   
-    
             <div class="profissional">
               <div class="avatar">
                   <img src="img/nutri.1.100px.png" alt="Karla Dias">
                   Karla Dias
               </div>
-    
               <div class="contatos">
                   <div class="contato">
                       <img src="img/endereço.png" alt="endereço">
                       Porto Velho/RO
                   </div>
-    
                   <div class="contato">
                       <img src="img/instagram_color.png" alt="instagram">
                       @DKarla
                   </div>
-    
                   <div class="contato">
                       <img src="img/whatsapp.png" alt="whatsapp">
                       (xx) 99999-9999
                   </div>
               </div>
-              
               <button class="seguir">Seguir</button>
             </div>
-            
             <div class="profissional">
               <div class="avatar">
                   <img src="img/nutri.2.100px.png" alt="Ana Alice">
                   Ana Alice
               </div>
-    
               <div class="contatos">
                   <div class="contato">
                       <img src="img/endereço.png" alt="endereço">
                       Rio Branco/AC
                   </div>
-    
                   <div class="contato">
                       <img src="img/instagram_color.png" alt="instagram">
                       @Anacile
                   </div>
-    
                   <div class="contato">
                       <img src="img/whatsapp.png" alt="whatsapp">
                       (xx) 99999-9999
                   </div>
               </div>
-              
               <button class="seguir">Seguir</button>
         </div>
     </div> 
   </main>
+  
 </body>
 </html>
