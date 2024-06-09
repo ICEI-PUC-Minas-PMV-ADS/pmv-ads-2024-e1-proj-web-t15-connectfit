@@ -1,53 +1,52 @@
 function previaImagem() {
-    var preview = document.getElementById("previaImagem");
-    preview.style.display = "flex"
-    const file = document.getElementById("upload").files[0];
-    const reader = new FileReader();
-  
-    reader.addEventListener(
-      "load",
-      () => {
-        // convert image file to base64 string
-        preview.src = reader.result;
-      },
-      false,
-    );
-  
-    if (file) {
-      reader.readAsDataURL(file);
-    }
-  }
+  var preview = document.getElementById("previaImagem");
+  preview.style.display = "flex";
+  const file = document.getElementById("upload").files[0];
+  const reader = new FileReader();
 
-function publicarPostagem(){
-    var textoASerPublicado = document.getElementById("textoPulicacao").value;
-    var previaImagem = document.getElementById("previaImagem");
-    if (!textoASerPublicado || !previaImagem){
-        alert("Por favor preencha todos os campos antes e publicar a mensagem (inclusive upload da imagem a ser publicada)!");    
-    }else{
-        var novaDivCriada = document.createElement("div");
-        novaDivCriada.classList.add("post");
-        var srcPreviaImagem = document.getElementById("previaImagem").src;
-        novaDivCriada.innerHTML = "<div class='icone-perfil'><img src='img/foto_menu.png' alt='Sofia'>Sofia</div><p class='texto-post'>"+textoASerPublicado+"</p><img src='"+srcPreviaImagem+"' alt='Foto Postada'>";
-        var primeiraDivPost = document.querySelectorAll(".post")[0];
-        primeiraDivPost.parentElement.insertBefore(novaDivCriada, primeiraDivPost);
-        textoASerPublicado = document.getElementById("textoPulicacao").value = "";
-        previaImagem.src = "";
-        previaImagem.style.display = "none";
-    }
+  reader.addEventListener(
+    "load",
+    () => {
+      preview.src = reader.result;
+    },
+    false
+  );
+
+  if (file) {
+    reader.readAsDataURL(file);
+  }
 }
 
-function abrirCaixaPublicarEvento(idDivDiaCalendarioClicado){
+function publicarPostagem() {
+  var textoASerPublicado = document.getElementById("textoPulicacao").value;
+  var previaImagem = document.getElementById("previaImagem");
+  if (!textoASerPublicado || !previaImagem.src) {
+    alert("Por favor preencha todos os campos antes e publicar a mensagem (inclusive upload da imagem a ser publicada)!");
+  } else {
+    var novaDivCriada = document.createElement("div");
+    novaDivCriada.classList.add("post");
+    var srcPreviaImagem = previaImagem.src;
+    novaDivCriada.innerHTML = "<div class='icone-perfil'><img src='img/foto_menu.png' alt='Sofia'>Sofia</div><p class='texto-post'>" + textoASerPublicado + "</p><img src='" + srcPreviaImagem + "' alt='Foto Postada'>";
+    var primeiraDivPost = document.querySelectorAll(".post")[0];
+    primeiraDivPost.parentElement.insertBefore(novaDivCriada, primeiraDivPost);
+    document.getElementById("textoPulicacao").value = "";
+    previaImagem.src = "";
+    previaImagem.style.display = "none";
+  }
+}
+
+function abrirCaixaPublicarEvento(idDivDiaCalendarioClicado) {
   var divDiaCalendarioClicado = document.getElementById(idDivDiaCalendarioClicado);
   var divCaixaPublicarEvento = document.getElementById('publicaEvento');
   divCaixaPublicarEvento.style.display = "block";
   var divGuardarIdCalendario = document.getElementById('idGuardaiDDIvCalendario');
-  divGuardarIdCalendario.innerHTML = idDivDiaCalendarioClicado
+  divGuardarIdCalendario.innerHTML = idDivDiaCalendarioClicado;
   divGuardarIdCalendario.style.display = "none";
   document.getElementById('dataEvento').innerHTML = idDivDiaCalendarioClicado;
   document.getElementById('textoPublicacaoEvento').value = divDiaCalendarioClicado.innerHTML;
 }
 
-function salvarEventoCalendario(){
+function salvarEventoCalendario() {
   var idDivDiaCalendaASalvar = document.getElementById('idGuardaiDDIvCalendario').innerHTML;
   var divCalendarioCalendaASalvar = document.getElementById(idDivDiaCalendaASalvar);
   textoPublicacaoEvento = document.getElementById('textoPublicacaoEvento').value;
@@ -66,7 +65,7 @@ function comentar(e) {
   }
 
   var nenhumComentario = post.querySelector('.comentarios > p');
-  
+
   if (nenhumComentario) {
     nenhumComentario.remove();
   }
@@ -76,7 +75,7 @@ function comentar(e) {
     comentarios = document.createElement('ul');
     post.querySelector('.comentarios').appendChild(comentarios);
   }
-  
+
   var comentario = document.createElement('li');
   comentario.classList.add('comentario');
   comentario.innerHTML = '<img class="comentario-avatar" src="img/foto_menu.png"><span class=comentario-autor>Sophia</span><p class="comentario-texto">' + textoComentario + '</p>';
@@ -93,3 +92,18 @@ function curtir(e) {
     e.target.classList.add('fa-thumbs-up');
   }
 }
+
+function aplicaListenerBotoesSeguirPorProfissionais(tipoProfissonal) {
+  const divTipoProfissional = document.getElementById(tipoProfissonal);
+  const botoesSeguir = divTipoProfissional.querySelectorAll(".seguir");
+  botoesSeguir.forEach(botao => {
+    botao.addEventListener('click', function (e) {
+      const botaoSeguir = e.target;
+      botaoSeguir.innerHTML = botaoSeguir.innerHTML === "Seguir" ? "Seguindo" : "Seguir";
+    });
+  });
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+  aplicaListenerBotoesSeguirPorProfissionais('posts');
+});
