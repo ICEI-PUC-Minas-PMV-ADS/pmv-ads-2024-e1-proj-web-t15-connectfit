@@ -26,6 +26,17 @@ function teste() {
     openVideoMenu()
 }
 
+// SIDEBAR
+
+function closeMenu() {
+    const menu = document.getElementById("side_items");
+    menu.style.right = "-100%";
+}
+
+function openMenu() {
+    const menu = document.getElementById("side_items");
+    menu.style.right = "0.1rem";
+}
 // UPLOAD VIDEO
 
 function closeUpload () {
@@ -79,3 +90,65 @@ function focusInput() {
         });
     });
 }
+
+// CARREGAR VIDEOS 
+
+document.addEventListener('DOMContentLoaded', function () {
+    function loadVideosForYou() {
+        // Obtém todos os vídeos armazenados no localStorage
+        const videos = JSON.parse(localStorage.getItem("myVideos")) || [];
+        const forYouContainer = document.getElementById("foryou");
+
+        // Verifica se algum vídeo foi recuperado
+        console.log("Vídeos recuperados:", videos);
+
+        // Verifica se o elemento forYouContainer foi encontrado
+        if (!forYouContainer) {
+            console.error('Elemento #foryou não encontrado no DOM.');
+            return;
+        }
+
+        // Limpa o conteúdo atual da div #foryou
+        forYouContainer.innerHTML = "";
+
+        // Itera sobre cada vídeo e cria elementos HTML para exibi-los
+        videos.forEach(video => {
+            const vid = document.createElement("div");
+            vid.className = "videoFY";
+            vid.innerHTML = `
+                <a href="${video.link}" target="_blank">
+                    <div class="videoFYBanner" style="background-image: url('${video.thumbnail}'); background-size: cover; background-position: center;"></div>
+                    <div class="infoFY">
+                        <div>
+                            <h3>${video.titulo}</h3>
+                        </div>
+                    </div>
+                </a>`;
+            forYouContainer.appendChild(vid);
+        });
+    }
+
+    loadVideosForYou();
+});
+
+// SEARCHBOX
+
+document.addEventListener('DOMContentLoaded', function () {
+    const searchbarButton = document.getElementById('searchbarButton');
+    const searchbar = document.getElementById('searchbar');
+    const videos = document.querySelectorAll('#foryou .videoFY');
+
+    searchbarButton.addEventListener('click', function () {
+        const searchText = searchbar.value.toLowerCase();
+
+        videos.forEach(function (video) {
+            const title = video.querySelector('h3').innerText.toLowerCase();
+
+            if (title.includes(searchText)) {
+                video.style.display = 'block';
+            } else {
+                video.style.display = 'none';
+            }
+        });
+    });
+});
