@@ -513,6 +513,7 @@ footer div img {
 
 .myFirstCol {
     flex-grow: .5;
+    margin-left: 1rem;
 }
 
 .mySecondCol {

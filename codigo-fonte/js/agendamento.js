@@ -94,27 +94,38 @@ function focusInput() {
 // CARREGAR VIDEOS 
 
 document.addEventListener('DOMContentLoaded', function () {
-    const forYouContainer = document.getElementById('foryou');
-
     function loadVideosForYou() {
-        const thumbnail = localStorage.getItem("thumbnail");
-        const titulo = localStorage.getItem("titulo");
-        const link = localStorage.getItem("link");
+        // Obtém todos os vídeos armazenados no localStorage
+        const videos = JSON.parse(localStorage.getItem("myVideos")) || [];
+        const forYouContainer = document.getElementById("foryou");
 
-        if (thumbnail && titulo && link) {
-            let vid = document.createElement("div");
+        // Verifica se algum vídeo foi recuperado
+        console.log("Vídeos recuperados:", videos);
+
+        // Verifica se o elemento forYouContainer foi encontrado
+        if (!forYouContainer) {
+            console.error('Elemento #foryou não encontrado no DOM.');
+            return;
+        }
+
+        // Limpa o conteúdo atual da div #foryou
+        forYouContainer.innerHTML = "";
+
+        // Itera sobre cada vídeo e cria elementos HTML para exibi-los
+        videos.forEach(video => {
+            const vid = document.createElement("div");
             vid.className = "videoFY";
             vid.innerHTML = `
-                <a href="${link}">
-                    <div class="videoFYBanner" style="background-image: url('${thumbnail}'); background-size: cover; background-position: center;"></div>
+                <a href="${video.link}">
+                    <div class="videoFYBanner" style="background-image: url('${video.thumbnail}'); background-size: cover; background-position: center;"></div>
                     <div class="infoFY">
                         <div>
-                            <h3>${titulo}</h3>
+                            <h3>${video.titulo}</h3>
                         </div>
                     </div>
                 </a>`;
             forYouContainer.appendChild(vid);
-        }
+        });
     }
 
     loadVideosForYou();
