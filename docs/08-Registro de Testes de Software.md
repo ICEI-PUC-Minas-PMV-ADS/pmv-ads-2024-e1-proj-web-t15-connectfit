@@ -38,7 +38,8 @@ https://github.com/anaaclsp/Ana-Clara-ads-2024-proj-web-turma-15-connectfit/asse
   <li> CT-03: Verificar funcionamento da página de Meu Perfil.
 
 Responsável: Nasson.
-      
+
+https://github.com/anaaclsp/Ana-Clara-ads-2024-proj-web-turma-15-connectfit/assets/123707884/0654cbd5-df11-478e-bcf6-1f967926231a
 
 
   </li>
@@ -57,7 +58,7 @@ Responsável: Evellyn.
 
 Responsável: Danielle.
       
-
+https://github.com/anaaclsp/Ana-Clara-ads-2024-proj-web-turma-15-connectfit/assets/123707884/c9942046-e4b3-42de-8cff-0ccc32b03204
 
   </li>
   <hr>
