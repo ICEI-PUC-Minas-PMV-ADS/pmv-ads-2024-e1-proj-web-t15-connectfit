@@ -27,8 +27,8 @@ if(localStorage.getItem('profileImg') !== null &&
 } else {
     // Caso não haja dados no localStorage, exibe uma mensagem de erro ou realiza outra ação apropriada
     console.log('Dados não encontrados no localStorage.');
-}
-function previaImagem() {
+
+    function previaImagem() {
   var preview = document.getElementById("previaImagem");
   preview.style.display = "flex";
   const file = document.getElementById("upload").files[0];
@@ -51,7 +51,7 @@ function publicarPostagem() {
   var textoASerPublicado = document.getElementById("textoPulicacao").value;
   var previaImagem = document.getElementById("previaImagem");
   if (!textoASerPublicado || !previaImagem.src) {
-    alert("Por favor preencha todos os campos antes e publicar a mensagem (inclusive upload da imagem a ser publicada)!");
+    alert("Por favor preencha todos os campos antes de publicar a mensagem (inclusive upload da imagem a ser publicada)!");
   } else {
     var novaDivCriada = document.createElement("div");
     novaDivCriada.classList.add("post");
@@ -106,25 +106,11 @@ function comentar(e) {
     post.querySelector('.comentarios').appendChild(comentarios);
   }
 
-  // Busca os dados do usuário no localStorage
-  var profileImg = localStorage.getItem('profileImg');
-  var nomeQueQueroSerChamado = localStorage.getItem('nome-que-quero-ser-chamado');
-
-  // Cria o novo comentário usando os dados do localStorage
-
   var comentario = document.createElement('li');
   comentario.classList.add('comentario');
-  comentario.innerHTML = '<img class="comentario-avatar" src="' + profileImg + '"><span class="comentario-autor">' + nomeQueQueroSerChamado + '</span><p class="comentario-texto">' + textoComentario + '</p>';
+  comentario.innerHTML = '<img class="comentario-avatar" src="img/foto_menu.png"><span class=comentario-autor>Sophia</span><p class="comentario-texto">' + textoComentario + '</p>';
   comentarios.appendChild(comentario);
 }
-  
-  function adicionarComentario(textoComentario) {
-    var comentario = document.createElement('li');
-    comentario.classList.add('comentario');
-    comentario.innerHTML = `<img class="comentario-avatar" src="${profileImg}"><span class="comentario-autor">Sophia</span><p class="comentario-texto">${textoComentario}</p>`;
-    document.getElementById('comentarios').appendChild(comentario);
-}
-
 
 function curtir(e) {
   var curtido = e.target.classList.contains('fa-thumbs-up');
@@ -137,18 +123,35 @@ function curtir(e) {
   }
 }
 
-function aplicaListenerBotoesSeguirPorProfissionais(tipoProfissonal) {
-  const divTipoProfissional = document.getElementById(tipoProfissonal);
-  const botoesSeguir = divTipoProfissional.querySelectorAll(".seguir");
-  botoesSeguir.forEach(botao => {
-    botao.addEventListener('click', function (e) {
-      const botaoSeguir = e.target;
-      botaoSeguir.innerHTML = botaoSeguir.innerHTML === "Seguir" ? "Seguindo" : "Seguir";
+function seguir(e) {
+  var botaoSeguir = e.target;
+  var post = botaoSeguir.closest('.post');
+  var nomeUsuario = post.querySelector('.icone-perfil').textContent.trim();
+  var imgSrc = post.querySelector('.icone-perfil img').src;
+
+  if (botaoSeguir.innerHTML === "Seguir") {
+    botaoSeguir.innerHTML = "Seguindo";
+
+    var seguindoContainer = document.getElementById("seguindo");
+    var novoSeguindo = document.createElement("a");
+    novoSeguindo.classList.add("icone-perfil");
+    novoSeguindo.href = "#";
+    novoSeguindo.innerHTML = `<img src="${imgSrc}" alt="${nomeUsuario}"> ${nomeUsuario}`;
+    seguindoContainer.appendChild(novoSeguindo);
+  } else {
+    botaoSeguir.innerHTML = "Seguir";
+
+    var seguindoContainer = document.getElementById("seguindo");
+    var seguindoPerfis = seguindoContainer.querySelectorAll(".icone-perfil");
+    seguindoPerfis.forEach(perfil => {
+      if (perfil.textContent.trim() === nomeUsuario) {
+        seguindoContainer.removeChild(perfil);
+      }
     });
-  });
+  }
 }
 
 document.addEventListener("DOMContentLoaded", function() {
   aplicaListenerBotoesSeguirPorProfissionais('posts');
 });
-
+}

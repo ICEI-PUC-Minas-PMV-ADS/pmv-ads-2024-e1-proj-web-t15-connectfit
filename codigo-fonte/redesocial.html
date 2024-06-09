@@ -19,9 +19,7 @@
 </head>
 <body>
     <header class="cabecalho">
-        <svg class="icone-cabecalho">
-
-        </svg>
+        <svg class="icone-cabecalho"></svg>
         <span id="logo">CONNECT<span class="fit">FIT</span></span>
         <div class="foto-container">
             <a href="meuperfil.html">
@@ -101,29 +99,16 @@
                 </ul>
                 <ul class="days"></ul>
               </div>
-            </div>
-            <h2 class="titulo-barra-lateral">Seguindo</h2>
-            <div class="seguindo">
-                <a class="icone-perfil" href="#">
-                    <img src="img/avatar1 (1).png" alt="Mariana">
-                    Mariana
-                </a>
-                <a class="icone-perfil" href="#">
-                    <img src="img/avatar1 (2).png" alt="Junior">
-                    Junior
-                </a>
-                <a class="icone-perfil" href="#">
-                    <img src="img/avatar1 (3).png" alt="Lara">
-                   Lara
-                </a>
-            </div>
+              <h2 class="titulo-barra-lateral">Seguindo</h2>
+            <div class="seguindo" id="seguindo"></div>
         </div>
-        <div class="posts" id="posts">
+            </div>
+            <div class="posts" id="posts">
             <div class="post">
                 <div class="icone-perfil">
                     <img src="img/avatar1 (1).png" alt="Mariana">
                     Mariana
-                    <button class="seguir" type="button">Seguir</button>
+                    <button class="seguir" type="button" onclick="seguir(event)">Seguir</button>
                 </div>
                 <p class="texto-post">Treinamento junto com os amigos numa tarde linda, todos em um caminho saudável. Foi muito divertido.</p>
                 <div class="comentarios">
@@ -149,7 +134,7 @@
                 <div class="icone-perfil">
                     <img src="img/avatar1 (2).png" alt="Junior">
                     Junior
-                    <button class="seguir" type="button">Seguir</button>
+                    <button class="seguir" type="button" onclick="seguir(event)">Seguir</button>
                 </div>
                 <p class="texto-post">Sempre é bom fazer uma caminhada ao ar livre pela manhã, isso me relaxa muito. Amigos vamos marcar uma caminhada?</p>
                 <div class="comentarios">
