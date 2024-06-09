@@ -130,3 +130,25 @@ document.addEventListener('DOMContentLoaded', function () {
 
     loadVideosForYou();
 });
+
+// SEARCHBOX
+
+document.addEventListener('DOMContentLoaded', function () {
+    const searchbarButton = document.getElementById('searchbarButton');
+    const searchbar = document.getElementById('searchbar');
+    const videos = document.querySelectorAll('#foryou .videoFY');
+
+    searchbarButton.addEventListener('click', function () {
+        const searchText = searchbar.value.toLowerCase();
+
+        videos.forEach(function (video) {
+            const title = video.querySelector('h3').innerText.toLowerCase();
+
+            if (title.includes(searchText)) {
+                video.style.display = 'block';
+            } else {
+                video.style.display = 'none';
+            }
+        });
+    });
+});
