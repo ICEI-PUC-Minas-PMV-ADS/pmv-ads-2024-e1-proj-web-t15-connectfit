@@ -34,7 +34,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
    </ol>
    </td>
   <td>Deve ocorrer uma validação das informações fornecidas pelo usuário, e ao clicar em "Cadastrar", deve aparecer a mensagem "Usuário cadastrado com sucesso".</td>
-  <td>Melissa</td>
+  <td>Melyssa</td>
  </tr>
 </table>
 
@@ -65,7 +65,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
    </ol>
    </td>
   <td>Após o login, o usuário deverá ser redirecionado para a sua página de perfil.</td>
-  <td>Jonathan</td>
+  <td>Jonathan e Ana Clara</td>
  </tr>
  </table>
 
@@ -206,6 +206,6 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
    </ol>
    </td>
   <td>Ter acesso as aulas gravadas e lives.</td>
-  <td>Danyele</td>
+  <td>Daniele</td>
  </tr>
 </table>
