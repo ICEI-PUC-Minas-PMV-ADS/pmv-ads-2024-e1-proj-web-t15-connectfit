@@ -15,7 +15,6 @@
     <script type="text/javascript" src="js/redesocial.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
     <script src="js/calendario.js" defer></script>
-    <script src="script.js" defer></script>
 </head>
 <body>
     <header class="cabecalho">
@@ -23,7 +22,13 @@
         <span id="logo">CONNECT<span class="fit">FIT</span></span>
         <div class="foto-container">
             <a href="meuperfil.html">
-                <img class="foto" src="img/foto_menu.png" alt="Foto do perfil">
+                <img class="foto" id="user-Photo" src="img/foto_menu.png" alt="Foto do perfil">
+                <p hidden id="user-Alias"></p> 
+                <p hidden id="user-Name"></p>
+                <p hidden id="user-Full-Name"></p> 
+                <p hidden id="user-Age"></p> 
+                <p hidden id="user-Gyms"></p> 
+                <p hidden id="user-Location"></p> 
             </a>
             <i class="fa-solid fa-bars menu-icone" onclick="openMenu()"></i>
             <ul id="side_items">
