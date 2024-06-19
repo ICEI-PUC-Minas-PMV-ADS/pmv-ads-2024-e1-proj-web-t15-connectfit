@@ -148,7 +148,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <th>Responsável</th>  
  </tr>
  <tr>
-  <td>CT-05: Verificar as postagens e agendamentos dos usuários e profissionais nas redes sociais</td>
+  <td>CT-05: Verificar as postagens, curtidas e agendamentos dos usuários e profissionais nas redes sociais</td>
   <td>
    <ul>
     <li>RF-03 A aplicação deve permitir o compartilhamento de posts.
@@ -192,7 +192,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
    <li>RF-04 A aplicação deve permitir que o profissional ministre aulas pagas e gratuitas de forma virtual.</li>
    </ul>
   </td>
-  <td>Verificar se as aulas estão carregando conforme selecionadas. </td>
+  <td>Verificar se as aulas estão carregando conforme selecionadas e se estão sendo agendadas. </td>
   <td>
    <ol>
     <li>Acessar o navegador.</li>
