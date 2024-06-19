@@ -25,3 +25,22 @@ function aplicaListenerBotoesSeguirPorProfissionais(tipoProfissonal){
         }
     }
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+  
+    // Verifica se há dados armazenados no localStorage
+    if(localStorage.getItem('profileImg')) {
+        
+        // Carrega os valores do localStorage
+        var profileImg = localStorage.getItem('profileImg');
+        
+        // Atribui os valores aos elementos HTML
+        document.getElementById('user-Photo').src = profileImg;
+        
+    } else {
+  
+        // Caso não haja dados no localStorage, exibe uma mensagem de erro ou realiza outra ação apropriada
+        console.log('Dados não encontrados no localStorage.');
+    }
+  });
+  

@@ -61,7 +61,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Profissional| Ministrar aulas virtuais  | orientar e melhorar os resultados dos praticantes   |
 |Praticante/profissional | Fazer compartilhamentos de posts sobre minha rotina  | dar engajamento a conteudos relacionados ao intuito do site  |
 |Praticante/profissional | Ter acesso aos compartilhamentos de rotinas alheias  | ver e acompanhar outros individuos |
-|Profissional | Agendar aulas| repassar e compartilhar conteúdos de forma educativa |
+|Profissional | Agendar aulas| repassar de forma educacional e objetiva sobre saúde e bem estar |
 |Praticante/profissional |Organizar agenda de treinos e eventos  | ter uma rotina consistente de atividades |
 |Praticante/profissional | Receber notificações personalizadas sobre determinados assuntos    | Me manter informado sobre as atualizações e notícias|
 |Praticante/profissional | Poder curtir e comentar em perfis em que nos seguimos mutuamente | ter amigos dentro do site |
@@ -79,9 +79,10 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |RF-04| A aplicação deve permitir que o profissional ministre aulas gratuitas de forma virtual. | MÉDIA |
 |RF-05| A aplicação deve permitir ao usuário fácil acesso aos dados para contato de profissionais. | ALTA |
 |RF-06| A aplicação deve permitir o envio de  notificações aos membros sobre eventos e outros avisos relevantes.  | MÉDIA |
-|RF-07| A aplicação deve permitir aos usuários acesso ao que outros usuários estão compartilhando.  | ALTA |
+|RF-07| A aplicação deve permitir aos usuários acesso a posts que outros usuários estão compartilhando.  | ALTA |
 |RF-08| A aplicação deve disponibilizar uma agenda com horários de eventos e compromissos.  | MÉDIA |
 |RF-09| A aplicação deve permitir comentários e curtidas em posts.  | ALTA | 
+|RF-10| A aplicação deve permitir que o profissional agende aulas.  | ALTA | 
 **Prioridade: Alta / Média / Baixa.  
 
 ### Requisitos Não Funcionais

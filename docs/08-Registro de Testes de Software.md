@@ -50,6 +50,9 @@ https://github.com/anaaclsp/Ana-Clara-ads-2024-proj-web-turma-15-connectfit/asse
 Responsável: Evellyn.
       
 
+https://github.com/anaaclsp/Ana-Clara-ads-2024-proj-web-turma-15-connectfit/assets/123707884/9c62a643-ce69-4103-85b8-19719fa1135a
+
+https://github.com/anaaclsp/Ana-Clara-ads-2024-proj-web-turma-15-connectfit/assets/123707884/78d6cc67-26a4-4344-83f8-b143d77c6b65
 
   </li>
   <hr>
