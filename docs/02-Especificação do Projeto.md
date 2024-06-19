@@ -61,7 +61,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Profissional| Ministrar aulas virtuais  | orientar e melhorar os resultados dos praticantes   |
 |Praticante/profissional | Fazer compartilhamentos de posts sobre minha rotina  | dar engajamento a conteudos relacionados ao intuito do site  |
 |Praticante/profissional | Ter acesso aos compartilhamentos de rotinas alheias  | ver e acompanhar outros individuos |
-|Profissional | Agendar aulas| repassar e compartilhar conteúdos de forma educativa |
+|Profissional | Agendar aulas| repassar de forma educacional e objetiva sobre saúde e bem estar |
 |Praticante/profissional |Organizar agenda de treinos e eventos  | ter uma rotina consistente de atividades |
 |Praticante/profissional | Receber notificações personalizadas sobre determinados assuntos    | Me manter informado sobre as atualizações e notícias|
 |Praticante/profissional | Poder curtir e comentar em perfis em que nos seguimos mutuamente | ter amigos dentro do site |
