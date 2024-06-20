@@ -20,16 +20,19 @@ function previaImagem() {
 function publicarPostagem() {
   var textoASerPublicado = document.getElementById("textoPulicacao").value;
   var previaImagem = document.getElementById("previaImagem");
-  const upload = document.getElementById("upload").files[0];
+  var upload = document.getElementById("upload").files[0];
 
-  if (!textoASerPublicado || !upload) {
-      alert("Por favor preencha todos os campos antes de publicar a mensagem (inclusive upload da imagem a ser publicada)!");
+  if (!textoASerPublicado) {
+      alert("Por favor preencha a mensagem a ser publicada!");
   } else {
       // Obter dados do usuário do localStorage
       var profileImg = localStorage.getItem('profileImg');
       var nomeQueQueroSerChamado = localStorage.getItem('nome-que-quero-ser-chamado');
       var login = localStorage.getItem('login');
-
+      var conteudoHTMLImg = "";
+      if (upload){
+        conteudoHTMLImg = "<img src='" + previaImagem.src + "' alt='Foto Postada'></img>";  
+      }
       // Criar o elemento de postagem
       var novaDivCriada = document.createElement("div");
       novaDivCriada.classList.add("post");
@@ -39,7 +42,7 @@ function publicarPostagem() {
                                 "</div><p class='texto-post'>" + textoASerPublicado + 
                                 "</p><div class='comentarios'></div><div class='novo-comentario'>"+
                                 "<input id='novo-comentario-texto' type='text'><button class='novo-comentario-salvar' type='button' onclick='comentar(event)'>Comentar</button>"+
-                                "</div><img src='" + previaImagem.src + "' alt='Foto Postada'><div class='curtir'><i class='fa fa-thumbs-o-up' onclick='curtir(event)'></i>"+
+                                "</div>"+conteudoHTMLImg+"<div class='curtir'><i class='fa fa-thumbs-o-up' onclick='curtir(event)'></i>"+
                                 "<i class='fa fa-trash' id=remove-post-"+login+" onclick='removerPostagem(event)' aria-hidden='true'></i></div>";
 
       // Inserir a postagem no início do contêiner de postagens
@@ -50,6 +53,7 @@ function publicarPostagem() {
       document.getElementById("textoPulicacao").value = "";
       previaImagem.src = "";
       previaImagem.style.display = "none";
+      document.getElementById("upload").value = "";
   }
 }
 
