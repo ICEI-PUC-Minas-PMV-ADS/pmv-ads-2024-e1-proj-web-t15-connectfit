@@ -72,7 +72,7 @@
                 <h2 class="titulo-post">Poste o que está pensando</h2>
                 <textarea id="textoPulicacao" cols="30" rows="10"></textarea>
                 <input type="file" id="upload" onchange="previaImagem()"/>
-                <img src=" " width="100px" id="previaImagem" alt="Prévia de Imagem" style="display:none"/>
+                <img src="" width="100px" id="previaImagem" alt="Prévia de Imagem" style="display:none"/>
                 <button onclick="publicarPostagem()" class="postar">POSTAR</button>
             </div>
             <h2 class="titulo-barra-lateral">Minha Agenda</h2>
@@ -133,7 +133,9 @@
                 <img src="img/img1.png" alt="Foto Mariana">
                 <div class="curtir">
                   <i class="fa fa-thumbs-o-up" onclick="curtir(event)"></i>
+                  <i class="fa fa-trash" id='remove-post-login-mariana' onclick="removerPostagem(event)" aria-hidden="true" ></i>
                 </div>
+                  
             </div>
             <div class="post">
                 <div class="icone-perfil">
@@ -153,6 +155,7 @@
                 <img src="img/img2.png" alt="Foto Junior">
                 <div class="curtir">
                   <i class="fa fa-thumbs-o-up" onclick="curtir(event)"></i>
+                  <i class="fa fa-trash" id='remove-post-login-mariana' onclick="removerPostagem(event)" aria-hidden="true"></i>
                 </div>
             </div>
         </div>
