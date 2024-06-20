@@ -82,10 +82,10 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>CT-03: O site deve permitir verificar a página de perfil do usuário ou profissional cadastrado</td>
   <td>
    <ul>
-   <li>RF-06 A aplicação deve permitir o envio de notificações aos membros sobre eventos e outros avisos relevantes.</li>
+   <li>RF-06 A aplicação deve permitir a exclusão de posts.</li>
    </ul>
   </td>
-  <td>Verificar se a página Perfil está apresentando as informações cadastradas pelo usuário corretamente. </td>
+  <td>Verificar se a página Rede Social esta excluindo posts que o usuario postou. </td>
   <td>
    <ol>
     <li>Acessar o navegador.</li>
@@ -95,13 +95,14 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
     <li>Preencher seus dados e clicar em “Entrar”.</li>
     <li>Visualizar a página Perfil.</li>
     <li>Clicar em editar perfil e conseguir visualizar o que editou.</li>
-    <li>Clicar no botão minhas aulas direcionar para a página de aulas.</li>
-    <li>Clicar no botão profissionais e direcionar para a página dos profissionais.</li>
-    <li>Clicar no botão rede social e direcionar para a página de rede social.</li>
+    <li>Clicar no botão rede social direcionar para a página de rede social.</li>
+    <li>Clicar no espaço de abaixo de "Poste o que está pensando" e escrever o que deseja postar. </li>
+    <li>Clicar no botão de "escolher arquivo" caso queira adicionar uma imagem ao post.</li>
+    <li>Clicar no botão de "postar".</li>
    </ol>
    </td>
   <td>As informações registradas pelo usuário no momento do cadastro devem estar disponibilizadas na página Perfil e acesso as demais páginas do site.</td>
-  <td>Nasson</td>
+  <td>Evellyn e nasson</td>
  </tr>
 </table>
 
