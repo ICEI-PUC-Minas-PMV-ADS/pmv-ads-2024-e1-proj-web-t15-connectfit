@@ -7,22 +7,22 @@
     <link rel="shortcut icon" type="image/x-icon" href="/codigo-fonte/img/Logoicon.ico">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/d3e80ce908.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/estilo.css">
-    <link rel="stylesheet" href="css/redesocial.css">
-    <link rel="stylesheet" href="css/menu.css">
-    <link rel="stylesheet" href="css/calendario.css">
-    <script type="text/javascript" src="js/menu.js"></script>
-    <script type="text/javascript" src="js/redesocial.js"></script>
+    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="stylesheet" href="./css/redesocial.css">
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/calendario.css">
+    <script type="text/javascript" src="./js/menu.js"></script>
+    <script type="text/javascript" src="./js/redesocial.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
-    <script src="js/calendario.js" defer></script>
+    <script src="./js/calendario.js" defer></script>
 </head>
 <body>
     <header class="cabecalho">
         <svg class="icone-cabecalho"></svg>
         <span id="logo">CONNECT<span class="fit">FIT</span></span>
         <div class="foto-container">
-            <a href="meuperfil.html">
-                <img class="foto" id="user-Photo" src="img/foto_menu.png" alt="Foto do perfil">
+            <a href="./meuperfil.html">
+                <img class="foto" id="user-Photo" src="./img/foto_menu.png" alt="Foto do perfil">
                 <p hidden id="user-Alias"></p> 
                 <p hidden id="user-Name"></p>
                 <p hidden id="user-Full-Name"></p> 
@@ -34,31 +34,31 @@
             <ul id="side_items">
                 <i onclick="closeMenu()" class="fa-solid fa-x menu-icone"></i>
                 <li class="side-item">
-                  <a href="aulas.html">
+                  <a href="./aulas.html">
                     <i class="fa-solid fa-box-archive"></i>
                     <span class="item-description">Arquivo de aulas</span>
                   </a>
                 </li>
                 <li class="side-item">
-                  <a href="redesocial.html">
+                  <a href="./redesocial.html">
                     <i class="fa-solid fa-user-group"></i>
                     <span class="item-description">Rede Social</span>
                   </a>
                 </li>
                 <li class="side-item">
-                  <a href="profissionais.html">
+                  <a href="./profissionais.html">
                     <i class="fa-solid fa-stethoscope"></i>
                     <span class="item-description">Profissionais</span>
                   </a>
                 </li>
                 <li class="side-item">
-                  <a href="meuperfil.html">
+                  <a href="./meuperfil.html">
                     <i class="fa-solid fa-id-card"></i>
                     <span class="item-description">Meu Perfil</span>
                   </a>
                 </li>
                 <li class="side-item">
-                  <a href="index.html">
+                  <a href="./index.html">
                     <i class="fa-solid fa-right-from-bracket"></i>
                     <span class="item-description">Sair</span>
                   </a>
@@ -111,7 +111,7 @@
             <div class="posts" id="posts">
             <div class="post">
                 <div class="icone-perfil">
-                    <img src="img/avatar1 (1).png" alt="Mariana">
+                    <img src="./img/avatar1 (1).png" alt="Mariana">
                     Mariana
                     <button class="seguir" type="button" onclick="seguir(event)">Seguir</button>
                 </div>
@@ -120,7 +120,7 @@
                   <span class="comentarios-titulo">Comentários</span>
                   <ul>
                     <li class="comentario">
-                      <img class="comentario-avatar" src="img/avatar1 (3).png" alt="Lara">
+                      <img class="comentario-avatar" src="./img/avatar1 (3).png" alt="Lara">
                       <span class="comentario-autor">Lara</span>
                       <p class="comentario-texto">Adorei essa tarde</p>
                     </li> 
@@ -130,7 +130,7 @@
                   <input id="novo-comentario-texto" type="text">
                   <button class="novo-comentario-salvar" type="button" onclick="comentar(event)">Comentar</button>
                 </div>
-                <img src="img/img1.png" alt="Foto Mariana">
+                <img src="./img/img1.png" alt="Foto Mariana">
                 <div class="curtir">
                   <i class="fa fa-thumbs-o-up" onclick="curtir(event)"></i>
                   <i class="fa fa-trash" id='remove-post-login-mariana' onclick="removerPostagem(event)" aria-hidden="true" ></i>
@@ -139,7 +139,7 @@
             </div>
             <div class="post">
                 <div class="icone-perfil">
-                    <img src="img/avatar1 (2).png" alt="Junior">
+                    <img src="./img/avatar1 (2).png" alt="Junior">
                     Junior
                     <button class="seguir" type="button" onclick="seguir(event)">Seguir</button>
                 </div>
@@ -152,7 +152,7 @@
                   <input id="novo-comentario-texto" type="text">
                   <button class="novo-comentario-salvar" type="button" onclick="comentar(event)">Comentar</button>
                 </div>
-                <img src="img/img2.png" alt="Foto Junior">
+                <img src="./img/img2.png" alt="Foto Junior">
                 <div class="curtir">
                   <i class="fa fa-thumbs-o-up" onclick="curtir(event)"></i>
                   <i class="fa fa-trash" id='remove-post-login-mariana' onclick="removerPostagem(event)" aria-hidden="true"></i>
@@ -161,7 +161,7 @@
         </div>
     </main>
     <footer class="rodape">
-        <img class="logo-rodape" src="img/logo_branco-meuperfil.png" alt="logo">
+        <img class="logo-rodape" src="./img/logo_branco-meuperfil.png" alt="logo">
         CONNECTFIT 2024 - Todos os direitos reservados 
     </footer>
 </body>
