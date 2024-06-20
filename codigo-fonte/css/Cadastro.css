@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url(/codigo-fonte/img/background-login.jpeg);
+    background-image: url("./img/background-login.jpeg");
     background-repeat: initial;
     background-size: cover;
     background-position: unset;
