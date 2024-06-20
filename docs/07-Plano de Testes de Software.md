@@ -79,7 +79,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <th>Responsável</th>
  </tr>
   <tr>
-  <td>CT-03: O site deve permitir verificar a página de perfil do usuário ou profissional cadastrado</td>
+  <td>CT-03: O site deve permitir verificar a página de perfil do usuário ou profissional cadastrado, além de verificar se está sendo satisfeito a exclusão de posts.</td>
   <td>
    <ul>
    <li>RF-06 A aplicação deve permitir a exclusão de posts.</li>
