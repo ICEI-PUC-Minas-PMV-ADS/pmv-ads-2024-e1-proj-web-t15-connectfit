@@ -173,8 +173,11 @@ function seguir(e) {
   }
 }
 
-function tratarBotoesRemoverPost(login) {
-
+function tratarBotoesRemoverPost() {
+  var login = "";
+  if (localStorage.getItem('login') != null){
+    login = localStorage.getItem('login');
+  }
   const botoesRemoverPost = document.querySelectorAll(".fa-trash");
   for (const botao of botoesRemoverPost) {
     if (botao.id == 'remove-post-'+login){
@@ -195,6 +198,8 @@ function removerPostagem(e) {
 
 document.addEventListener("DOMContentLoaded", function() {
   aplicaListenerBotoesSeguirPorProfissionais('posts');
+
+  tratarBotoesRemoverPost();
 
   // Verifica se há dados armazenados no localStorage
   if(localStorage.getItem('profileImg') !== null &&
@@ -222,8 +227,6 @@ document.addEventListener("DOMContentLoaded", function() {
       document.getElementById('user-Gyms').textContent = academias;
       document.getElementById('user-Location').textContent = localizacao;
       document.getElementById('user-Alias').textContent = nomeQueQueroSerChamado;
-
-      tratarBotoesRemoverPost(login);
       
   } else {
 
