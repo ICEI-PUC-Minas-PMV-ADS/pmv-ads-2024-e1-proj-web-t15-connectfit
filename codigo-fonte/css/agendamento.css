@@ -488,3 +488,8 @@ footer div img {
     }
 }
 
+@media screen and (max-width: 600px) {
+    nav h1 {
+            transform: translateX(20vw);
+        }
+}
