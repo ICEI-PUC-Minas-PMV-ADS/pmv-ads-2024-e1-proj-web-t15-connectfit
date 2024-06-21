@@ -22,15 +22,14 @@ https://github.com/anaaclsp/Ana-Clara-ads-2024-proj-web-turma-15-connectfit/asse
   Responsável: Melyssa.
 
   
+https://github.com/anaaclsp/Ana-Clara-ads-2024-proj-web-turma-15-connectfit/assets/123707884/7f3c4590-22db-4803-b5ac-d5bc9fb7048b
+
+
 
 https://github.com/anaaclsp/Ana-Clara-ads-2024-proj-web-turma-15-connectfit/assets/123707884/d899c6da-16bf-4990-a4a8-eea045f371e6
 
 
       
-
-https://github.com/anaaclsp/Ana-Clara-ads-2024-proj-web-turma-15-connectfit/assets/123707884/7f3c4590-22db-4803-b5ac-d5bc9fb7048b
-
-
 
   </li>
   <hr>
