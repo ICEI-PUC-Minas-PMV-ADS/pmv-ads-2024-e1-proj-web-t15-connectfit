@@ -1,0 +1,27 @@
+message: Please cite this software using these metadata.
+title: Academia ConnectFit
+authors:
+  - family-names: Santos de Paula
+    given-names: Ana Clara
+  - family-names: Gomes dos Santos
+    given-names: Danielle
+  - family-names: Quintela Carvalho
+    given-names: Evellyn 
+  - family-names: Nogueira Lyra Pedrosa
+    given-names: Jonathan
+  - family-names: Semprini
+    given-names: Melyssa
+  - family-names: Freitas de Paula
+    given-names: Nasson
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: de Almeida Tôrres
+    given-names: Viviâne
+keywords:
+  - academia
+  - bem-estar
+  - saúde
+  - atividade fisíca
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-connectfit
+version: 1.0.0
+date-released: 2024-06-20
