@@ -413,5 +413,11 @@ footer div img {
     .newVideo .overlayInput{
         transform: translate(4rem, 6rem);
     }
-}
 
+}   
+
+@media screen and (max-width: 600px) {
+    nav h1 {
+        transform: translateX(-15vw);
+    }
+}
