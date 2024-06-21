@@ -38,11 +38,11 @@ function publicarPostagem() {
       novaDivCriada.classList.add("post");
 
       // Construir a postagem com os dados do usuário
-      novaDivCriada.innerHTML = "<div class='icone-perfil'><img src='" + profileImg + "' alt='" + nomeQueQueroSerChamado + "'>" + nomeQueQueroSerChamado + 
-                                "</div><p class='texto-post'>" + textoASerPublicado + 
-                                "</p><div class='comentarios'></div><div class='novo-comentario'>"+
-                                "<input id='novo-comentario-texto' type='text'><button class='novo-comentario-salvar' type='button' onclick='comentar(event)'>Comentar</button>"+
-                                "</div>"+conteudoHTMLImg+"<div class='curtir'><i class='fa fa-thumbs-o-up' onclick='curtir(event)'></i>"+
+      novaDivCriada.innerHTML = "<div class='icone-perfil'><img src='" + profileImg + "' alt='" + nomeQueQueroSerChamado + "'>" + nomeQueQueroSerChamado +
+                                "</div><p class='texto-post'>" + textoASerPublicado + "</p>"+conteudoHTMLImg+
+                                "<div class='comentarios'><span class='comentarios-titulo'>Comentários</span><p>Ainda não há comentarios nesse post. Seja o primeiro a comentar</p>"+
+                                "<div class='novo-comentario'><input id='novo-comentario-texto' type='text'><button class='novo-comentario-salvar' type='button' onclick='comentar(event)'>Comentar</button></div></div>"+
+                                "<div class='curtir'><i class='fa fa-thumbs-o-up' onclick='curtir(event)'></i>"+
                                 "<i class='fa fa-trash' id=remove-post-"+login+" onclick='removerPostagem(event)' aria-hidden='true'></i></div>";
 
       // Inserir a postagem no início do contêiner de postagens
@@ -96,7 +96,8 @@ function comentar(e) {
   var comentarios = post.querySelector('.comentarios ul');
   if (!comentarios) {
     comentarios = document.createElement('ul');
-    post.querySelector('.comentarios').appendChild(comentarios);
+    divPublicacaoTextoComentario = post.querySelector('.novo-comentario');
+    post.querySelector('.comentarios').insertBefore(comentarios, divPublicacaoTextoComentario);
   }
 
   // Busca os dados do usuário no localStorage
