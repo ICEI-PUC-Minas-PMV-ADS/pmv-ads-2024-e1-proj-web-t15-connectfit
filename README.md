@@ -38,9 +38,11 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 <li><a href="docs/08-Registro de Testes de Software.md"> Registro de Testes de Software</a></li>
 <li><a href="docs/09-Referências.md"> Referências</a></li>
 </ol>
+
 # Hospedagem
 A aplicação desenvolvida em HTML/CSS/JS pode ser utilizada em diversos navegadores, com suporte para diferentes resoluções de dispositivos. Clique <a href="https://connectfit.netlify.app/">aqui</a> para acessá-la.
-# Código-Fonte
+
+ # Código-Fonte
 
 <li><a href="./codigo-fonte/"> Código Fonte</a></li>
 
