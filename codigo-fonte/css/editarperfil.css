@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -143,7 +143,6 @@ a:hover {
 body {
     font-family: Arial, sans-serif;
     background-color: #ffa559;
-    /* display: flex; */
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -273,7 +272,7 @@ body {
     background-color: #218838;
 }
 
-/* Estilos para o modal */
+
 .modal {
     display: none; 
     position: fixed; 
@@ -333,5 +332,339 @@ footer {
     width: 150px;
     margin: 0;
     padding: 10px;
+} */
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+    background-color: #ffa559;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    flex: 1;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 80px;
+    width: 100%;
+    background-color: #2c231c;
+    font-size: 2rem;
+    color: white;
+}
+
+.pesquisa {
+    height: 45px;
+    width: auto;
+    margin: 20px;
+    padding: 0 30px;
+}
+
+#ps {
+    height: 35px;
+    width: 38px;
+    margin: 10px;
+    padding: 0;
+}
+
+.logoPrincipal {
+    margin-left: -50px;
+    text-align: center;
+}
+
+.logoPrincipal span {
+    display: inline-block;
+    font-weight: bold;
+}
+
+.fa-x {
+    color: white;
+    font-size: 40px;
+}
+
+#fechar:hover, #abrir:hover {
+    cursor: pointer;
+}
+
+.side-item {
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: 20px;
+}
+
+.item-description {
+    font-weight: normal;
+}
+
+.navbar {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 0;
+    background-color: #2c231c;
+}
+
+.hamburguer-menu {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    width: 30px;
+    height: 4px;
+    background-color: white;
+    margin: 5px 0;
+    transition: transform 0.4s ease;
+}
+
+.menu {
+    display: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 8px;
+    font-size: 15px;
+}
+
+.menu.active {
+    display: block;
+}
+
+a {
+    color: #ff6000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ff6000;
+    text-decoration: underline;
+}
+
+#lg a {
+    color: white;
+}
+
+#logo {
+    color: white;
+}
+
+#logo2 {
+    color: #ff6000;
+}
+
+.profile-container {
+    background: #ffe6c7;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    margin: 20px auto;
+    box-sizing: border-box;
+}
+
+.profile-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #454545;
+    font-family: 'Merriweather', serif;
+    font-weight: bolder;
+}
+
+.profile-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-picture {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.profile-picture img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.upload-button {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ff6000;
+    color: #454545;
+    text-align: center;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.upload-button:hover {
+    background-color: #ffa559;
+}
+
+.form-group {
+    width: 100%;
+    margin-bottom: 15px;
+    color: #454545;
+    font-weight: bold;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input, .form-group select, .form-group textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+#alterar-senha, .form-group button[type="submit"] {
+    background-color: #ff6000;
+    color: #454545;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    width: calc(100% - 20px);
+    font-weight: bold;
+}
+
+#alterar-senha:hover, .form-group button[type="submit"]:hover {
+    background-color: #ffa559;
+}
+
+.form-group button[type="button"] {
+    background-color: #28a745;
+    margin-bottom: 15px;
+}
+
+.form-group button[type="button"]:hover {
+    background-color: #218838;
+}
+
+/* Estilos para o modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 8px;
+}
+
+.close-button {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-button:hover,
+.close-button:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #2c231c;
+    padding: 30px;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+#logo-rodape {
+    display: block;
+    height: 100px;
+    width: 150px;
+    margin: 0;
+    padding: 10px;
+}
+
+/* Media Queries */
+
+@media (min-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .cabecalho {
+        font-size: 2rem;
+    }
+
+    .profile-container {
+        width: 80%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .cabecalho {
+        font-size: 2rem;
+    }
+
+    .profile-container {
+        width: 60%;
+    }
+}
