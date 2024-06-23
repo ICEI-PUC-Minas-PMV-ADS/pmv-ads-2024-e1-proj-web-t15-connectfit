@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -115,14 +115,14 @@ body {
 }
 
 a {
-    color: #ff6000; /* Define a cor do texto do link */
-    text-decoration: none; /* Remove o sublinhado padrão */
-    font-weight: bold; /* Torna o texto em negrito */
+    color: #ff6000; 
+    text-decoration: none; 
+    font-weight: bold; 
 }
 
 a:hover {
-    color: #ff6000; /* Muda a cor do texto quando o mouse está sobre o link */
-    text-decoration: underline; /* Adiciona um sublinhado quando o mouse está sobre o link */
+    color: #ff6000; 
+    text-decoration: underline; 
 }
 
 #lg a {
@@ -225,13 +225,13 @@ a:hover {
 }
 
 .botaoDados  {
-    background-color: #ff6000; /* Cor de fundo */
-    color: #454545; /* Cor do texto */
-    padding: 10px 29px; /* Espaçamento interno (vertical, horizontal) */
-    border: none; /* Sem borda */
-    border-radius: 15px; /* Cantos arredondados */
-    cursor: pointer; /* Cursor de mão ao passar por cima */
-    font-size: 16px; /* Tamanho do texto */
+    background-color: #ff6000; 
+    color: #454545; 
+    padding: 10px 29px; 
+    border: none; 
+    border-radius: 15px;
+    cursor: pointer; 
+    font-size: 16px;
     text-align: center;
     margin: 15px
         
@@ -243,17 +243,17 @@ a:hover {
 }
 
 .botaoDados:hover {
-    background-color: #ffe6c7; /* Cor de fundo ao passar o mouse por cima */
+    background-color: #ffe6c7; 
 }
 
 .botaoAulas {
-    background-color: #ff6000; /* Cor de fundo */
-    color: #454545; /* Cor do texto */
-    padding: 10px 25px; /* Espaçamento interno (vertical, horizontal) */
-    border: none; /* Sem borda */
-    border-radius: 15px; /* Cantos arredondados */
-    cursor: pointer; /* Cursor de mão ao passar por cima */
-    font-size: 16px; /* Tamanho do texto */
+    background-color: #ff6000; 
+    color: #454545; 
+    padding: 10px 25px; 
+    border: none; 
+    border-radius: 15px; 
+    cursor: pointer; 
+    font-size: 16px; 
     text-align: center;
     margin: 15px
 
@@ -269,13 +269,13 @@ a:hover {
 }
 
 .botaoProfissionais {
-    background-color: #ff6000; /* Cor de fundo */
-    color: #454545; /* Cor do texto */
-    padding: 10px 25px; /* Espaçamento interno (vertical, horizontal) */
-    border: none; /* Sem borda */
-    border-radius: 15px; /* Cantos arredondados */
-    cursor: pointer; /* Cursor de mão ao passar por cima */
-    font-size: 16px; /* Tamanho do texto */
+    background-color: #ff6000;
+    color: #454545; 
+    padding: 10px 25px; 
+    border: none; 
+    border-radius: 15px; 
+    cursor: pointer; 
+    font-size: 16px; 
     text-align: center;
     margin: 15px;
 }
@@ -290,13 +290,13 @@ a:hover {
 }
 
 .botaoRedesocial {
-    background-color: #ff6000; /* Cor de fundo */
-    color: #454545; /* Cor do texto */
-    padding: 10px 29px; /* Espaçamento interno (vertical, horizontal) */
-    border: none; /* Sem borda */
-    border-radius: 15px; /* Cantos arredondados */
-    cursor: pointer; /* Cursor de mão ao passar por cima */
-    font-size: 16px; /* Tamanho do texto */
+    background-color: #ff6000;
+    color: #454545; 
+    padding: 10px 29px; 
+    border: none; 
+    border-radius: 15px; 
+    cursor: pointer; 
+    font-size: 16px; 
     text-align: center;
     margin: 15px;
 }
@@ -331,5 +331,284 @@ footer {
     width: 150px;
     margin: 0;
     padding: 10px;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 80px;
+    width: 100%;
+    background-color: #2c231c;
+    font-size: 2rem;
+}
+
+.pesquisa {
+    height: 45px;
+    width: auto;
+    margin: 20px;
+    padding: 0 30px;
+}
+
+#ps {
+    height: 35px;
+    width: 38px;
+    margin: 10px;
+    padding: 0;
+}
+
+.logoPrincipal {
+    margin-left: 2%;
+    text-align: center;
+}
+
+.logoPrincipal span {
+    display: inline-block;
+    font-weight: bold;
+}
+
+.fa-x {
+    color: white;
+    font-size: 40px;
+}
+
+#fechar:hover, #abrir:hover {
+    cursor: pointer;
+}
+
+.side-item {
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: 20px;
+}
+
+.item-description {
+    font-weight: normal;
+}
+
+.navbar {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 0;
+    margin-right: 55px;
+    background-color: #2c231c;
+}
+
+.hamburguer-menu {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    width: 30px;
+    height: 4px;
+    background-color: white;
+    margin: 5px 0;
+    transition: transform 0.4s ease;
+}
+
+.menu {
+    display: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 8px;
+    font-size: 15px;
+}
+
+.menu.active {
+    display: block;
+}
+
+a {
+    color: #ff6000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ff6000;
+    text-decoration: underline;
+}
+
+#lg a {
+    color: white;
+}
+
+#logo {
+    color: white;
+}
+
+#logo2 {
+    color: #ff6000;
+}
+
+.section {
+    padding: 60px;
+    border: none;
+}
+
+.left, .middle, .right {
+    flex: 1;
+    padding: 20px;
+    min-width: 0; /* Add this to prevent overflow */
+}
+
+.left {
+    text-align: center;
+    background-color: #ffa559;
+    flex: 0.5;
+}
+
+.fotoMenu {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.middle {
+    background-color: #ffe6c7;
+}
+.middle > h2, .right > h2 {
+    text-align: left;
+    color: #ff6000;
+    font-size: 2rem;
+    margin-top: 35px;
+}
+
+.middle > h1 {
+    color: #ff6000;
+    font-size: 2.75rem;
+    text-align: center;
+}
+
+.middle > p, .right > p {
+    color: #454545;
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+
+.right {
+    background-color: #ffe6c7;
+}
+
+.right > h2 {
+    margin-top: 95px;
+}
+.right > h4 {
+    color: #454545;
+    font-size: 1.875rem;
+}
+
+.botaoDados, .botaoAulas, .botaoProfissionais, .botaoRedesocial {
+    background-color: #ff6000;
+    color: #454545;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 1rem;
+    text-align: center;
+    margin: 15px;
+}
+
+.botaoDados:hover, .botaoAulas:hover, .botaoProfissionais:hover, .botaoRedesocial:hover {
+    background-color: #ffe6c7;
+}
+
+.botaoDados a, .botaoAulas a, .botaoProfissionais a, .botaoRedesocial a {
+    color: #454545;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #2c231c;
+    padding: 30px;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+#logo-rodape {
+    display: block;
+    height: 100px;
+    width: 150px;
+    margin: 0;
+    padding: 10px;
+}
+
+/* Media Queries */
+
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .left, .middle, .right {
+        padding: 20px;
+    }
+
+    .middle > h2, .right > h2 {
+        font-size: 1.5rem;
+    }
+
+    .middle > h1 {
+        font-size: 2rem;
+    }
+
+    .middle > p, .right > p {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        flex-direction: row;
+    }
+
+    .cabecalho {
+        font-size: 2rem;
+    }
+
+    .left, .middle, .right {
+        padding: 20px;
+    }
+
+    .middle > h2, .right > h2 {
+        font-size: 2rem;
+    }
+
+    .middle > h1 {
+        font-size: 2.75rem;
+    }
+
+    .middle > p, .right > p {
+        font-size: 1.25rem;
+    }
+}
