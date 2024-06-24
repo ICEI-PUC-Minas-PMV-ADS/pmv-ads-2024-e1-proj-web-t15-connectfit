@@ -1,9 +1,10 @@
 .conteudo {
     display: flex;
-    gap: 48px;
-    padding: 16px 24px;
+    gap: 30px;
+    padding: 10px 10px;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: flex-end;
+    flex-wrap: wrap-reverse;
 }
 
 .titulo-post {
@@ -148,6 +149,7 @@
     border-radius: 9px;
     background-color: #ffa662;
     border: 2px solid #95523f;
+    flex-wrap: wrap;
 }
 
 .post .icone-perfil {
@@ -230,7 +232,8 @@
 }
 
 .post img {
-    max-height: 256px;
+    grid-area: ;
+    max-width: 250px;
     border-radius: 7px;
     grid-area: foto;
     margin-left: auto;
