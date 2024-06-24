@@ -14,5 +14,5 @@ https://github.com/niellegs/ConnectFit/assets/108994881/e69407d0-06cc-4c98-9819-
 
 ## Hospedagem
 
-Foi utilizada a plataforma GitHub Pages como ambiente de hospedagem do site do projeto, que será mantido na URL:
+Foi utilizada a plataforma Netlify como ambiente de hospedagem do site do projeto, que será mantido na URL:
 https://connectfit.netlify.app/
