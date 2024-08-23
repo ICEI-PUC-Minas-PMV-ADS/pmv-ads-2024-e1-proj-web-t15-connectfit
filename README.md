@@ -39,9 +39,12 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 <li><a href="docs/09-Referências.md"> Referências</a></li>
 </ol>
 
-# Código
+# Hospedagem
+A aplicação desenvolvida em HTML/CSS/JS pode ser utilizada em diversos navegadores, com suporte para diferentes resoluções de dispositivos. Clique <a href="https://connectfit.netlify.app/">aqui</a> para acessá-la.
 
-<li><a href="src/README.md"> Código Fonte</a></li>
+ # Código-Fonte
+
+<li><a href="./codigo-fonte/"> Código Fonte</a></li>
 
 # Apresentação
 

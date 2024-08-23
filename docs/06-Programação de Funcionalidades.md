@@ -235,7 +235,7 @@ RF-004: A aplicação deve permitir que o profissional ministre aulas pagas e gr
 #### Instruções de acesso
 
 Abra um navegador de Internet e informe a seguinte URL: 
-
+https://connectfit.netlify.app/
 Ao acessar a seguinte url, será aberto de imediato a página inicial do site.
 
 <hr>
